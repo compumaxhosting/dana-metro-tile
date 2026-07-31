@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fcfaf4;
+  --foreground: #110c09;
+  --premium-black: #110c09;
+  --premium-beige: #c5a77d;
+  --theme-cream: #fcfaf4;
+  --caramel: #b07932;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-premium-black: var(--premium-black);
+  --color-premium-beige: var(--premium-beige);
+  --color-theme-cream: var(--theme-cream);
+  --color-caramel: var(--caramel);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: light;
+}
+
+@keyframes slideInBorder {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes navSlide {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-cormorant), Arial, Helvetica, sans-serif;
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant), Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-3 px-5 py-2 text-sm transition;
+  }
+
+  .btn-rounded-full {
+    @apply border-solid;
+  }
+
+  .btn-rounded-md {
+    @apply border-solid;
+  }
+}
