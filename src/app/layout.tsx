@@ -19,10 +19,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dan Kush Metro Group Construction",
+  // IMPORTANT: Replace this URL with your actual live domain once deployed
+  metadataBase: new URL("https://tilesandstonesnj.com"), 
+  
+  title: {
+    default: "Dan Kush Metro Group Construction | Premium Tile, Stone & Masonry",
+    template: "%s | Dan Kush Metro Group", // Automatically appends your brand to child pages
+  },
+  
   description: "Dan Kush Metro Group Construction is a premier provider of high-quality tile, stone, and masonry services in New Jersey. With a commitment to craftsmanship and attention to detail, we bring your vision to life with precision and artistry.",
+  
   icons: {
     icon: "/images/favicon.ico",
+  },
+
+  // Global Open Graph settings for social media sharing
+  openGraph: {
+    title: "Dan Kush Metro Group Construction",
+    description: "Premier provider of high-quality tile, stone, and masonry services in New Jersey.",
+    url: "/",
+    siteName: "Dan Kush Metro Group Construction",
+    images: [
+      {
+        url: "/images/default-og-image.jpg", // Add a nice fallback image of your work here
+        width: 1200,
+        height: 630,
+        alt: "Dan Kush Metro Group Construction Portfolio",
+      }
+    ],
+    locale: "en_US",
+    type: "website",
   },
 };
 
