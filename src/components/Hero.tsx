@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="relative h-screen min-h-[700px] overflow-hidden">
       {/* Background */}
       <img
-        src="/images/hero-tiles.jpg"
+        src="/images/hero-tiles.webp"
         alt="Luxury Stone"
         className="absolute inset-0 h-full w-full object-cover"
       />

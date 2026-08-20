@@ -6,32 +6,32 @@ const projects = [
     id: 1,
     title: "Calacatta Gold Suite",
     category: "MASTER BATH",
-    image: "/images/a4.jpeg",
+    image: "/images/a4.webp",
     featured: true,
   },
   {
     id: 2,
     title: "Onyx Vein Foyer",
     category: "FOYER",
-    image: "/images/b1.jpeg",
+    image: "/images/b1.webp",
   },
   {
     id: 3,
     title: "Ivory Subway Kitchen",
     category: "KITCHEN",
-    image: "/images/b2.jpeg",
+    image: "/images/b2.webp",
   },
   {
     id: 4,
     title: "Silver Marble Shower",
     category: "WET ROOM",
-    image: "/images/b3.jpeg",
+    image: "/images/b3.webp",
   },
   {
     id: 5,
     title: "Travertine Herringbone",
     category: "FLOORING",
-    image: "/images/b4.jpeg",
+    image: "/images/b4.webp",
   },
 ];
 

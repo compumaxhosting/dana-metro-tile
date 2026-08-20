@@ -4,7 +4,7 @@ const GalleryHero = () => {
     return (
     <>
 <PageHero
-  backgroundImage={"/images/d1.jpeg"}
+  backgroundImage={"/images/d1.webp"}
   subtitle="OUR WORK"
   title={
     <>

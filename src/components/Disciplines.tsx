@@ -27,7 +27,7 @@ const Disciplines = () => {
     <section
       className="relative overflow-hidden bg-premium-black py-24 lg:py-32"
       style={{
-        backgroundImage: "url('/images/gallery-foyer.jpg')",
+        backgroundImage: "url('/images/gallery-foyer.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

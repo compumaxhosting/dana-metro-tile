@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "Dan Kush Metro Group Construction",
     images: [
       {
-        url: "/images/default-og-image.jpg", // Add a nice fallback image of your work here
+        url: "/images/default-og-image.webp", // Add a nice fallback image of your work here
         width: 1200,
         height: 630,
         alt: "Dan Kush Metro Group Construction Portfolio",

@@ -9,7 +9,7 @@ const About = () => {
           {/* LEFT IMAGE */}
           <div className="relative mx-auto w-full max-w-md lg:max-w-lg">
             <img
-              src="/images/a1.jpeg"
+              src="/images/a1.webp"
               alt="Luxury Home"
               className="h-[500px] w-full object-cover md:h-[650px]"
             />

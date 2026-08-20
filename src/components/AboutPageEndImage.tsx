@@ -7,7 +7,7 @@ export default function AboutPageEndImage() {
         {/* Image */}
         <div className="relative w-full h-[600px] overflow-hidden">
           <Image
-            src="/images/gallery-foyer.jpg" // Replace with your image
+            src="/images/gallery-foyer.webp" // Replace with your image
             alt="Luxury stone foyer"
             fill
             className="object-cover"

@@ -7,7 +7,7 @@ export default function ContactPageForm() {
     <section
       className="relative overflow-hidden bg-[#1D1714] py-20 lg:py-18"
       style={{
-        backgroundImage: "url('/images/gallery-herringbone.jpg')",
+        backgroundImage: "url('/images/gallery-herringbone.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

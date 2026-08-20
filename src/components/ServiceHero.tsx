@@ -4,7 +4,7 @@ const ServiceHero = () => {
   return (
     <>
       <PageHero
-        backgroundImage="/images/a1.jpeg"
+        backgroundImage="/images/a1.webp"
         subtitle="DISCIPLINES"
         title={
           <>
