@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Topbar from "@/components/Topbar";
 
 export const metadata = {
   title: "All Studio Notes | Your Studio Name",
@@ -12,11 +13,12 @@ export const metadata = {
 export default function AllBlogsPage() {
   return (
     <>
+      <Topbar  />
       <Header />
     <section className="bg-theme-cream min-h-screen py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <h1 className="font-cormorant text-[46px] leading-none text-premium-black md:text-[72px] mb-16 border-b border-premium-black/10 pb-8">
-          All <span className="italic text-caramel">Notes.</span>
+          All <span className="italic text-caramel">Blogs.</span>
         </h1>
         
         <div className="grid gap-10 lg:grid-cols-3">
@@ -24,13 +26,14 @@ export default function AllBlogsPage() {
             <article key={article.slug} className="group">
               {/* Image */}
               <div className="overflow-hidden">
-                <Link href={`/blogs/${article.slug}`}>
+                <Link href={'/'}></Link>
+                {/* <Link href={`/blogs/${article.slug}`}> */}
                   <img
                     src={article.image}
                     alt={article.title}
                     className="h-[300px] w-full object-cover transition duration-700 group-hover:scale-105 md:h-[380px]"
                   />
-                </Link>
+                {/* </Link> */}
               </div>
 
               {/* Meta */}
@@ -48,9 +51,10 @@ export default function AllBlogsPage() {
 
               {/* Title */}
               <h3 className="mt-6 font-cormorant text-[28px] leading-[1.3] text-premium-black">
-                <Link href={`/blogs/${article.slug}`}>
+                <Link href={'/'}></Link>
+                {/* <Link href={`/blogs/${article.slug}`}> */}
                   {article.title}
-                </Link>
+                {/* </Link> */}
               </h3>
 
               {/* Description */}
@@ -60,7 +64,8 @@ export default function AllBlogsPage() {
 
               {/* CTA */}
               <Link 
-                href={`/blogs/${article.slug}`}
+               href={'/'}
+                // href={`/blogs/${article.slug}`}
                 className="group/btn mt-8 inline-flex items-center gap-3 border-b border-[#C38A38] pb-2 text-xs uppercase tracking-[0.35em] text-premium-black font-sans"
               >
                 Read The Note

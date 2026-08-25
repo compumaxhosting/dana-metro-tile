@@ -4,6 +4,7 @@ export interface ServiceItem {
   description: string;
   image: string;
   features: string[];
+  href: string; // <-- New property added for the URL
 }
 
 export const servicePageServices: ServiceItem[] = [
@@ -19,6 +20,7 @@ export const servicePageServices: ServiceItem[] = [
       "Bathroom & kitchen detailing",
       "Precise finishing & grout work",
     ],
+    href: "/services/tile-services-wayne-nj", // <-- Add your specific link here
   },
   {
     number: "02",
@@ -32,6 +34,7 @@ export const servicePageServices: ServiceItem[] = [
       "Countertops & vanities",
       "Book-matched surfaces",
     ],
+    href: "/services/stones", // <-- Add your specific link here
   },
   {
     number: "03",
@@ -45,5 +48,6 @@ export const servicePageServices: ServiceItem[] = [
       "Outdoor & interior builds",
       "Craftsmanship-led execution",
     ],
+    href: "/services/masonry", // <-- Add your specific link here
   },
 ];

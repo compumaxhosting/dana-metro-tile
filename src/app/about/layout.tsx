@@ -5,27 +5,43 @@ export const metadata: Metadata = {
     absolute: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
   },
   description:
-    "Meet Metro Tile & Stone, a New Jersey studio delivering precision tile, stone and masonry craftsmanship for discerning homeowners, designers and architects.",
+    "Meet Metro Tile & Stone, a New Jersey studio delivering precision tile, stone and masonry craftsmanship for discerning homeowners, designers and architects in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County.",
   keywords: [
-    "Metro Tile & Stone",
-    "tile contractor New Jersey",
-    "stone contractor NJ",
-    "masonry contractor NJ",
-    "luxury stone installation NJ",
-    "tile installation New Jersey",
-    "custom stone fabrication NJ",
-    "Wayne NJ tile contractor",
-    "Wayne NJ stone contractor",
+    "Tile and stone services in Wayne, NJ",
+    "Tile and stone services in Passaic County, NJ",
+    "Tile and stone services in Bergen County, NJ",
+    "Tile and stone services in Morris County, NJ",
+    "Tile and stone services in Essex County, NJ",
+    "Tile contractors near Wayne, NJ",
+    "Tile contractors in Passaic County, NJ",
+    "Tile contractors in Bergen County, NJ",
+    "Tile contractors in Morris County, NJ",
+    "Tile contractors in Essex County, NJ",
+    "Stone and masonry contractors in Wayne, NJ",
+    "Stone and masonry contractors in Passaic County, NJ",
+    "Stone and masonry contractors in Bergen County, NJ",
+    "Stone and masonry contractors in Morris County, NJ",
+    "Stone and masonry contractors in Essex County, NJ",
   ],
+  authors: [{ name: "Metro Tile & Stone" }],
+  referrer: "strict-origin-when-cross-origin",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  other: {
+    "theme-color": "#ffffff",
+  },
   alternates: {
-    // This will automatically combine with the metadataBase from your root layout
     canonical: "/about",
   },
   openGraph: {
+    type: "website",
     title: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
     description:
       "Discover Metro Tile & Stone's precision craftsmanship and two decades of experience delivering exceptional tile, stone and masonry work across New Jersey.",
-    url: "/about",
+    url: "https://www.tilesandstonesnj.com/about",
+    siteName: "Metro Tile & Stone",
     images: [
       {
         url: "/images/a1.webp",
@@ -36,6 +52,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
+    card: "summary_large_image",
     title: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
     description:
       "Learn about Metro Tile & Stone and our precision approach to luxury tile, stone and masonry craftsmanship across New Jersey.",
@@ -50,32 +67,101 @@ const jsonLd = {
       "@type": "AboutPage",
       "@id": "https://www.tilesandstonesnj.com/about#aboutpage",
       url: "https://www.tilesandstonesnj.com/about",
-      name: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
+      name: "About Metro Tile & Stone | NJ Tile, Stone & Masonry Experts",
       description:
-        "Learn about Metro Tile & Stone, a New Jersey craftsmanship studio specializing in premium tile, stone and masonry work with precision installation and enduring care.",
+        "Learn about Metro Tile & Stone, a New Jersey tile, stone and masonry studio serving homeowners, designers and architects in Wayne, Passaic, Bergen, Morris and Essex County.",
       isPartOf: {
         "@id": "https://www.tilesandstonesnj.com/#website",
       },
       about: {
-        "@id": "https://www.tilesandstonesnj.com/#business", // Matched to your root layout's business ID
-      },
-      mainEntity: {
-        "@id": "https://www.tilesandstonesnj.com/about#person",
+        "@id": "https://www.tilesandstonesnj.com/#business",
       },
       breadcrumb: {
         "@id": "https://www.tilesandstonesnj.com/about#breadcrumb",
       },
     },
     {
-      "@type": "Person",
-      "@id": "https://www.tilesandstonesnj.com/about#person",
-      name: "Dan Kush",
-      jobTitle: "Founder",
-      worksFor: {
-        "@id": "https://www.tilesandstonesnj.com/#business", // Matched to your root layout's business ID
-      },
+      "@type": "LocalBusiness",
+      "@id": "https://www.tilesandstonesnj.com/#business",
+      name: "Metro Tile & Stone",
+      url: "https://www.tilesandstonesnj.com/",
       description:
-        "Dan Kush is the founder of Metro Tile & Stone. He began cutting stone as an apprentice and has more than two decades of experience working across residences, restaurants and private galleries.",
+        "Metro Tile & Stone provides precision tile, stone and masonry craftsmanship for homeowners, designers and architects throughout Northern New Jersey.",
+      areaServed: [
+        {
+          "@type": "City",
+          name: "Wayne",
+          containedInPlace: {
+            "@type": "AdministrativeArea",
+            name: "New Jersey",
+          },
+        },
+        {
+          "@type": "AdministrativeArea",
+          name: "Passaic County",
+          containedInPlace: {
+            "@type": "State",
+            name: "New Jersey",
+          },
+        },
+        {
+          "@type": "AdministrativeArea",
+          name: "Bergen County",
+          containedInPlace: {
+            "@type": "State",
+            name: "New Jersey",
+          },
+        },
+        {
+          "@type": "AdministrativeArea",
+          name: "Morris County",
+          containedInPlace: {
+            "@type": "State",
+            name: "New Jersey",
+          },
+        },
+        {
+          "@type": "AdministrativeArea",
+          name: "Essex County",
+          containedInPlace: {
+            "@type": "State",
+            name: "New Jersey",
+          },
+        },
+      ],
+      knowsAbout: [
+        "Tile Installation",
+        "Tile Repair",
+        "Tile Remodeling",
+        "Stone Installation",
+        "Stone Repair",
+        "Masonry",
+        "Custom Tile Work",
+        "Custom Stone Work",
+      ],
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.tilesandstonesnj.com/about#tile-stone-masonry",
+      name: "Tile, Stone & Masonry Services",
+      serviceType: [
+        "Tile Installation",
+        "Tile Repair",
+        "Tile Remodeling",
+        "Stone Installation",
+        "Stone Repair",
+        "Masonry Services",
+      ],
+      provider: {
+        "@id": "https://www.tilesandstonesnj.com/#business",
+      },
+      areaServed: [
+        "Wayne, NJ",
+        "Passaic County, NJ",
+        "Bergen County, NJ",
+        "Morris County, NJ",
+        "Essex County, NJ",
+      ],
     },
     {
       "@type": "BreadcrumbList",
@@ -94,6 +180,15 @@ const jsonLd = {
           item: "https://www.tilesandstonesnj.com/about",
         },
       ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.tilesandstonesnj.com/#website",
+      url: "https://www.tilesandstonesnj.com/",
+      name: "Metro Tile & Stone",
+      publisher: {
+        "@id": "https://www.tilesandstonesnj.com/#business",
+      },
     },
   ],
 };

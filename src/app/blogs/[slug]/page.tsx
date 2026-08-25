@@ -5,6 +5,7 @@ import { Metadata } from "next";
 // ⬇ IMPORT YOUR HEADER AND FOOTER HERE
 import Header from "@/components/Header"; // Adjust the path based on your folder structure
 import Footer from "@/components/Footer"; // Adjust the path based on your folder structure
+import Topbar from "@/components/Topbar";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -35,6 +36,7 @@ export default async function SingleBlogPage({ params }: Props) {
 
   return (
     <>
+      <Topbar />
       {/* HEADER COMPONENT */}
       <Header />
 

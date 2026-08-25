@@ -4,7 +4,6 @@ const ServicePageServices = () => {
   return (
     <section className="bg-theme-cream py-24">
       <div className="mx-auto max-w-[1320px] px-6">
-
         {servicePageServices.map((service, index) => (
           <div
             key={service.number}
@@ -23,7 +22,6 @@ const ServicePageServices = () => {
 
             {/* Content */}
             <div>
-
               <p className="text-font-cormorant text-5xl text-caramel">
                 {service.number}
               </p>
@@ -36,11 +34,11 @@ const ServicePageServices = () => {
                 {service.description}
               </p>
 
-              <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-1 pt-6">
+              <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-1 pt-6 lg:grid-cols-2">
                 {service.features.map((feature) => (
                   <div
                     key={feature}
-                    className="font-sans flex items-center gap-2 text-sm text-neutral-700 border-t border-caramel/30 pt-3"
+                    className="font-sans flex items-center gap-2 border-t border-caramel/30 pt-3 text-sm text-neutral-700"
                   >
                     <span className="text-caramel">◆</span>
                     {feature}
@@ -48,10 +46,18 @@ const ServicePageServices = () => {
                 ))}
               </div>
 
+              {/* Redirect Button */}
+              <div className="mt-10">
+                <a
+                  href={service.href}
+                  className="inline-flex items-center justify-center border border-caramel bg-caramel px-8 py-3 text-sm tracking-wide text-white transition-colors duration-300 hover:bg-transparent hover:text-caramel"
+                >
+                  Explore {service.title}
+                </a>
+              </div>
             </div>
           </div>
         ))}
-
       </div>
     </section>
   );

@@ -18,7 +18,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// In Next.js App Router, themeColor should be exported in the Viewport object
 export const viewport: Viewport = {
   themeColor: "#ffffff",
 };
@@ -31,17 +30,37 @@ export const metadata: Metadata = {
     template: "%s | Tiles & Stones NJ", 
   },
   
-  description: "Expert tile, stone and masonry services in Wayne, NJ. Quality craftsmanship, professional installation and beautiful results for residential and commercial projects.",
+  description: "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
   
   keywords: [
-    "tile services Wayne NJ",
-    "tile installation Wayne NJ",
-    "stone services Wayne NJ",
-    "stone installation Wayne NJ",
-    "masonry services Wayne NJ",
-    "masonry contractor Wayne NJ",
     "tile contractor Wayne NJ",
-    "stone contractor Wayne NJ"
+    "tile installation Wayne NJ",
+    "stone contractor Wayne NJ",
+    "masonry services Wayne NJ",
+    "tile and stone contractor near me",
+    "tile installation near me",
+    "stone installation near me",
+    "masonry contractor near me",
+    "best tile contractor in Wayne NJ",
+    "who installs tile in Wayne NJ",
+    "who installs stone in Wayne NJ",
+    "tile contractor Passaic County NJ",
+    "tile contractor Bergen County NJ",
+    "tile contractor Morris County NJ",
+    "tile contractor Essex County NJ",
+    "stone contractor Passaic County NJ",
+    "stone contractor Bergen County NJ",
+    "stone contractor Morris County NJ",
+    "stone contractor Essex County NJ",
+    "masonry contractor Passaic County NJ",
+    "masonry contractor Bergen County NJ",
+    "masonry contractor Morris County NJ",
+    "masonry contractor Essex County NJ",
+    "residential tile installation NJ",
+    "commercial tile installation NJ",
+    "residential stone installation NJ",
+    "commercial stone installation NJ",
+    "professional tile and stone installation NJ"
   ],
   
   authors: [{ name: "Tiles & Stones NJ" }],
@@ -90,27 +109,70 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
+      "@type": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness"
+      ],
       "@id": "https://www.tilesandstonesnj.com/#business",
-      "name": "Metro Tile & Stone",
+      "name": "Tiles & Stones NJ",
       "url": "https://www.tilesandstonesnj.com/",
-      "telephone": "+1-551-206-7097",
-      "email": "info@metrotilesandstones.com",
-      "description": "Premium tile, stone, and masonry services designed, fabricated, and installed with precision in Wayne, New Jersey and across New Jersey.",
-      "image": "https://www.tilesandstonesnj.com/logoo.png",
+      "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
+      "image": "/logoo.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/logoo.png"
+      },
+      "telephone": "[BUSINESS PHONE]",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "[STREET ADDRESS]",
         "addressLocality": "Wayne",
         "addressRegion": "NJ",
+        "postalCode": "[ZIP CODE]",
         "addressCountry": "US"
       },
-      "areaServed": {
-        "@type": "State",
-        "name": "New Jersey"
-      },
-      "priceRange": "$$$",
-      "sameAs": [
-        "https://www.tilesandstonesnj.com/"
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Wayne",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New Jersey"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Passaic County",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New Jersey"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bergen County",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New Jersey"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Morris County",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New Jersey"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Essex County",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New Jersey"
+          }
+        }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -120,16 +182,30 @@ const jsonLd = {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Tile Services",
-              "description": "Ceramic and porcelain tile installations for refined floors, walls, showers, kitchens, and feature details."
+              "name": "Tile Installation",
+              "serviceType": "Tile Installation",
+              "areaServed": [
+                "Wayne, NJ",
+                "Passaic County, NJ",
+                "Bergen County, NJ",
+                "Morris County, NJ",
+                "Essex County, NJ"
+              ]
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Stone Services",
-              "description": "Marble, travertine, and stone slab fabrication and installation for elegant surfaces and architectural details."
+              "name": "Stone Installation",
+              "serviceType": "Stone Installation",
+              "areaServed": [
+                "Wayne, NJ",
+                "Passaic County, NJ",
+                "Bergen County, NJ",
+                "Morris County, NJ",
+                "Essex County, NJ"
+              ]
             }
           },
           {
@@ -137,7 +213,14 @@ const jsonLd = {
             "itemOffered": {
               "@type": "Service",
               "name": "Masonry Services",
-              "description": "Custom masonry work and architectural detailing built with precision and enduring craftsmanship."
+              "serviceType": "Masonry Services",
+              "areaServed": [
+                "Wayne, NJ",
+                "Passaic County, NJ",
+                "Bergen County, NJ",
+                "Morris County, NJ",
+                "Essex County, NJ"
+              ]
             }
           }
         ]
@@ -147,34 +230,26 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.tilesandstonesnj.com/#website",
       "url": "https://www.tilesandstonesnj.com/",
-      "name": "Metro Tile & Stone",
+      "name": "Tiles & Stones NJ",
+      "description": "Tile, stone and masonry services in Wayne, NJ and surrounding New Jersey counties.",
       "publisher": {
         "@id": "https://www.tilesandstonesnj.com/#business"
-      }
+      },
+      "inLanguage": "en-US"
     },
     {
       "@type": "WebPage",
       "@id": "https://www.tilesandstonesnj.com/#webpage",
       "url": "https://www.tilesandstonesnj.com/",
-      "name": "Tile, Stone & Masonry Services in Wayne, NJ",
-      "description": "Expert tile, stone and masonry services in Wayne, NJ with quality craftsmanship and professional installation.",
+      "name": "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
+      "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
       "isPartOf": {
         "@id": "https://www.tilesandstonesnj.com/#website"
       },
       "about": {
         "@id": "https://www.tilesandstonesnj.com/#business"
       },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
-          }
-        ]
-      }
+      "inLanguage": "en-US"
     }
   ]
 };
