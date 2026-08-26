@@ -27,12 +27,7 @@ const TileServicesWayneCountyNj= () => {
               Select Your Service Area
             </p>
             <div className="flex flex-wrap justify-center gap-3 font-sans text-xs sm:gap-4 sm:text-sm">
-              <Link 
-                href="/services/tile-services-wayne-nj"
-                className="px-4 py-2 bg-neutral-800 text-neutral-200 shadow-sm border border-neutral-700 rounded-sm transition-colors hover:border-caramel hover:text-caramel hover:bg-theme-cream"
-              >
-                Wayne, NJ
-              </Link>
+
               <Link 
                 href="/services/tile-services-passaic-county-nj"
                 className="px-4 py-2 bg-neutral-800 text-neutral-200 shadow-sm border border-neutral-700 rounded-sm transition-colors hover:border-caramel hover:text-caramel hover:bg-theme-cream"

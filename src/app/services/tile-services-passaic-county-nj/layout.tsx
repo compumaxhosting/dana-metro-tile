@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/f1.webp",
+        url: "/images/g1.webp",
         alt: "Professional tile installation and repair services in Wayne, NJ",
       },
     ],
@@ -62,7 +62,9 @@ export const metadata: Metadata = {
     title: "Tile Services in Wayne, NJ | Installation & Repair",
     description:
       "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
-    images: ["/images/f1.webp"],
+    images: [
+      "/images/g1.webp",
+    ],
   },
 };
 
