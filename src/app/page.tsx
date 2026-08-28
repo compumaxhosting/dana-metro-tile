@@ -1,14 +1,14 @@
-import About from "@/components/About";
-import BreadCrumb from "@/components/BreadCrumb";
-import Disciplines from "@/components/Disciplines";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import PortfolioHome from "@/components/PortfolioHome";
-import Testimonial from "@/components/Testimonial";
-import Topbar from "@/components/Topbar";
-import Blogs from "@/components/BlogsHome";
-import BlogsHome from "@/components/BlogsHome";
+import About from "@/components/home-page-components/About";
+import BreadCrumb from "@/components/home-page-components/BreadCrumb";
+import Disciplines from "@/components/home-page-components/Disciplines";
+import Footer from "@/components/home-page-components/Footer";
+import Header from "@/components/home-page-components/Header";
+import Hero from "@/components/home-page-components/Hero";
+import PortfolioHome from "@/components/home-page-components/PortfolioHome";
+import Testimonial from "@/components/home-page-components/Testimonial";
+import Topbar from "@/components/home-page-components/Topbar";
+import Blogs from "@/components/home-page-components/BlogsHome";
+import BlogsHome from "@/components/home-page-components/BlogsHome";
 
 export default function Home() {
   return (

@@ -1,17 +1,15 @@
 import Footer from "@/components/home-page-components/Footer"
-import GalleryFilterGalleryPage from "@/components/gallery-page-components/GalleryFilterGalleryPage"
-import GalleryHero from "@/components/home-page-components/GalleryHero"
 import Header from "@/components/home-page-components/Header"
+import TileServicesEssexCountyNj from "@/components/tiles-service-pages-components/TileServicesEssexCountyNj"
 import Topbar from "@/components/home-page-components/Topbar"
 import React from "react"
 
 const page = () => {
   return (
     <>
-    <Topbar/>
+    <Topbar />
     <Header />
-    <GalleryHero />
-    <GalleryFilterGalleryPage />
+    <TileServicesEssexCountyNj />
     <Footer />
     </>
   )

@@ -1,17 +1,14 @@
 import Footer from "@/components/home-page-components/Footer"
-import GalleryFilterGalleryPage from "@/components/gallery-page-components/GalleryFilterGalleryPage"
-import GalleryHero from "@/components/home-page-components/GalleryHero"
 import Header from "@/components/home-page-components/Header"
 import Topbar from "@/components/home-page-components/Topbar"
-import React from "react"
+import MasonryServicesEssexCountyNj from "@/components/masonry-service-pages-components/MasonryServicesEssexCountyNj"
 
 const page = () => {
   return (
     <>
-    <Topbar/>
+    <Topbar />
     <Header />
-    <GalleryHero />
-    <GalleryFilterGalleryPage />
+    <MasonryServicesEssexCountyNj />
     <Footer />
     </>
   )

@@ -3,9 +3,9 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 
 // ⬇ IMPORT YOUR HEADER AND FOOTER HERE
-import Header from "@/components/Header"; // Adjust the path based on your folder structure
-import Footer from "@/components/Footer"; // Adjust the path based on your folder structure
-import Topbar from "@/components/Topbar";
+import Header from "@/components/home-page-components/Header"; // Adjust the path based on your folder structure
+import Footer from "@/components/home-page-components/Footer"; // Adjust the path based on your folder structure
+import Topbar from "@/components/home-page-components/Topbar";
 
 type Props = {
   params: Promise<{ slug: string }>;

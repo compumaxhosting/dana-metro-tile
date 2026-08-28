@@ -1,16 +1,14 @@
-
-import ContactPageForm from '@/components/contact-page-components/ContactPageFrom'
 import Footer from '@/components/home-page-components/Footer'
 import Header from '@/components/home-page-components/Header'
+import StoneServicesWayneCountyNj from '@/components/stones-service-pages-components/StoneServicesWayneCountyNj'
 import Topbar from '@/components/home-page-components/Topbar'
-import React from 'react'
 
 const page = () => {
   return (
     <>
-    <Topbar/>
+    <Topbar />
     <Header />
-    <ContactPageForm />
+    <StoneServicesWayneCountyNj />
     <Footer />
     </>
   )

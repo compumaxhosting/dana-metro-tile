@@ -45,6 +45,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/services",
   },
+  other: {
+    "service-area": "Wayne, NJ, Passaic County, NJ, Bergen County, NJ, Morris County, NJ, Essex County, NJ",
+    "ai-search-keywords": "tile and stone contractors in Wayne NJ, tile and stone contractors in Passaic County NJ, tile and stone contractors in Bergen County NJ, tile and stone contractors in Morris County NJ, tile and stone contractors in Essex County NJ, tile installation near Wayne NJ, stone installation near Wayne NJ, masonry contractors near Wayne NJ, tile repair in Wayne NJ, stone repair in Passaic County NJ, masonry services in Bergen County NJ, tile remodeling in Morris County NJ, stone remodeling in Essex County NJ, residential tile contractors in Northern New Jersey, commercial tile and stone contractors in Northern New Jersey, professional tile and masonry services near me, trusted tile contractors in New Jersey",
+  },
   openGraph: {
     type: "website",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
@@ -306,7 +310,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Masonry Remodeling",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.tilesandstonesinj.com/#business"
             }
           }
         }
@@ -349,17 +353,11 @@ export default function ServicesLayout({
 }>) {
   return (
     <>
-      <head>
-        {/* Custom Metadata Tags not natively rendered by Next.js metadata export */}
-        <meta name="service-area" content="Wayne, NJ, Passaic County, NJ, Bergen County, NJ, Morris County, NJ, Essex County, NJ" />
-        <meta name="ai-search-keywords" content="tile and stone contractors in Wayne NJ, tile and stone contractors in Passaic County NJ, tile and stone contractors in Bergen County NJ, tile and stone contractors in Morris County NJ, tile and stone contractors in Essex County NJ, tile installation near Wayne NJ, stone installation near Wayne NJ, masonry contractors near Wayne NJ, tile repair in Wayne NJ, stone repair in Passaic County NJ, masonry services in Bergen County NJ, tile remodeling in Morris County NJ, stone remodeling in Essex County NJ, residential tile contractors in Northern New Jersey, commercial tile and stone contractors in Northern New Jersey, professional tile and masonry services near me, trusted tile contractors in New Jersey" />
-        
-        {/* JSON-LD Script */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
+      {/* JSON-LD Script safely injected inside body/fragment without a manual <head> tag */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {children}
     </>
   );
