@@ -8,21 +8,13 @@ const MasonryServicesBergenCountyNj = () => {
       <section className="bg-[#403c38] px-4 py-16 text-center text-white sm:px-6 md:py-24">
         <div className="mx-auto max-w-4xl">
           <h1 className="text-font-cormorant mb-4 text-4xl leading-tight sm:text-5xl md:text-6xl">
-            Tile & Stone Services in <span className="text-caramel">Bergen County, NJ</span>
+            Best Masonry Contractor in <span className="text-caramel">Bergen County NJ</span> | Reliable Masonry Services
           </h1>
-          <h2 className="text-font-cormorant mb-6 text-xl text-neutral-200 sm:text-2xl md:text-3xl">
-            Distinctive Surfaces for Bergen County Homes & Interiors
-          </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            <Link href="/" className="text-caramel underline transition-colors hover:opacity-80">
-    Tiles & Stones
-  </Link> NJ works with homeowners, architects, designers, and builders throughout Bergen County, NJ, providing tile and stone solutions for kitchens, bathrooms, fireplaces, feature walls, and custom interiors.
+            Finding the right masonry contractor in Bergen County, NJ means looking beyond price. Quality masonry work should address the condition of the existing structure, use appropriate materials, and provide a finished result that performs well in New Jersey's changing weather conditions.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            From our Wayne, New Jersey location, we help clients evaluate materials based on the actual requirements of the project. Natural stone is not uniform by nature. Veining, color variation, texture, slab size, and finish can all influence how a surface ultimately looks.
-          </p>
-          <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Our role is to help connect those material characteristics with the architecture, function, and design direction of the space.
+            Professional masonry services can include brick repair, stonework, repointing, masonry restoration, chimney work, retaining walls, and other exterior masonry projects. For older or historically significant buildings, the repair approach should also consider the original materials and architectural character.
           </p>
 
           {/* Interactive Service Area Navigation Buttons */}
@@ -75,7 +67,7 @@ const MasonryServicesBergenCountyNj = () => {
           <div className="order-1 lg:order-2">
             <img
               src="/images/a1.webp"
-              alt="Stone Selection in Bergen County NJ"
+              alt="Reliable Masonry Services in Bergen County NJ"
               className="aspect-[4/3] w-full object-cover shadow-lg"
             />
           </div>
@@ -83,27 +75,26 @@ const MasonryServicesBergenCountyNj = () => {
           {/* Content */}
           <div className="order-2 lg:order-1">
             <h2 className="text-font-cormorant text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Stone Selection That Starts With the Slab: Connecting Material to Architecture
+              Reliable Masonry Services in Bergen County, NJ
             </h2>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:mt-6 sm:text-lg">
-              A photograph or small sample can only show part of a natural stone's character. Once viewed at slab scale, patterns and movement may become much more pronounced.
+              Masonry problems are often more than cosmetic. Cracked brick, deteriorated mortar, loose stone, water infiltration, spalling, and damaged joints can allow moisture to enter the building envelope and contribute to further deterioration.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              For that reason, stone selection deserves careful consideration before fabrication, ensuring every surface aligns seamlessly with the architecture and design direction.
+              A proper masonry assessment should identify visible damage and investigate what caused it. Depending on the property, recommended work may include:
             </p>
 
             <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
               {[
-                "Natural veining and movement",
-                "Color and tonal variation",
-                "Slab dimensions and scale",
-                "Surface finish options",
-                "Intended application",
-                "Maintenance requirements",
-                "Lighting conditions",
-                "Surrounding materials",
-                "Seam placement and layout",
-                "Overall visual balance",
+                "Brick and stone repairs",
+                "Mortar repointing",
+                "Masonry restoration",
+                "Chimney repair and rebuilding",
+                "Facade repairs",
+                "Retaining wall masonry",
+                "Damaged masonry replacement",
+                "Exterior moisture-related repairs",
+                "Decorative and architectural masonry restoration",
               ].map((service, index) => (
                 <div key={index} className="font-sans flex items-start gap-2 border-t border-caramel/30 pt-3 text-sm text-neutral-700 sm:text-base">
                   <span className="text-caramel mt-0.5">◆</span>
@@ -111,6 +102,9 @@ const MasonryServicesBergenCountyNj = () => {
                 </div>
               ))}
             </div>
+            <p className="font-sans mt-6 text-base leading-relaxed text-neutral-700 sm:text-lg">
+              The right solution depends on the type of masonry, age of the structure, extent of deterioration, exposure, and previous repairs.
+            </p>
           </div>
 
         </div>
@@ -121,59 +115,32 @@ const MasonryServicesBergenCountyNj = () => {
         <div className="mx-auto max-w-[1320px]">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-font-cormorant mb-4 text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Custom Applications Across Bergen County
+              Brick and Stone Masonry Repair
             </h2>
             <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Explore our range of custom tile and natural stone installations for kitchens, bathrooms, fireplaces, and feature walls.
+              Brick and stone should not always be repaired in the same way. Different materials have different physical characteristics, and replacement materials should be selected with the existing construction in mind.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-            {/* Kitchen Countertops & Islands */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Kitchen Countertops & Islands</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Material Differences</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Make the main surface part of the design. Quartzite provides bold natural movement while marble introduces classic character, unified with proper slab orientation.
+                Different materials have unique physical characteristics requiring custom repair approaches tailored to the existing structure.
               </p>
             </div>
 
-            {/* Bathrooms & Vanities */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Bathrooms & Vanities</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Mortar Repointing</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Coordinate the details. Connect vanity tops, shower walls, benches, and feature areas with tile to establish a balanced, harmonious material palette.
+                Involves removing deteriorated mortar from joints and installing new mortar. Compatibility is vital on older buildings to avoid material conflict.
               </p>
             </div>
 
-            {/* Fireplaces & Feature Walls */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Fireplaces & Feature Walls</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Condition Documentation</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Give a room a defining element. Showcase large-format stone and veining orientation or explore patterned tile options that complement surrounding architecture.
-              </p>
-            </div>
-
-            {/* Book-Matched Stone */}
-            <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Book-Matched Stone</h3>
-              <p className="font-sans text-base leading-relaxed text-neutral-700">
-                A mirrored approach to natural veining. Position complementary slabs side by side to turn fireplaces, feature walls, and islands into distinctive design centerpieces.
-              </p>
-            </div>
-
-            {/* Tile for Interiors */}
-            <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Tile Applications</h3>
-              <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Provide flexibility across floors, walls, showers, backsplashes, and entries using varied sizes, finishes, and installation patterns to alter room scale.
-              </p>
-            </div>
-
-            {/* Detail-Oriented Craftsmanship */}
-            <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Detail-Oriented Craft</h3>
-              <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Founded by Dan Kush with over two decades of experience, treating material selection and execution as connected, precision-driven stages.
+                For significant restoration projects, documenting existing conditions before work begins helps establish a clear, structured repair strategy.
               </p>
             </div>
           </div>
@@ -185,36 +152,24 @@ const MasonryServicesBergenCountyNj = () => {
         <div className="mx-auto max-w-[1320px]">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-font-cormorant mb-4 text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Marble, Quartzite, Travertine & Onyx
+              Masonry Restoration for Historic Properties
             </h2>
             <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Explore our core selection of natural stones chosen for their exceptional character and architectural potential.
+              Bergen County has a strong historic-preservation infrastructure, including county preservation resources and a Historic Preservation Advisory Board, along with trust fund support programs.
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-6 shadow-sm border-t-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Marble</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">State & National Registers</h3>
               <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Valued for natural veining and variation, bringing an elegant quality to countertops, vanities, fireplaces, walls, and other interior applications.
+                The New Jersey Historic Preservation Office maintains listings of properties and historic districts that have received formal state or national historic-register actions. Local designations may carry extra requirements.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-t-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Quartzite</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Check Before Altering</h3>
               <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Offers a combination of natural pattern and durability suitable for demanding architectural applications, with appearances varying across slabs.
-              </p>
-            </div>
-            <div className="bg-white p-6 shadow-sm border-t-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Travertine</h3>
-              <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Features a naturally textured, warm appearance with organic variation that works exceptionally well in classic and contemporary spaces.
-              </p>
-            </div>
-            <div className="bg-white p-6 shadow-sm border-t-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Onyx</h3>
-              <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Known for distinctive patterns and translucency, highly effective where the stone serves as a striking visual centerpiece or illuminated feature.
+                If a masonry project involves a historic property, verify the property's designation and applicable municipal requirements before beginning exterior alterations.
               </p>
             </div>
           </div>
@@ -227,45 +182,27 @@ const MasonryServicesBergenCountyNj = () => {
           
           <div>
             <h2 className="text-font-cormorant text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Detail-Oriented Craftsmanship: Founded by Dan Kush
+              How to Choose a Masonry Contractor
             </h2>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              The quality of a finished tile or stone installation depends on more than the material. Layout, preparation, cuts, transitions, joints, and installation all affect the final appearance.
+              Before hiring a contractor, ask for a clearly defined scope of work and practical answers regarding deterioration causes, repair feasibility, mortar selection, protection measures, and permits.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Tiles & Stones NJ was founded by Dan Kush, whose stonecraft background spans more than two decades and includes residential projects, restaurants, and private galleries, supporting a hands-on execution process.
+              A detailed proposal makes it easier to compare contractors based on actual recommended work rather than price alone.
             </p>
           </div>
 
           <div className="bg-theme-cream p-6 sm:p-8 lg:p-10 border-l-4 border-caramel shadow-sm">
-            <h3 className="text-font-cormorant mb-4 text-2xl text-neutral-900 sm:text-3xl">Serving Bergen County Communities</h3>
-            <p className="font-sans mb-4 text-sm leading-relaxed text-neutral-700">
-              From our Wayne base, we serve clients throughout Bergen County, including:
-            </p>
-            <div className="grid grid-cols-2 gap-2 font-sans text-sm text-neutral-700 sm:grid-cols-3">
-              <span>◆ Ridgewood</span>
-              <span>◆ Paramus</span>
-              <span>◆ Franklin Lakes</span>
-              <span>◆ Wyckoff</span>
-              <span>◆ Glen Rock</span>
-              <span>◆ Ho-Ho-Kus</span>
-              <span>◆ Saddle River</span>
-              <span>◆ Upper Saddle River</span>
-              <span>◆ Tenafly</span>
-              <span>◆ Englewood</span>
-              <span>◆ Englewood Cliffs</span>
-              <span>◆ Fort Lee</span>
-              <span>◆ Closter</span>
-              <span>◆ Cresskill</span>
-              <span>◆ Ramsey</span>
-              <span>◆ Mahwah</span>
-              <span>◆ Allendale</span>
-              <span>◆ Fair Lawn</span>
-              <span>◆ Bergenfield</span>
+            <h3 className="text-font-cormorant mb-4 text-2xl text-neutral-900 sm:text-3xl">Key Contractor Questions</h3>
+            <div className="grid grid-cols-1 gap-2 font-sans text-sm text-neutral-700">
+              <span>◆ What is causing the masonry deterioration?</span>
+              <span>◆ Can the existing brick or stone be repaired?</span>
+              <span>◆ What mortar and replacement materials will be used?</span>
+              <span>◆ How will surrounding masonry be protected?</span>
+              <span>◆ Are there drainage or moisture problems that need attention?</span>
+              <span>◆ Does the property have historic-designation requirements?</span>
+              <span>◆ Which permits or professional assessments may be required?</span>
             </div>
-            <p className="font-sans mt-6 text-xs leading-relaxed text-neutral-600">
-              Our Wayne location provides convenient access to Bergen County while allowing projects to be handled with a personalized approach to material review and planning.
-            </p>
           </div>
 
         </div>
@@ -281,39 +218,51 @@ const MasonryServicesBergenCountyNj = () => {
           </div>
           <div className="space-y-6">
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What tile and stone services do you provide in Bergen County?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What services does a masonry contractor provide?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Tiles & Stones NJ works with clients on stone selection, countertops, islands, vanities, fireplaces, feature walls, backsplashes, tile installations, and custom stone applications.
+                Masonry contractors may provide brick and stone repair, repointing, restoration, chimney work, masonry construction, facade repairs, and other masonry-related services.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Which natural stones can I choose from?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">How do I know if my brickwork needs repair?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Options include marble, quartzite, travertine, onyx, and other natural stone slabs. Availability and suitability depend on the individual project.
+                Common warning signs include cracked or loose bricks, crumbling mortar, open joints, spalling surfaces, water intrusion, leaning masonry, or areas that have visibly shifted.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can you help select a slab for a specific room?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What is masonry repointing?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Slab selection can take into account the room's dimensions, intended application, surrounding finishes, natural pattern, slab size, and desired visual effect.
+                Repointing is the process of removing deteriorated mortar from masonry joints and replacing it with new mortar. Properly specified repointing can help protect masonry from weather and moisture penetration.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What is book-matched stone?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Is historic masonry restoration different from regular masonry repair?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Book-matched stone uses complementary slabs arranged so their natural patterns create a mirrored appearance. It is often used for prominent surfaces such as fireplaces, feature walls, and kitchen islands.
+                Yes. Historic restoration typically places greater emphasis on preserving original materials, matching existing construction, and selecting repair methods that are compatible with the historic masonry.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can tile and natural stone be used together?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">How often should masonry be inspected?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Tile and stone can be combined effectively when their colors, textures, proportions, and patterns are considered as part of the same design.
+                There is no single inspection interval that applies to every property. Older buildings, exposed masonry, chimneys, and structures with previous water problems may warrant more frequent visual inspections.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Do you serve communities outside Bergen County?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can cracked masonry be repaired without replacing the entire wall?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Tiles & Stones NJ also serves clients in Wayne, Passaic County, Morris County, and Essex County, in addition to Bergen County.
+                Sometimes. The appropriate solution depends on why the masonry cracked, how extensive the damage is, and whether the affected material remains structurally sound.
+              </p>
+            </div>
+            <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Does Bergen County have historic preservation resources?</h3>
+              <p className="font-sans text-sm text-neutral-700 leading-relaxed">
+                Yes. Bergen County provides historic preservation resources, including programs supporting eligible preservation, stabilization, rehabilitation, and restoration projects.
+              </p>
+            </div>
+            <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Should I repair masonry before addressing water infiltration?</h3>
+              <p className="font-sans text-sm text-neutral-700 leading-relaxed">
+                The source of water should generally be investigated first. Repairing damaged masonry without addressing an active moisture source may allow deterioration to return.
               </p>
             </div>
           </div>
@@ -324,33 +273,12 @@ const MasonryServicesBergenCountyNj = () => {
       <section className="bg-[#403c38] px-4 py-16 text-center text-white sm:px-6 md:py-24">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-font-cormorant mb-4 text-3xl leading-tight sm:text-4xl">
-            Begin Your Bergen County Tile & Stone Project
+            Reliable Masonry Services in Bergen County, NJ
           </h2>
           <p className="font-sans mb-4 text-base leading-relaxed text-neutral-300 sm:text-lg">
-            The right surface can influence the character of an entire room. By considering material, application, layout, and craftsmanship together, a tile or stone installation can become an integrated part of the architecture.
+            Well-planned masonry maintenance and professional restoration solve underlying problems instead of simply covering visible defects.
           </p>
-          <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
-            For kitchens, bathrooms, fireplaces, feature walls, and custom interiors in Bergen County, NJ, Tiles & Stones NJ offers a material-focused approach from selection through installation.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/services/stones/wayne-county-nj"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              Explore Stones &rarr;
-            </Link>
-            <Link
-              href="/services/tiles/wayne-county-nj"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              Explore Tiles &rarr;
-            </Link>
-            <Link
-              href="/gallery"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              View Our Work &rarr;
-            </Link>
+          <div className="flex flex-wrap justify-center gap-4 mt-8">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center border border-caramel bg-caramel px-8 py-3 text-sm font-semibold tracking-widest text-white uppercase transition-colors duration-300 hover:bg-transparent hover:text-white"

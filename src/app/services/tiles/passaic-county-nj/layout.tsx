@@ -6,35 +6,26 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Tile Services in Wayne, NJ | Installation & Repair",
+  title: "Flooring & Tile Installation Contractors in Passaic, New Jersey",
   description:
-    "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
+    "Expert flooring and tile installation contractors in Passaic, NJ. Get professional tile, flooring, repair, and installation services from Tiles and Stones NJ.",
   keywords: [
-    "tile services Wayne NJ",
-    "tile installation Wayne NJ",
-    "tile repair Wayne NJ",
-    "tile contractors Wayne NJ",
-    "tile remodeling Wayne NJ",
-    "floor tile installation Wayne NJ",
-    "bathroom tile Wayne NJ",
-    "shower tile Wayne NJ",
-    "kitchen backsplash Wayne NJ",
-    "ceramic tile installation Wayne NJ",
-    "porcelain tile installation Wayne NJ",
-    "large-format tile installation Wayne NJ",
-    "wall tile installation Wayne NJ",
-    "grout repair Wayne NJ",
-    "tile replacement Wayne NJ",
-    "residential tile services Wayne NJ",
-    "commercial tile services Wayne NJ",
-    "tile contractor near Wayne NJ",
-    "Tile installation services near me in Wayne NJ",
-    "Who provides tile installation in Wayne NJ",
-    "Best tile contractor in Wayne NJ",
-    "Where can I get bathroom tile installed in Wayne NJ",
-    "Affordable tile repair services in Wayne NJ",
+    "flooring contractors Passaic NJ",
+    "tile installation contractors Passaic NJ",
+    "flooring installation Passaic New Jersey",
+    "tile contractors Passaic NJ",
+    "flooring and tile installation Passaic",
+    "tile installation near me",
+    "flooring contractors near me",
+    "professional tile installation NJ",
+    "flooring installation services Passaic",
+    "Who are the best flooring and tile installation contractors in Passaic, NJ",
+    "flooring and tile installation contractors near me in Passaic, NJ",
+    "where can I find professional tile installers in Passaic, NJ",
+    "who provides flooring installation services in Passaic, NJ",
+    "affordable flooring and tile installation services in Passaic, NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Tiles and Stones NJ" }],
   alternates: {
     canonical: "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
   },
@@ -45,31 +36,31 @@ export const metadata: Metadata = {
   referrer: "strict-origin-when-cross-origin",
   openGraph: {
     type: "website",
-    title: "Tile Services in Wayne, NJ | Installation & Repair",
+    title: "Flooring & Tile Installation Contractors in Passaic, New Jersey",
     description:
-      "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
+      "Professional flooring and tile installation contractors in Passaic, NJ. Expert installation, repair, and restoration services from Tiles and Stones NJ.",
     url: "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Tiles and Stones NJ",
     images: [
       {
-        url: "/images/g1.webp",
-        alt: "Professional tile installation and repair services in Wayne, NJ",
+        url: "https://www.tilesandstonesnj.com/images/tiles/passaic-county-nj.jpg",
+        alt: "Flooring and tile installation services in Passaic, New Jersey",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tile Services in Wayne, NJ | Installation & Repair",
+    title: "Flooring & Tile Installation Contractors in Passaic, New Jersey",
     description:
-      "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
+      "Professional flooring and tile installation contractors in Passaic, NJ. Expert installation, repair, and restoration services.",
     images: [
-      "/images/g1.webp",
+      "https://www.tilesandstonesnj.com/images/tiles/hero-tiles.webp",
     ],
   },
 };
 
 // 3. Layout Component with JSON-LD Injection
-export default function TileServicesWayneNjLayout({
+export default function FlooringTileInstallationPassaicNjLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -79,51 +70,49 @@ export default function TileServicesWayneNjLayout({
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebPage",
+        "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#webpage",
+        "url": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
+        "name": "Tile Installation, Repair & Remodeling in Passaic County, NJ",
+        "description": "Residential and commercial tile installation, repair, replacement, remodeling, flooring, bathroom, kitchen, backsplash, and grout services throughout Passaic County, NJ.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://www.tilesandstonesnj.com/#website",
+          "url": "https://www.tilesandstonesnj.com/",
+          "name": "Tiles & Stones NJ"
+        },
+        "about": {
+          "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#service"
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.tilesandstonesnj.com/images/hero-tiles.webp"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#breadcrumb"
+        },
+        "inLanguage": "en-US"
+      },
+      {
         "@type": "Service",
         "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#service",
-        "name": "Tile and Floor Services in Wayne, NJ",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
-        "description":
-          "Professional tile installation, repair, remodeling, and flooring services for residential and commercial projects in Wayne, NJ and surrounding North Jersey communities.",
+        "name": "Tile Services in Passaic County, NJ",
         "serviceType": [
           "Tile Installation",
           "Tile Repair",
+          "Tile Replacement",
           "Tile Remodeling",
           "Floor Tile Installation",
+          "Floor Tile Repair",
           "Wall Tile Installation",
-          "Bathroom and Shower Tile",
+          "Bathroom Tile Installation",
+          "Shower Tile Installation",
           "Kitchen Backsplash Installation",
           "Large-Format Tile Installation",
-          "Grout Repair",
+          "Grout Repair"
         ],
-        "areaServed": [
-          {
-            "@type": "City",
-            "name": "Wayne",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Wayne",
-              "addressRegion": "NJ",
-              "addressCountry": "US",
-            },
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Passaic County, New Jersey",
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Bergen County, New Jersey",
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Morris County, New Jersey",
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Essex County, New Jersey",
-          },
-        ],
+        "description": "Professional residential and commercial tile installation, repair, replacement, remodeling, flooring, bathroom, kitchen, backsplash, wall tile, large-format tile, and grout services throughout Passaic County, New Jersey.",
+        "url": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.tilesandstonesnj.com/#business",
@@ -135,34 +124,17 @@ export default function TileServicesWayneNjLayout({
             "@type": "PostalAddress",
             "addressLocality": "Wayne",
             "addressRegion": "NJ",
-            "addressCountry": "US",
-          },
-          "areaServed": {
+            "addressCountry": "US"
+          }
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Passaic County",
+          "containedInPlace": {
             "@type": "State",
-            "name": "New Jersey",
-          },
-        },
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
-        "name": "Tile Services in Wayne, NJ | Install, Repair & Remodel",
-        "description":
-          "Tile installation, repair, remodeling, and floor services in Wayne, NJ for residential and commercial projects.",
-        "isPartOf": {
-          "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
-          "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/",
-        },
-        "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#service",
-        },
-        "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#breadcrumb",
-        },
-        "inLanguage": "en-US",
+            "name": "New Jersey"
+          }
+        }
       },
       {
         "@type": "BreadcrumbList",
@@ -172,23 +144,23 @@ export default function TileServicesWayneNjLayout({
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/",
+            "item": "https://www.tilesandstonesnj.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/",
+            "item": "https://www.tilesandstonesnj.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Tile Services in Wayne, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
-          },
-        ],
-      },
-    ],
+            "name": "Tile Services in Passaic County, NJ",
+            "item": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj"
+          }
+        ]
+      }
+    ]
   };
 
   return (

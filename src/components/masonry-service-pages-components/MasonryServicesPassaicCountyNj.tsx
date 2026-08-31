@@ -8,21 +8,13 @@ const MasonryServicesPassaicCountyNj = () => {
       <section className="bg-[#403c38] px-4 py-16 text-center text-white sm:px-6 md:py-24">
         <div className="mx-auto max-w-4xl">
           <h1 className="text-font-cormorant mb-4 text-4xl leading-tight sm:text-5xl md:text-6xl">
-            Tile & Stone Services in <span className="text-caramel">Passaic County, NJ</span>
+            Expert Masonry Contractors Serving <span className="text-caramel">Passaic County, NJ</span>
           </h1>
-          <h2 className="text-font-cormorant mb-6 text-xl text-neutral-200 sm:text-2xl md:text-3xl">
-            Custom Tile & Stone for Homes and Interiors Across Passaic County
-          </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            <Link href="/" className="text-caramel underline transition-colors hover:opacity-80">
-    Tiles & Stones
-  </Link> NJ serves homeowners, designers, architects, and builders throughout Passaic County, New Jersey, with a focus on distinctive tile, natural stone, and carefully executed interior surfaces.
+            Historic and older masonry properties require more than routine repairs. Brick, stone, mortar, and other masonry materials can deteriorate for different reasons, and the wrong repair approach can create additional problems. Professional masonry restoration should address the source of deterioration while preserving the property's appearance, character, and existing materials whenever practical.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Located in Wayne, our work extends into communities across the county, where every property brings different architectural proportions, existing materials, functional requirements, and design goals. Rather than approaching tile and stone as interchangeable finishes, we consider how each material can contribute to the character of the finished space.
-          </p>
-          <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            From a custom kitchen or bathroom to a fireplace, feature wall, stone slab installation, or detailed tile application, the process begins with understanding the project and choosing materials that make sense for it.
+            For property owners in Passaic County, NJ, masonry restoration can include brick repair, mortar repointing, stone restoration, chimney repairs, masonry replacement, and moisture-related repairs. For historically significant properties, the work may also need to account for local preservation requirements and the character of the original construction.
           </p>
 
           {/* Interactive Service Area Navigation Buttons */}
@@ -75,7 +67,7 @@ const MasonryServicesPassaicCountyNj = () => {
           <div className="order-1 lg:order-2">
             <img
               src="/images/a1.webp"
-              alt="Custom Tile and Stone Selection in Passaic County NJ"
+              alt="Masonry Restoration Services in Passaic County NJ"
               className="aspect-[4/3] w-full object-cover shadow-lg"
             />
           </div>
@@ -83,27 +75,25 @@ const MasonryServicesPassaicCountyNj = () => {
           {/* Content */}
           <div className="order-2 lg:order-1">
             <h2 className="text-font-cormorant text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Tile & Stone That Belongs to the Architecture
+              Masonry Restoration for Historic and Older Properties
             </h2>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:mt-6 sm:text-lg">
-              The most effective surface installations feel connected to the room around them. That means considering more than color. Tile size, stone movement, surface texture, grout lines, slab dimensions, lighting, cabinetry, flooring, and architectural details can all affect how a finished installation is perceived.
+              Historic masonry restoration starts with understanding the condition of the existing structure. Cracked bricks, deteriorated mortar joints, water intrusion, spalling, staining, and displaced masonry can all indicate underlying problems that should be addressed before cosmetic repairs are performed.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              For natural stone, the individual slab can be especially important. Veining and mineral variation may determine where the material works best and how it should be oriented. Thoughtful planning allows those characteristics to become part of the design.
+              Depending on the property, masonry restoration may include:
             </p>
 
             <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
               {[
-                "Tile size and orientation",
-                "Stone movement and veining",
-                "Surface texture and finish",
-                "Grout lines and joint spacing",
-                "Slab dimensions and scale",
-                "Lighting conditions",
-                "Surrounding cabinetry",
-                "Flooring alignment",
-                "Architectural proportions",
-                "Overall visual composition",
+                "Brick and stone repair",
+                "Mortar joint repointing",
+                "Damaged masonry replacement",
+                "Chimney and masonry structure repairs",
+                "Crack and surface repairs",
+                "Moisture and water-infiltration solutions",
+                "Restoration of architectural masonry details",
+                "Exterior masonry maintenance",
               ].map((service, index) => (
                 <div key={index} className="font-sans flex items-start gap-2 border-t border-caramel/30 pt-3 text-sm text-neutral-700 sm:text-base">
                   <span className="text-caramel mt-0.5">◆</span>
@@ -111,6 +101,9 @@ const MasonryServicesPassaicCountyNj = () => {
                 </div>
               ))}
             </div>
+            <p className="font-sans mt-6 text-base leading-relaxed text-neutral-700 sm:text-lg">
+              The appropriate repair method depends on the building's age, construction, materials, exposure, and existing condition.
+            </p>
           </div>
 
         </div>
@@ -121,59 +114,32 @@ const MasonryServicesPassaicCountyNj = () => {
         <div className="mx-auto max-w-[1320px]">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-font-cormorant mb-4 text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Custom Applications Across Passaic County
+              Why Mortar Compatibility Matters
             </h2>
             <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              From custom kitchens and bathrooms to fireplaces, feature walls, and book-matched stone installations.
+              Repointing historic masonry is not simply a matter of filling damaged joints with new mortar. Older brick and stone buildings may have been constructed with mortar that has different strength, flexibility, and moisture characteristics from many modern products.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-            {/* Natural Stone Selection */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Natural Stone Selection</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Incompatible Mortar Risks</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Choosing stone from a small sample doesn't always show the final look. Full slabs reveal color, scale, pattern, and movement that guide the design.
+                Using an overly hard or incompatible mortar can contribute to damage in some older masonry systems.
               </p>
             </div>
 
-            {/* Custom Kitchen Surfaces */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Custom Kitchen Surfaces</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Careful Evaluation</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Countertops, islands, and backsplashes establish room direction. A patterned quartzite centerpiece or refined marble foundation creates cohesive spaces.
+                A careful restoration approach evaluates the existing masonry and mortar before selecting replacement materials.
               </p>
             </div>
 
-            {/* Bathrooms & Custom Vanities */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Bathrooms & Vanities</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Protection & Appearance</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Coordinate stone across vanities, shower walls, benches, and niches, pairing tile to introduce texture and pattern within one unified palette.
-              </p>
-            </div>
-
-            {/* Fireplaces & Feature Walls */}
-            <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Fireplaces & Feature Walls</h3>
-              <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Give rooms a strong architectural focal point using large-format stone to emphasize natural movement or carefully selected tile patterns.
-              </p>
-            </div>
-
-            {/* Book-Matched Stone */}
-            <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Book-Matched Stone</h3>
-              <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Position complementary stone slabs so their natural patterns create a mirrored visual relationship across prominent surfaces.
-              </p>
-            </div>
-
-            {/* Tile Applications */}
-            <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Tile Applications</h3>
-              <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Provide structure and texture for floors, walls, showers, backsplashes, and entryways using precise size, finish, and joint spacing.
+                The goal is to repair deteriorated joints while protecting the surrounding brick or stone and maintaining the appearance of the original construction.
               </p>
             </div>
           </div>
@@ -185,36 +151,24 @@ const MasonryServicesPassaicCountyNj = () => {
         <div className="mx-auto max-w-[1320px]">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-font-cormorant mb-4 text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Marble, Quartzite, Travertine & Onyx
+              Historic Masonry Work in Passaic County
             </h2>
             <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Explore our core selection of natural stones chosen for their exceptional character and architectural potential.
+              Passaic County contains a variety of historic buildings, structures, sites, and districts. Some properties may be listed on state or national historic registers, while others may have local historic significance or additional preservation requirements.
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-6 shadow-sm border-t-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Marble</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Before Making Changes</h3>
               <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Offers natural elegance through individual veining and tonal variation, creating sophisticated surfaces for kitchens, bathrooms, and fireplaces.
+                Before making substantial exterior changes to an older or historically designated property, property owners should determine whether the building is subject to local preservation rules or other approval requirements.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-t-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Quartzite</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Preserving Character</h3>
               <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Well suited for projects where natural visual movement and durability are both important, providing flexibility for countertops and islands.
-              </p>
-            </div>
-            <div className="bg-white p-6 shadow-sm border-t-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Travertine</h3>
-              <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Brings warmth and organic texture to interiors, complementing both traditional architectural details and cleaner contemporary designs.
-              </p>
-            </div>
-            <div className="bg-white p-6 shadow-sm border-t-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Onyx</h3>
-              <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Selected for distinctive appearance and natural translucency, becoming an exceptional focal material for walls, bars, and specialty installations.
+                This is especially important when work involves visible exterior masonry, architectural details, historic facades, or materials that contribute to a property's character.
               </p>
             </div>
           </div>
@@ -227,45 +181,27 @@ const MasonryServicesPassaicCountyNj = () => {
           
           <div>
             <h2 className="text-font-cormorant text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Two Decades of Stonecraft Experience: Founded by Dan Kush
+              How to Choose a Masonry Contractor
             </h2>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Natural stone requires careful handling at every stage. Measurements, fabrication, layout, joints, transitions, and installation details can all affect the finished result.
+              Choosing a contractor for an older or historic property requires more than comparing estimates. Ask potential contractors about their experience with existing masonry and how they plan to diagnose the cause of deterioration.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Tiles & Stones NJ was founded by Dan Kush, whose stonecraft experience spans more than two decades. His background includes work on residences, restaurants, and private galleries, with a process centered on precision and respect for the material.
+              A detailed proposal should clearly explain the recommended repairs, materials, preparation work, and scope of the project.
             </p>
           </div>
 
           <div className="bg-theme-cream p-6 sm:p-8 lg:p-10 border-l-4 border-caramel shadow-sm">
-            <h3 className="text-font-cormorant mb-4 text-2xl text-neutral-900 sm:text-3xl">Serving Passaic County Communities</h3>
-            <p className="font-sans mb-4 text-sm leading-relaxed text-neutral-700">
-              From our Wayne base, we serve clients throughout Passaic County, including:
-            </p>
-            <div className="grid grid-cols-2 gap-2 font-sans text-sm text-neutral-700 sm:grid-cols-3">
-              <span>◆ Wayne</span>
-              <span>◆ Clifton</span>
-              <span>◆ Paterson</span>
-              <span>◆ Totowa</span>
-              <span>◆ Little Falls</span>
-              <span>◆ Woodland Park</span>
-              <span>◆ Pompton Lakes</span>
-              <span>◆ Pompton Plains</span>
-              <span>◆ Ringwood</span>
-              <span>◆ Wanaque</span>
-              <span>◆ Haledon</span>
-              <span>◆ North Haledon</span>
-              <span>◆ Hawthorne</span>
-              <span>◆ Prospect Park</span>
-              <span>◆ Passaic</span>
-              <span>◆ West Milford</span>
-              <span>◆ Bloomingdale</span>
-              <span>◆ Butler</span>
-              <span>◆ Kinnelon</span>
+            <h3 className="text-font-cormorant mb-4 text-2xl text-neutral-900 sm:text-3xl">Important Questions to Ask</h3>
+            <div className="grid grid-cols-1 gap-2 font-sans text-sm text-neutral-700">
+              <span>◆ How will you evaluate the existing masonry?</span>
+              <span>◆ What is causing the deterioration?</span>
+              <span>◆ How will replacement mortar be selected?</span>
+              <span>◆ Can damaged brick or stone be repaired instead of replaced?</span>
+              <span>◆ What areas require immediate attention?</span>
+              <span>◆ Will the proposed work affect a historic designation or district requirement?</span>
+              <span>◆ Are permits, professional assessments, or preservation approvals necessary?</span>
             </div>
-            <p className="font-sans mt-6 text-xs leading-relaxed text-neutral-600">
-              Each community includes a mix of property types and architectural styles. We approach material selection and installation according to the individual project rather than applying a single design formula.
-            </p>
           </div>
 
         </div>
@@ -281,39 +217,45 @@ const MasonryServicesPassaicCountyNj = () => {
           </div>
           <div className="space-y-6">
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What tile and stone services are available in Passaic County?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What does a masonry contractor do?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Tiles & Stones NJ works with clients on natural stone selection, countertops, vanities, fireplaces, feature walls, backsplashes, tile applications, book-matched installations, and other custom surface projects.
+                A masonry contractor works with materials such as brick, stone, concrete masonry, and mortar. Services can include construction, repair, repointing, restoration, replacement, and maintenance of masonry structures and surfaces.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Which natural stones are available?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Is historic masonry repair different from standard masonry repair?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                The collection includes materials such as marble, quartzite, travertine, and onyx, along with natural stone slabs selected according to project requirements.
+                Yes. Historic masonry work generally requires greater attention to existing materials, construction methods, appearance, and compatibility between old and new materials.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can you help with selecting a stone slab?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What is masonry repointing?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Slab selection can consider the material's color, movement, veining, dimensions, finish, intended application, and relationship to the surrounding design.
+                Masonry repointing involves removing deteriorated mortar from masonry joints and installing new mortar. Proper repointing can help restore the performance and weather resistance of masonry joints.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Is book-matched stone suitable for every project?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">How can I tell if my property is historically designated?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                No. Book-matching works best when the available slabs have complementary patterns and when the installation provides enough visual space for the mirrored composition to be appreciated.
+                Property owners can check state and local historic-property records and contact the appropriate municipal preservation authority. A property may have local historic protections even when it is not listed on the National Register of Historic Places.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can tile and stone be combined in the same room?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Does historic masonry always need to be replaced when it is damaged?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Combining tile and stone can create contrast and visual hierarchy. The materials should be coordinated through color, scale, texture, pattern, or finish so they work together.
+                No. Depending on the severity and type of deterioration, some masonry can potentially be repaired or retained rather than completely replaced. The appropriate solution requires an evaluation of the existing material and the cause of the damage.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What areas of Passaic County do you serve?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can water cause masonry deterioration?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Tiles & Stones NJ serves Wayne and communities throughout Passaic County, including Clifton, Paterson, Totowa, Little Falls, Woodland Park, Pompton Lakes, Ringwood, Wanaque, Hawthorne, and surrounding communities.
+                Yes. Water can contribute to mortar deterioration, freeze-thaw damage, staining, corrosion of embedded components, and other masonry problems. Identifying and correcting the source of moisture is often an important part of a durable repair.
+              </p>
+            </div>
+            <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What should I do before repairing an older masonry building?</h3>
+              <p className="font-sans text-sm text-neutral-700 leading-relaxed">
+                Start by documenting visible damage and determining whether the property has historic-designation requirements. A qualified masonry professional can then evaluate the condition, identify likely causes of deterioration, and recommend appropriate repair methods.
               </p>
             </div>
           </div>
@@ -324,33 +266,12 @@ const MasonryServicesPassaicCountyNj = () => {
       <section className="bg-[#403c38] px-4 py-16 text-center text-white sm:px-6 md:py-24">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-font-cormorant mb-4 text-3xl leading-tight sm:text-4xl">
-            Start Your Passaic County Project
+            Start Your Passaic County Masonry Project
           </h2>
           <p className="font-sans mb-4 text-base leading-relaxed text-neutral-300 sm:text-lg">
-            A successful tile or stone installation begins with decisions made before the material reaches the wall or floor.
+            Professional masonry restoration addresses the source of deterioration while preserving your property's character.
           </p>
-          <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
-            If you're planning a renovation, new construction project, fireplace, kitchen, bathroom, or custom interior in Passaic County, NJ, Tiles & Stones NJ can help you evaluate materials and develop a surface approach suited to the space.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/services/stones/wayne-county-nj"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              Explore Stones &rarr;
-            </Link>
-            <Link
-              href="/services/tiles/wayne-county-nj"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              Explore Tiles &rarr;
-            </Link>
-            <Link
-              href="/gallery"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              View Our Work &rarr;
-            </Link>
+          <div className="flex flex-wrap justify-center gap-4 mt-8">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center border border-caramel bg-caramel px-8 py-3 text-sm font-semibold tracking-widest text-white uppercase transition-colors duration-300 hover:bg-transparent hover:text-white"

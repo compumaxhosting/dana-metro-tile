@@ -31,7 +31,7 @@ export default function Home() {
   }}
   secondaryButton={{
     text: "SEE THE WORK",
-    href: "/portfolio",
+    href: "/gallery",
   }}
 />
     <Footer/>

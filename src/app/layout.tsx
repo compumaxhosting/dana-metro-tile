@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/logoo.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Tile, stone and masonry services in Wayne, New Jersey",
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
     description: "Expert tile, stone and masonry services in Wayne, NJ with quality craftsmanship and professional installation.",
-    images: ["/logoo.png"],
+    images: ["/logo.png"],
   },
 };
 
@@ -117,10 +117,10 @@ const jsonLd = {
       "name": "Tiles & Stones NJ",
       "url": "https://www.tilesandstonesnj.com/",
       "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
-      "image": "/logoo.png",
+      "image": "/logo.png",
       "logo": {
         "@type": "ImageObject",
-        "url": "/logoo.png"
+        "url": "/logo.png"
       },
       "telephone": "[BUSINESS PHONE]",
       "priceRange": "$$",

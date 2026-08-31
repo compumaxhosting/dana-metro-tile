@@ -18,8 +18,8 @@ const MasonryServicesWayneCountyNj = () => {
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             <Link href="/" className="text-caramel underline transition-colors hover:opacity-80">
-    Tiles & Stones
-  </Link> NJ provides custom masonry services in Wayne, NJ, with projects extending throughout Passaic County, Bergen County, Morris County, and Essex County. Our work is suited to homeowners, architects, interior designers, builders, and clients developing distinctive residential or select commercial spaces.
+              Tiles & Stones
+            </Link> NJ provides custom masonry services in Wayne, NJ, with projects extending throughout Passaic County, Bergen County, Morris County, and Essex County. Our work is suited to homeowners, architects, interior designers, builders, and clients developing distinctive residential or select commercial spaces.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             The process begins with the character of the material and the requirements of the space. From there, proportions, placement, transitions, and finishing details are considered to create masonry that feels purposeful within the architecture.
@@ -68,7 +68,7 @@ const MasonryServicesWayneCountyNj = () => {
           {/* Image */}
           <div className="order-1 lg:order-2">
             <img
-              src="/images/f1.webp"
+              src="/images/a1.webp"
               alt="Custom Masonry Detailing and Craft in Wayne NJ"
               className="aspect-[4/3] w-full object-cover shadow-lg"
             />

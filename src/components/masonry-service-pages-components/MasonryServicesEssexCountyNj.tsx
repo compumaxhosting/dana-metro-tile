@@ -8,18 +8,13 @@ const MasonryServicesEssexCountyNj = () => {
       <section className="bg-[#403c38] px-4 py-16 text-center text-white sm:px-6 md:py-24">
         <div className="mx-auto max-w-4xl">
           <h1 className="text-font-cormorant mb-4 text-4xl leading-tight sm:text-5xl md:text-6xl">
-            Tile & Stone Services in <span className="text-caramel">Essex County, NJ</span>
+            Residential and Commercial Masonry Services in <span className="text-caramel">Essex County, NJ</span>
           </h1>
-          <h2 className="text-font-cormorant mb-6 text-xl text-neutral-200 sm:text-2xl md:text-3xl">
-            Custom Tile & Stone for Essex County Homes & Commercial Spaces
-          </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            <Link href="/" className="text-caramel underline transition-colors hover:opacity-80">
-    Tiles & Stones
-  </Link> NJ helps homeowners, architects, interior designers, and builders throughout Essex County, NJ bring distinctive tile and natural stone into thoughtfully designed spaces.
+            Residential and commercial masonry services in Essex County, NJ, cover the repair, restoration, replacement, and construction of brick, stone, mortar, concrete masonry, chimneys, walls, facades, and other masonry features. The appropriate solution depends on the material, extent of deterioration, exposure to moisture, and the condition of the surrounding structure.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            From our Wayne location, we work on kitchens, bathrooms, fireplaces, feature walls, countertops, vanities, and other custom applications. Every project has different requirements, so material selection begins with the space itself: how it will be used, what surrounds it, how much visual attention the surface should command, and how the material's natural characteristics can be incorporated into the design.
+            For property owners, the priority should be more than improving appearance. Proper masonry work should address the underlying cause of deterioration while preserving sound materials whenever practical.
           </p>
 
           {/* Interactive Service Area Navigation Buttons */}
@@ -72,7 +67,7 @@ const MasonryServicesEssexCountyNj = () => {
           <div className="order-1 lg:order-2">
             <img
               src="/images/a1.webp"
-              alt="Custom Tile and Stone Selection in Essex County NJ"
+              alt="Masonry Services for Residential Properties in Essex County NJ"
               className="aspect-[4/3] w-full object-cover shadow-lg"
             />
           </div>
@@ -80,27 +75,27 @@ const MasonryServicesEssexCountyNj = () => {
           {/* Content */}
           <div className="order-2 lg:order-1">
             <h2 className="text-font-cormorant text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Choosing Materials That Work in the Space: No Two Slabs Are Alike
+              Masonry Services for Residential Properties
             </h2>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:mt-6 sm:text-lg">
-              Natural stone is valued partly because no two slabs are exactly alike. Variations in veining, mineral content, color, and movement can become important design considerations once the material is viewed at full scale.
+              Residential masonry can experience damage from weather exposure, moisture, movement, aging mortar, impact, and poor previous repairs. Early evaluation can help determine whether a problem requires localized maintenance or more extensive restoration.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Before a stone is selected, we carefully evaluate the environment, layout, and composition to ensure harmonious integration with your architecture.
+              Residential masonry services may include:
             </p>
 
             <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
               {[
-                "Intended use and location",
-                "Natural pattern and movement",
-                "Color and tonal variation",
-                "Slab dimensions and thickness",
-                "Surface finish options",
-                "Maintenance expectations",
-                "Lighting conditions",
-                "Adjacent tile and finishes",
-                "Seams and overall layout",
-                "Architectural proportions",
+                "Brick and stone repair",
+                "Mortar repointing",
+                "Chimney masonry repair",
+                "Exterior wall repairs",
+                "Stone veneer repair",
+                "Masonry replacement",
+                "Patio and walkway masonry",
+                "Retaining wall repairs",
+                "Decorative masonry work",
+                "Water-related masonry repairs",
               ].map((service, index) => (
                 <div key={index} className="font-sans flex items-start gap-2 border-t border-caramel/30 pt-3 text-sm text-neutral-700 sm:text-base">
                   <span className="text-caramel mt-0.5">◆</span>
@@ -108,6 +103,9 @@ const MasonryServicesEssexCountyNj = () => {
                 </div>
               ))}
             </div>
+            <p className="font-sans mt-6 text-base leading-relaxed text-neutral-700 sm:text-lg">
+              A repair should be matched to the existing construction rather than treated as a one-size-fits-all project.
+            </p>
           </div>
 
         </div>
@@ -118,59 +116,53 @@ const MasonryServicesEssexCountyNj = () => {
         <div className="mx-auto max-w-[1320px]">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-font-cormorant mb-4 text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Custom Applications Across Essex County
+              Commercial Masonry Repair and Restoration
             </h2>
             <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              From kitchen countertops and bathroom vanities to architectural fireplaces, feature walls, and book-matched surfaces.
+              Commercial buildings often require masonry work that considers appearance, durability, access, occupant safety, and project coordination. Deteriorated brick, failing mortar joints, cracks, damaged stone, and facade issues should be evaluated before repairs are selected.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-            {/* Kitchen Countertops & Islands */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Kitchen Countertops & Islands</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Building Facade Repairs</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Make the countertop part of the composition. A strongly veined quartzite creates a focal point around an island, while marble provides a classic material presence.
+                Restore structural integrity and exterior presentation for commercial facades, storefronts, and multi-story structures.
               </p>
             </div>
 
-            {/* Bathroom Surfaces & Vanities */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Bathroom Surfaces & Vanities</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Brick Replacement</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Coordinate more than one surface. Connect flooring, shower walls, vanities, niches, and backsplashes through harmonious color, scale, and texture.
+                Swap out severely cracked, spalled, or structurally compromised bricks with accurately matched replacement units.
               </p>
             </div>
 
-            {/* Fireplaces That Define a Room */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Fireplaces & Focal Points</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Stone Restoration</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Highlight the natural character of stone. Use large-format slabs to showcase natural movement without unnecessary interruptions across living spaces.
+                Carefully restore architectural stone details, sills, lintels, and decorative masonry features on commercial properties.
               </p>
             </div>
 
-            {/* Feature Walls & Statement Surfaces */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Feature Walls & Statements</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-[#403c38]">Repointing & Joint Repair</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Allow materials room to breathe. Display full slab movement or structured tile patterns across entryways, dining areas, and custom bars.
+                Remove failing mortar and install strong, compatible replacement mortar to protect against moisture penetration.
               </p>
             </div>
 
-            {/* Book-Matched Stone */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Book-Matched Stone</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Wall Rehabilitation</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Create continuity from natural veining. Arrange complementary slabs to create mirrored relationships on prominent walls, islands, and fireplaces.
+                Comprehensive evaluation and structural rehabilitation of masonry walls experiencing shifting or load-bearing issues.
               </p>
             </div>
 
-            {/* Craftsmanship */}
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 border-l-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Precision Craftsmanship</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-caramel">Parapet & Chimney Work</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Backed by two decades of stonecraft experience by Dan Kush, ensuring exact measurements, careful fabrication, and seamless installation.
+                Address vulnerable roofline elements including parapets, copings, and commercial chimneys exposed to severe weather.
               </p>
             </div>
           </div>
@@ -182,36 +174,24 @@ const MasonryServicesEssexCountyNj = () => {
         <div className="mx-auto max-w-[1320px]">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-font-cormorant mb-4 text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Marble, Quartzite, Travertine & Onyx
+              Brick Repair vs. Repointing: What's the Difference?
             </h2>
             <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Explore our core selection of natural stones chosen for their exceptional character and architectural potential.
+              Brick repair and mortar repointing address different problems. Brick repair or replacement is appropriate when individual masonry units are cracked, spalled, severely deteriorated, or otherwise unsuitable for continued use. Repointing involves removing deteriorated mortar from masonry joints and installing compatible new mortar.
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-6 shadow-sm border-t-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Marble</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Material Compatibility Matters</h3>
               <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Recognized for individual veining and broad variation, providing sophisticated surfaces for countertops, vanities, fireplaces, and walls.
+                Particularly on older buildings, replacement mortar should be selected with consideration for the existing brick or stone and the construction of the building. Using an excessively hard or incompatible repair material can create additional deterioration.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-t-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Quartzite</h3>
+              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Addressing Moisture Early</h3>
               <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Provides natural pattern and movement, often selected for surfaces where high durability is combined with striking visual elegance.
-              </p>
-            </div>
-            <div className="bg-white p-6 shadow-sm border-t-4 border-[#403c38]">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Travertine</h3>
-              <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Offers natural texture and warm variation, working seamlessly across both traditional interiors and organic contemporary designs.
-              </p>
-            </div>
-            <div className="bg-white p-6 shadow-sm border-t-4 border-caramel">
-              <h3 className="text-font-cormorant mb-3 text-2xl text-neutral-900">Onyx</h3>
-              <p className="font-sans text-sm leading-relaxed text-neutral-700">
-                Stands apart for distinctive patterns and translucent qualities, ideal for statement feature walls, custom bars, vanities, and specialized accents.
+                Water is a common contributor to masonry deterioration. Cracked joints, failed sealants, damaged flashing, and other building-envelope problems can allow moisture to reach protected areas. Proper assessment considers drainage and moisture pathways before repairs are completed.
               </p>
             </div>
           </div>
@@ -224,48 +204,27 @@ const MasonryServicesEssexCountyNj = () => {
           
           <div>
             <h2 className="text-font-cormorant text-3xl leading-tight text-neutral-900 sm:text-4xl">
-              Craftsmanship Behind the Finished Surface: Founded by Dan Kush
+              Choosing a Masonry Contractor in Essex County
             </h2>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Material selection is only one part of a successful installation. Accurate measurement, fabrication, layout, joints, transitions, and installation details all affect the final appearance.
+              When comparing masonry contractors, look beyond the estimate. Ask for a clear description of the proposed repair, materials, preparation, and exclusions to ensure you understand what you are paying for.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Tiles & Stones NJ was founded by Dan Kush, whose experience in stonecraft spans more than two decades. His background includes residential work as well as projects involving restaurants and private galleries, supporting a hands-on process focused on respecting the material.
+              A detailed scope makes it easier to compare different proposals fairly and select a reliable professional for your property.
             </p>
           </div>
 
           <div className="bg-theme-cream p-6 sm:p-8 lg:p-10 border-l-4 border-caramel shadow-sm">
-            <h3 className="text-font-cormorant mb-4 text-2xl text-neutral-900 sm:text-3xl">Serving Essex County Communities</h3>
-            <p className="font-sans mb-4 text-sm leading-relaxed text-neutral-700">
-              From our Wayne base, we serve clients throughout Essex County, including:
-            </p>
-            <div className="grid grid-cols-2 gap-2 font-sans text-sm text-neutral-700 sm:grid-cols-3">
-              <span>◆ Montclair</span>
-              <span>◆ Short Hills</span>
-              <span>◆ Maplewood</span>
-              <span>◆ South Orange</span>
-              <span>◆ West Orange</span>
-              <span>◆ Livingston</span>
-              <span>◆ Millburn</span>
-              <span>◆ Summit</span>
-              <span>◆ Glen Ridge</span>
-              <span>◆ Verona</span>
-              <span>◆ Cedar Grove</span>
-              <span>◆ Essex Fells</span>
-              <span>◆ North Caldwell</span>
-              <span>◆ Caldwell</span>
-              <span>◆ Fairfield</span>
-              <span>◆ Roseland</span>
-              <span>◆ Bloomfield</span>
-              <span>◆ Nutley</span>
-              <span>◆ Belleville</span>
-              <span>◆ Orange</span>
-              <span>◆ East Orange</span>
-              <span>◆ Newark</span>
+            <h3 className="text-font-cormorant mb-4 text-2xl text-neutral-900 sm:text-3xl">Important Contractor Questions</h3>
+            <div className="grid grid-cols-1 gap-2 font-sans text-sm text-neutral-700">
+              <span>◆ What caused the masonry deterioration?</span>
+              <span>◆ Which areas actually need repair or replacement?</span>
+              <span>◆ What materials will be used?</span>
+              <span>◆ Will existing masonry be preserved where practical?</span>
+              <span>◆ How will moisture-related issues be addressed?</span>
+              <span>◆ Is the property historic or subject to preservation requirements?</span>
+              <span>◆ What work is included in the written proposal?</span>
             </div>
-            <p className="font-sans mt-6 text-xs leading-relaxed text-neutral-600">
-              Our Wayne location provides access to projects throughout Essex County while allowing us to maintain a personalized process for material selection and project planning.
-            </p>
           </div>
 
         </div>
@@ -281,39 +240,51 @@ const MasonryServicesEssexCountyNj = () => {
           </div>
           <div className="space-y-6">
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What tile and stone services are available in Essex County?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What masonry services are available for homes in Essex County?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Tiles & Stones NJ works with clients on stone selection, countertops, islands, vanities, fireplaces, feature walls, backsplashes, tile installations, and custom stone applications.
+                Residential masonry work can include brick and stone repair, repointing, chimney repairs, retaining walls, patios, walkways, exterior walls, and masonry restoration.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Which natural stone materials do you offer?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What commercial masonry problems should be inspected?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Our collection includes marble, quartzite, travertine, onyx, and natural stone slabs. Material availability can vary according to the project and current selection.
+                Common concerns include deteriorated mortar, cracked or displaced masonry, damaged facade materials, water intrusion, spalling, and deterioration around parapets or other exposed areas.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can you help choose stone for a specific application?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">When does brick need to be replaced?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Stone can be evaluated according to its appearance, intended use, maintenance considerations, dimensions, finish, and relationship to other materials in the space.
+                Replacement may be considered when a brick is severely cracked, spalled, structurally compromised, or too deteriorated to provide a suitable surface for repair.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What is book-matched stone used for?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">What is masonry repointing?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Book-matched stone is commonly considered for visually prominent applications such as fireplaces, feature walls, kitchen islands, backsplashes, bathroom walls, and custom bars.
+                Repointing is the process of removing deteriorated mortar from masonry joints and replacing it with new mortar selected to be compatible with the existing construction.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can tile and stone be combined?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Can masonry repairs help with water intrusion?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Combining tile and natural stone can add hierarchy and contrast to an interior. The materials should be selected with attention to their colors, textures, proportions, and patterns.
+                They can address damaged joints, cracks, and other masonry-related pathways for water, but the source of moisture should be identified rather than assuming the masonry surface is the only cause.
               </p>
             </div>
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
-              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Do you work throughout Essex County?</h3>
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Are historic buildings different to repair?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Tiles & Stones NJ serves clients throughout Essex County as well as Wayne, Passaic County, Bergen County, and Morris County.
+                Often, yes. Historic masonry may require additional attention to original materials, mortar compatibility, architectural details, and applicable local or state preservation requirements.
+              </p>
+            </div>
+            <div className="bg-white p-6 shadow-sm border-l-4 border-caramel">
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">How should I compare masonry estimates?</h3>
+              <p className="font-sans text-sm text-neutral-700 leading-relaxed">
+                Compare the repair scope, materials, preparation, access requirements, exclusions, and proposed methods rather than choosing solely on the lowest price.
+              </p>
+            </div>
+            <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
+              <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">When should a masonry contractor inspect a property?</h3>
+              <p className="font-sans text-sm text-neutral-700 leading-relaxed">
+                Consider an inspection when you notice loose masonry, significant cracks, crumbling mortar, spalling, recurring water entry, or visible changes in a wall or chimney.
               </p>
             </div>
           </div>
@@ -324,33 +295,12 @@ const MasonryServicesEssexCountyNj = () => {
       <section className="bg-[#403c38] px-4 py-16 text-center text-white sm:px-6 md:py-24">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-font-cormorant mb-4 text-3xl leading-tight sm:text-4xl">
-            Start Your Essex County Tile & Stone Project
+            Residential & Commercial Masonry in Essex County, NJ
           </h2>
           <p className="font-sans mb-4 text-base leading-relaxed text-neutral-300 sm:text-lg">
-            A successful surface begins with the right material and a clear understanding of how it will be used.
+            Professional masonry work addresses the underlying cause of deterioration while preserving sound materials.
           </p>
-          <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
-            If you're planning a kitchen, bathroom, fireplace, feature wall, renovation, or custom interior in Essex County, NJ, Tiles & Stones NJ can help you explore tile and stone options suited to the project's design and practical requirements.
-          </p>
-         <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/services/stones/wayne-county-nj"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              Explore Stones &rarr;
-            </Link>
-            <Link
-              href="/services/tiles/wayne-county-nj"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              Explore Tiles &rarr;
-            </Link>
-            <Link
-              href="/gallery"
-              className="inline-flex items-center justify-center border border-neutral-600 bg-neutral-800 px-6 py-3 text-sm font-semibold tracking-wider text-neutral-200 uppercase transition-colors duration-300 hover:border-caramel hover:text-caramel"
-            >
-              View Our Work &rarr;
-            </Link>
+          <div className="flex flex-wrap justify-center gap-4 mt-8">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center border border-caramel bg-caramel px-8 py-3 text-sm font-semibold tracking-widest text-white uppercase transition-colors duration-300 hover:bg-transparent hover:text-white"

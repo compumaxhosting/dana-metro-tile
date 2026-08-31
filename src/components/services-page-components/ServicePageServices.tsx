@@ -1,5 +1,5 @@
 import { servicePageServices } from "../../data/servicePageServices";
-
+import Link from "next/link";
 const ServicePageServices = () => {
   return (
     <section className="bg-theme-cream py-24">
@@ -7,17 +7,18 @@ const ServicePageServices = () => {
         {servicePageServices.map((service, index) => (
           <div
             key={service.number}
-            className={`mb-28 grid items-center gap-16 lg:grid-cols-2 ${
-              index % 2 !== 0 ? "lg:[&>*:first-child]:order-2" : ""
-            }`}
+            className={`mb-28 grid items-center gap-16 lg:grid-cols-2 ${index % 2 !== 0 ? "lg:[&>*:first-child]:order-2" : ""
+              }`}
           >
             {/* Image */}
             <div>
-              <img
-                src={service.image}
-                alt={service.title}
-                className="aspect-[4/3] w-full object-cover"
-              />
+              <Link href={service.href}>
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="aspect-[4/3] w-full object-cover transition-opacity hover:opacity-90 cursor-pointer"
+                />
+              </Link>
             </div>
 
             {/* Content */}
@@ -26,10 +27,11 @@ const ServicePageServices = () => {
                 {service.number}
               </p>
 
+              <Link href={service.href}>
               <h2 className="mt-4 text-font-cormorant text-5xl leading-tight">
                 {service.title}
               </h2>
-
+              </Link>
               <p className="font-sans mt-6 max-w-xl leading-8 text-neutral-700">
                 {service.description}
               </p>
