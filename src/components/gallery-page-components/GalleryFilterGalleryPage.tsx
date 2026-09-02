@@ -82,9 +82,9 @@ const GalleryFilterGalleryPage = () => {
 
               <div className="absolute bottom-7 left-7">
 
-                <p className="font-sans text-[10px] uppercase tracking-[0.35em] text-premium-beige">
+                <h2 className="font-sans text-[10px] uppercase tracking-[0.35em] text-premium-beige">
                   {project.subtitle}
-                </p>
+                </h2>
 
                 <h3 className="mt-2 text-font-cormorant text-4xl text-white">
                   {project.title}

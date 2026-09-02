@@ -31,10 +31,10 @@ export default function BreadCrumb({
               {label}
             </p>
 
-            <h1 className="font-cormorant text-theme-cream text-[40px] lg:text-[68px] leading-[1.05]">
+            <h3 className="font-cormorant text-theme-cream text-[40px] lg:text-[68px] leading-[1.05]">
               {title}{" "}
               <span className="italic text-premium-beige">{highlight}</span>
-            </h1>
+            </h3>
           </div>
 
           {/* Right */}

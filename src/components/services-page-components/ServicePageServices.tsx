@@ -23,19 +23,25 @@ const ServicePageServices = () => {
 
             {/* Content */}
             <div>
-              <p className="text-font-cormorant text-5xl text-caramel">
-                {service.number}
-              </p>
-
+              <a
+                href={service.href}>
+                <p className="text-font-cormorant text-5xl text-caramel">
+                  {service.number}
+                </p>
+              </a>
               <Link href={service.href}>
-              <h2 className="mt-4 text-font-cormorant text-5xl leading-tight">
-                {service.title}
-              </h2>
+                <h2 className="mt-4 text-font-cormorant text-5xl leading-tight">
+                  {service.title}
+                </h2>
               </Link>
+              
+               <Link href={service.href}>
               <p className="font-sans mt-6 max-w-xl leading-8 text-neutral-700">
                 {service.description}
               </p>
+              </Link>
 
+               <Link href={service.href}>
               <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-1 pt-6 lg:grid-cols-2">
                 {service.features.map((feature) => (
                   <div
@@ -47,7 +53,7 @@ const ServicePageServices = () => {
                   </div>
                 ))}
               </div>
-
+              </Link>
               {/* Redirect Button */}
               <div className="mt-10">
                 <a

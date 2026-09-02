@@ -23,15 +23,15 @@ export default function ContactPageForm() {
               Begin
             </p>
 
-            <h2 className="font-cormorant text-theme-cream text-[46px] lg:text-[68px] leading-[1.05] max-w-[650px]">
+            <h1 className="font-cormorant text-theme-cream text-[46px] lg:text-[68px] leading-[1.05] max-w-[650px]">
               Let's shape your{" "}
               <span className="italic text-premium-beige">next room.</span>
-            </h2>
+            </h1>
 
-            <p className="mt-5 max-w-[620px] text-white/90 text-[16px] leading-10 font-sans">
+            <h2 className="mt-5 max-w-[620px] text-white/90 text-[16px] leading-10 font-sans">
               Consultations are personal and unhurried. Share your project below
               or reach us directly — we respond within two business days.
-            </p>
+            </h2>
 
             <div className="mt-5 border-t border-white/20">
               {/* Phone */}

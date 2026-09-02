@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Left */}
           <div className="flex flex-col items-start mb-8">
             <Link href="/">
-              <Image src="/footer-logo.png" alt="Dan Kush Metro Tile & Stone" width={220} height={70} priority />
+              <Image src="/footer-logoo.png" alt="Dan Kush Metro Tile & Stone" width={280} height={70} priority/>
             </Link>
             <p className="mt-4 max-w-sm text-sm text-gray-300 leading-7">
               Metro Tile & Stone — tiles, stones, and masonry crafted with precision and installed with enduring care across New Jersey.
