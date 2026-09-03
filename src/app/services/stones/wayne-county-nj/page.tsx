@@ -1,7 +1,7 @@
-import Footer from '@/components/home-page-components/Footer'
-import Header from '@/components/home-page-components/Header'
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/Header'
 import StoneServicesWayneCountyNj from '@/components/stones-service-pages-components/StoneServicesWayneCountyNj'
-import Topbar from '@/components/home-page-components/Topbar'
+import Topbar from '@/components/layout/Topbar'
 
 const page = () => {
   return (

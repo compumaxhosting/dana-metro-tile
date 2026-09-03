@@ -1,9 +1,9 @@
 import { blogs } from "@/data/blogs";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import Header from "@/components/home-page-components/Header";
-import Footer from "@/components/home-page-components/Footer";
-import Topbar from "@/components/home-page-components/Topbar";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import Topbar from "@/components/layout/Topbar";
 
 export const metadata = {
   title: "All Studio Notes | Your Studio Name",

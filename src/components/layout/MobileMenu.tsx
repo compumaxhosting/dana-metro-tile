@@ -22,6 +22,7 @@ export default function MobileMenu({
 }: Props) {
   const pathname = usePathname();
   const [topOffset, setTopOffset] = useState(0);
+
   useEffect(() => {
     if (!open) return;
 
@@ -32,9 +33,16 @@ export default function MobileMenu({
     };
 
     const updateTop = () => {
+      // Measure both the Topbar and the Header combined height if they are stacked in a common wrapper,
+      // or query a wrapper element (e.g. id="site-header-wrapper") that contains both Topbar and Header.
+      // Alternatively, we sum up their individual heights:
+      const topbar = document.querySelector(".relative.z-50.w-full.border-b"); // or your topbar selector/class
       const header = document.querySelector("header");
-      const h = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
-      setTopOffset(h);
+      
+      const topbarHeight = topbar ? Math.ceil(topbar.getBoundingClientRect().height) : 0;
+      const headerHeight = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
+      
+      setTopOffset(topbarHeight + headerHeight);
     };
 
     // compute initial top offset and keep updated on resize
@@ -54,7 +62,6 @@ export default function MobileMenu({
       {open && (
         <>
           {/* Overlay */}
-
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -65,7 +72,6 @@ export default function MobileMenu({
           />
 
           {/* Drawer */}
-
           <motion.aside
             initial={{ x: "80%" }}
             animate={{ x: 0 }}

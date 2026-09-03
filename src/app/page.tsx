@@ -1,14 +1,17 @@
 import About from "@/components/home-page-components/About";
-import BreadCrumb from "@/components/home-page-components/BreadCrumb";
+import BreadCrumb from "@/components/layout/BreadCrumb";
 import Disciplines from "@/components/home-page-components/Disciplines";
-import Footer from "@/components/home-page-components/Footer";
-import Header from "@/components/home-page-components/Header";
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 import Hero from "@/components/home-page-components/Hero";
 import PortfolioHome from "@/components/home-page-components/PortfolioHome";
 import Testimonial from "@/components/home-page-components/Testimonial";
-import Topbar from "@/components/home-page-components/Topbar";
+import Topbar from "@/components/layout/Topbar";
 import Blogs from "@/components/home-page-components/BlogsHome";
 import BlogsHome from "@/components/home-page-components/BlogsHome";
+import MobileContactEasy from "@/components/layout/MobileContactEasy";
+import { IoPlayBackOutline } from "react-icons/io5";
+import BackToTopButton from "@/components/layout/BackToTopButton";
 
 export default function Home() {
   return (
@@ -34,6 +37,8 @@ export default function Home() {
     href: "/gallery",
   }}
 />
+<MobileContactEasy />
+<BackToTopButton />
     <Footer/>
     </>
   );

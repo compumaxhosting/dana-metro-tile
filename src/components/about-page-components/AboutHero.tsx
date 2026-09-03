@@ -1,4 +1,4 @@
-import PageHero from "../PageHero";
+import PageHero from "../layout/PageHero";
 
 const AboutHero = () => {
     return (

@@ -1,6 +1,6 @@
-import Footer from "@/components/home-page-components/Footer"
-import Header from "@/components/home-page-components/Header"
-import Topbar from "@/components/home-page-components/Topbar"
+import Footer from "@/components/layout/Footer"
+import Header from "@/components/layout/Header"
+import Topbar from "@/components/layout/Topbar"
 import MasonryServicesWayneCountyNj from "@/components/masonry-service-pages-components/MasonryServicesWayneCountyNj"
 
 const page = () => {

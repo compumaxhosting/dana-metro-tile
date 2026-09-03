@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {FaFacebookF, FaInstagram, FaLinkedinIn,} from "react-icons/fa";
+import {FaFacebookF, FaInstagram, FaTiktok} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -73,14 +73,14 @@ const Footer = () => {
 
           <div className="flex items-center gap-6 text-lg text-gray-400">
             <a
-              href="#"
+              href="https://www.instagram.com/tiles.stones.masonry.nj/"
               className="hover:text-premium-beige transition-colors"
             >
               <FaInstagram />
             </a>
 
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61594003410457"
               className="hover:text-premium-beige transition-colors"
             >
               <FaFacebookF />
@@ -90,7 +90,7 @@ const Footer = () => {
               href="#"
               className="hover:text-premium-beige transition-colors"
             >
-              <FaLinkedinIn />
+              <FaTiktok />
             </a>
           </div>
         </div>

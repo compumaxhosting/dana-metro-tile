@@ -1,7 +1,7 @@
-import Footer from "@/components/home-page-components/Footer"
-import Header from "@/components/home-page-components/Header"
+import Footer from "@/components/layout/Footer"
+import Header from "@/components/layout/Header"
 import TileServicesEssexCountyNj from "@/components/tiles-service-pages-components/TileServicesEssexCountyNj"
-import Topbar from "@/components/home-page-components/Topbar"
+import Topbar from "@/components/layout/Topbar"
 import React from "react"
 
 const page = () => {
