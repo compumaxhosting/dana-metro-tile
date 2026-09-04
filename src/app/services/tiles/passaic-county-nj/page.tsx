@@ -3,6 +3,7 @@ import Header from "@/components/layout/Header"
 import TileServicesPassaicCountyNj from "@/components/tiles-service-pages-components/TileServicesPassaicCountyNj"
 import Topbar from "@/components/layout/Topbar"
 import React from "react"
+import MobileContactEasy from "@/components/layout/MobileContactEasy"
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
     <Topbar />
     <Header />
     <TileServicesPassaicCountyNj />
+    <MobileContactEasy />
     <Footer />
     </>
   )
