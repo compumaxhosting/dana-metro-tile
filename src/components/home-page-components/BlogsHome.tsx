@@ -25,7 +25,7 @@ export default function BlogsHome() {
             </h2>
           </div>
 
-          {/* Right Side - Added Flexbox to stack the paragraph and the button */}
+          {/* Right Side */}
           <div className="flex flex-col gap-6 lg:items-end lg:text-right">
             <p className="max-w-lg text-lg leading-9 text-premium-black font-sans">
               Field notes on material, technique, and the quiet
@@ -49,7 +49,7 @@ export default function BlogsHome() {
         {/* Articles */}
         <div className="grid gap-10 lg:grid-cols-3">
           {recentBlogs.map((article) => (
-            <article key={article.title} className="group">
+            <article key={article.title} className="group flex flex-col h-full">
               <div className="overflow-hidden">
                 <Link href={`/blogs/${article.slug}`}>
                   <img
@@ -70,26 +70,31 @@ export default function BlogsHome() {
                 </span>
               </div>
 
-              <h3 className="mt-6 font-cormorant text-[28px] leading-[1.3] text-premium-black">
+              {/* line-clamp-2 restricts title to 2 lines max with ... */}
+              <h3 className="mt-6 font-cormorant text-[28px] leading-[1.3] text-premium-black line-clamp-2">
                 <Link href={`/blogs/${article.slug}`}>
                   {article.title}
                 </Link>
               </h3>
 
-              <p className="mt-5 text-[13px] leading-6 text-premium-black/80 font-sans">
+              {/* line-clamp-3 restricts description to 3 lines max with ... */}
+              <p className="mt-5 text-[13px] leading-6 text-premium-black/80 font-sans line-clamp-3">
                 {article.description}
               </p>
 
-              <Link 
-                href={`/blogs/${article.slug}`}
-                className="group/btn mt-8 inline-flex items-center gap-3 border-b border-[#C38A38] pb-2 text-xs uppercase tracking-[0.35em] text-premium-black font-sans"
-              >
-                Read The Note
-                <ArrowUpRight
-                  size={15}
-                  className="transition group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1"
-                />
-              </Link>
+              {/* mt-auto pushes this link to the bottom of the card */}
+              <div className="mt-auto pt-8">
+                <Link 
+                  href={`/blogs/${article.slug}`}
+                  className="group/btn inline-flex items-center gap-3 border-b border-[#C38A38] pb-2 text-xs uppercase tracking-[0.35em] text-premium-black font-sans w-fit"
+                >
+                  Read The Note
+                  <ArrowUpRight
+                    size={15}
+                    className="transition group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1"
+                  />
+                </Link>
+              </div>
             </article>
           ))}
         </div>

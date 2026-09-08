@@ -95,7 +95,7 @@ export default function StoneInstallationEssexCountyNjLayout({
         "name": "Tiles & Stones NJ",
         "url": "https://www.tilesandstonesnj.com/",
         "telephone": "+1-551-206-7097",
-        "email": "info@metrotilesandstones.com",
+        "email": "info@tilesandstonesnj.com",
         "description": "Tiles & Stones NJ provides tile, natural stone and masonry services for residential and commercial projects throughout Essex County, New Jersey.",
         "address": {
           "@type": "PostalAddress",

@@ -4,16 +4,18 @@ import ServiceHero from "@/components/services-page-components/ServiceHero";
 import ServicePageServices from "@/components/services-page-components/ServicePageServices";
 import Topbar from "@/components/layout/Topbar";
 import MobileContactEasy from "@/components/layout/MobileContactEasy";
+import BackToTopButton from "@/components/layout/BackToTopButton";
 
 export default function services() {
   return (
     <>
-    <Topbar/>
-    <Header/>
-    <ServiceHero />
-    <ServicePageServices />
-    <MobileContactEasy />
-    <Footer />
+      <Topbar />
+      <Header />
+      <ServiceHero />
+      <ServicePageServices />
+      <MobileContactEasy />
+      <BackToTopButton />
+      <Footer />
     </>
   );
 }

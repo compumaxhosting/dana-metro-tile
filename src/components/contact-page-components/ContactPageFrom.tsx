@@ -65,7 +65,7 @@ export default function ContactPageForm() {
                   </p>
 
                   <h3 className="font-cormorant text-theme-cream text-[30px] break-all">
-                    info@metrotilesandstones.com
+                    info@tilesandstonesnj.com
                   </h3>
                 </div>
               </div>

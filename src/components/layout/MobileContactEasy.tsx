@@ -5,7 +5,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 export default function MobileContactEasy() {
   const phoneNumber = "+15512067097"; // Replace with your number
   const whatsappNumber = "15512067097"; // Replace with your number (no +)
-  const emailAddress = "info@metrotilesandstones.com"; // Replace with your email address
+  const emailAddress = "info@tilesandstonesnj.com"; // Replace with your email address
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3 md:hidden">

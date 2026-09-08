@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import {FaFacebookF, FaInstagram, FaTiktok} from "react-icons/fa";
+import {FaFacebookF, FaInstagram, FaTiktok, } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -54,8 +55,8 @@ const Footer = () => {
                 551 206 7097
               </a>
 
-              <a href="mailto:info@metrotilesandstones.com" className="block hover:text-premium-beige transition-colors">
-                info@metrotilesandstones.com
+              <a href="mailto:info@tilesandstonesnj.com" className="block hover:text-premium-beige transition-colors">
+                info@tilesandstonesnj.com
               </a>
 
               <p>Wayne, NJ · By appointment</p>
@@ -87,10 +88,16 @@ const Footer = () => {
             </a>
 
             <a
-              href="#"
+              href="https://www.tiktok.com"
               className="hover:text-premium-beige transition-colors"
             >
               <FaTiktok />
+            </a>
+            <a
+              href="https://x.com/TilesStonesNJ"
+              className="hover:text-premium-beige transition-colors"
+            >
+              <FaXTwitter />
             </a>
           </div>
         </div>

@@ -126,7 +126,7 @@ export default function TileServicesBergenCountyNjLayout({
           "name": "Tiles & Stones NJ",
           "url": "https://www.tilesandstonesnj.com/",
           "telephone": "+1-551-206-7097",
-          "email": "info@metrotilesandstones.com",
+          "email": "info@tilesandstonesnj.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Wayne",

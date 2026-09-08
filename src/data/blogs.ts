@@ -1,34 +1,59 @@
 // Add new blogs to the TOP of this array. 
 // The home page will automatically pull the first 3.
 
-import { slabOnyxContent } from "./blog-content/slab-onyx";
+import { installationRepairRemodelingPassaicCountyNj, installationRepairRemodelingPassaicCountyNjMeta } from "./blog-content/installationRepairRemodelingPassaicCountyNj";
 
-export const blogs = [
+export interface BlogPost {
+  slug: string;
+  category: string;
+  date: string;
+  datePublished: string;
+  title: string;
+  description: string;
+  image: string;
+  author: {
+    name: string;
+  };
+  content: string;
+  seo: {
+    title: string;
+    description: string;
+    keywords: string;
+    ogImage: string;
+  };
+}
+
+export const blogs: BlogPost[] = [
   {
-    slug: "reading-a-slab-book-matched-onyx",
-    category: "MATERIAL",
-    date: "MARCH 2026",
-    title: "Reading a slab: the case for book-matched onyx.",
-    description: "Why we spend hours at the yard before a single cut, and what a vein tells us about the room it will live in.",
-    image: "/images/a2.webp",
-    // ⬇ INSERT FULL BLOG CONTENT HERE (HTML, Markdown, or standard text strings)
-    content: slabOnyxContent,
-    
-    // ⬇ INSERT SEO DATA HERE
+    slug: "installation-repair-remodeling-passaic-county-nj",
+    category: installationRepairRemodelingPassaicCountyNjMeta.category,
+    date: installationRepairRemodelingPassaicCountyNjMeta.date,
+    datePublished: installationRepairRemodelingPassaicCountyNjMeta.datePublished,
+    title: installationRepairRemodelingPassaicCountyNjMeta.titleText,
+    description: installationRepairRemodelingPassaicCountyNjMeta.summary,
+    image: installationRepairRemodelingPassaicCountyNjMeta.ogImage,
+    author: {
+      name: installationRepairRemodelingPassaicCountyNjMeta.authorName,
+    },
+    content: installationRepairRemodelingPassaicCountyNj,
     seo: {
-      title: "Reading a slab: the case for book-matched onyx | Your Studio Name",
-      description: "Discover why we spend hours at the yard before a single cut. Learn the art of selecting book-matched onyx.",
-      keywords: "onyx, book-matched, stone selection, marble yard, luxury interiors",
-      ogImage: "/images/a2.webp", // For social media sharing previews
+      title: installationRepairRemodelingPassaicCountyNjMeta.title,
+      description: installationRepairRemodelingPassaicCountyNjMeta.description,
+      keywords: installationRepairRemodelingPassaicCountyNjMeta.keywords,
+      ogImage: installationRepairRemodelingPassaicCountyNjMeta.ogImage,
     }
   },
   {
-    slug: "the-forgotten-geometry-of-herringbone",
+    slug: "page-not-found-guide",
     category: "TECHNIQUE",
-    date: "FEBRUARY 2026",
+    date: "",
+    datePublished: "2026-02-01T00:00:00Z",
     title: "The forgotten geometry of herringbone.",
     description: "A short history of a pattern that has quietly outlasted every design trend of the last four centuries.",
     image: "/images/a4.webp",
+    author: {
+      name: "Studio Expert",
+    },
     content: "<p>Full article content goes here...</p>",
     seo: {
       title: "The forgotten geometry of herringbone | Your Studio Name",
@@ -38,12 +63,16 @@ export const blogs = [
     }
   },
   {
-    slug: "wet-rooms-dry-logic-sealing-marble",
+    slug: "page-not-found-guide",
     category: "CRAFT",
-    date: "JANUARY 2026",
+    date: "",
+    datePublished: "2026-01-01T00:00:00Z",
     title: "Wet rooms, dry logic: sealing marble that lasts.",
     description: "The step-by-step sealing regimen we use to keep pale marble showers pristine for decades, not seasons.",
     image: "/images/a3.webp",
+    author: {
+      name: "Studio Expert",
+    },
     content: "<p>Full article content goes here...</p>",
     seo: {
       title: "Sealing Marble in Wet Rooms | Craft & Logic | Your Studio Name",

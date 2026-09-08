@@ -6,17 +6,21 @@ import Header from '@/components/layout/Header'
 import Principles from '@/components/about-page-components/Principles'
 import Topbar from '@/components/layout/Topbar'
 import React from 'react'
+import MobileContactEasy from '@/components/layout/MobileContactEasy'
+import BackToTopButton from '@/components/layout/BackToTopButton'
 
 const page = () => {
   return (
     <>
-    <Topbar/>
-    <Header />
-    <AboutHero />
-    <AboutFounder />
-    <Principles />
-    <AboutPageEndImage />
-    <Footer />
+      <Topbar />
+      <Header />
+      <AboutHero />
+      <AboutFounder />
+      <Principles />
+      <AboutPageEndImage />
+      <MobileContactEasy />
+      <BackToTopButton />
+      <Footer />
     </>
   )
 }
