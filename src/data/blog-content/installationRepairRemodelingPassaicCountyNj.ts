@@ -21,9 +21,11 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
       "headline": "Tile Installation, Repair & Remodeling in Passaic County, NJ: The Complete Homeowner’s Guide for 2026",
       "description": "A complete homeowner’s guide to tile installation, repair, replacement, and remodeling in Passaic County, NJ, including bathrooms, kitchens, showers, flooring, backsplashes, grout, and tile maintenance.",
       "url": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
+      "canonical": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj"
+        "@id": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
+        "canonical": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj"
       },
       "image": {
         "@type": "ImageObject",

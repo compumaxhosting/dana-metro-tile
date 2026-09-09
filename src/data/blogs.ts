@@ -20,6 +20,11 @@ export interface BlogPost {
     description: string;
     keywords: string;
     ogImage: string;
+    canonical?: string;
+    robots?: {
+      index: boolean;
+      follow: boolean;
+    };
   };
 }
 
@@ -41,6 +46,11 @@ export const blogs: BlogPost[] = [
       description: installationRepairRemodelingPassaicCountyNjMeta.description,
       keywords: installationRepairRemodelingPassaicCountyNjMeta.keywords,
       ogImage: installationRepairRemodelingPassaicCountyNjMeta.ogImage,
+      canonical: "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
+      robots: {
+        index: true,
+        follow: true,
+      }
     }
   },
   {
@@ -60,6 +70,10 @@ export const blogs: BlogPost[] = [
       description: "A short history of the herringbone pattern and why it outlasts design trends.",
       keywords: "herringbone, tile geometry, historic patterns, design technique",
       ogImage: "/images/a4.webp",
+      robots: {
+        index: false,
+        follow: false,
+      }
     }
   },
   {
@@ -79,6 +93,10 @@ export const blogs: BlogPost[] = [
       description: "Our step-by-step sealing regimen for keeping pale marble showers pristine for decades.",
       keywords: "marble sealing, wet room design, pale marble maintenance, bathroom stone",
       ogImage: "/images/a3.webp",
+      robots: {
+        index: false,
+        follow: false,
+      }
     }
   },
 ];

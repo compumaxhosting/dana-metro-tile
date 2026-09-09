@@ -24,14 +24,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Blog Not Found" };
   }
 
+  const canonicalUrl = blog.seo.canonical || `${SITE_URL}/blogs/${blog.slug}`;
+
   return {
     title: blog.seo.title,
     description: blog.seo.description,
     keywords: blog.seo.keywords,
+    robots: blog.seo.robots ? blog.seo.robots : undefined,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: blog.seo.title,
       description: blog.seo.description,
-      url: `${SITE_URL}/blogs/${blog.slug}`,
+      url: canonicalUrl,
       siteName: "Tiles & Stones NJ",
       images: [
         {
@@ -62,6 +68,8 @@ export default async function SingleBlogPage({ params }: Props) {
     notFound();
   }
 
+  const canonicalUrl = blog.seo.canonical || `${SITE_URL}/blogs/${blog.slug}`;
+
   // Schema.org structured data setup for Google Rich Results
   const jsonLd = {
     "@context": "https://schema.org",
@@ -84,7 +92,7 @@ export default async function SingleBlogPage({ params }: Props) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/blogs/${blog.slug}`,
+      "@id": canonicalUrl,
     },
   };
 
