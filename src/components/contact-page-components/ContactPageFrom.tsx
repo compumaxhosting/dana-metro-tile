@@ -7,7 +7,7 @@ export default function ContactPageForm() {
     <section
       className="relative overflow-hidden bg-[#1D1714] py-20 lg:py-18"
       style={{
-        backgroundImage: "url('/images/gallery-herringbone.webp')",
+        backgroundImage: "url('/images/gallery-herringbone.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -23,15 +23,15 @@ export default function ContactPageForm() {
               Begin
             </p>
 
-            <h1 className="font-cormorant text-theme-cream text-[46px] lg:text-[68px] leading-[1.05] max-w-[650px]">
-              Let's shape your{" "}
+            <h2 className="font-cormorant text-theme-cream text-[46px] lg:text-[68px] leading-[1.05] max-w-[650px]">
+              Let`&apos;s shape your{" "}
               <span className="italic text-premium-beige">next room.</span>
-            </h1>
+            </h2>
 
-            <h2 className="mt-5 max-w-[620px] text-white/90 text-[16px] leading-10 font-sans">
+            <p className="mt-5 max-w-[620px] text-white/90 text-[16px] leading-10 font-sans">
               Consultations are personal and unhurried. Share your project below
               or reach us directly — we respond within two business days.
-            </h2>
+            </p>
 
             <div className="mt-5 border-t border-white/20">
               {/* Phone */}
@@ -65,7 +65,7 @@ export default function ContactPageForm() {
                   </p>
 
                   <h3 className="font-cormorant text-theme-cream text-[30px] break-all">
-                    info@tilesandstonesnj.com
+                    info@metrotilesandstones.com
                   </h3>
                 </div>
               </div>
@@ -96,15 +96,17 @@ export default function ContactPageForm() {
               Request a Consultation
             </h3>
 
-            <form className="space-y-8 font-sans">
+            <form action="/api/contact" method="post" className="space-y-8 font-sans">
               <div>
                 <label className="block text-[11px] uppercase tracking-[4px] text-premium-black/70 mb-3">
                   Name
                 </label>
 
                 <input
+                  name="name"
                   type="text"
                   className="w-full bg-transparent border-b border-premium-black/20 pb-3 outline-none"
+                  required
                 />
               </div>
 
@@ -114,8 +116,10 @@ export default function ContactPageForm() {
                 </label>
 
                 <input
+                  name="email"
                   type="email"
                   className="w-full bg-transparent border-b border-premium-black/20 pb-3 outline-none"
+                  required
                 />
               </div>
 
@@ -125,6 +129,7 @@ export default function ContactPageForm() {
                 </label>
 
                 <input
+                  name="phone"
                   type="text"
                   className="w-full bg-transparent border-b border-premium-black/20 pb-3 outline-none"
                 />
@@ -136,6 +141,7 @@ export default function ContactPageForm() {
                 </label>
 
                 <input
+                  name="projectLocation"
                   type="text"
                   placeholder="City, NJ"
                   className="w-full bg-transparent border-b border-premium-black/20 pb-3 outline-none placeholder:text-premium-black/50"
@@ -148,12 +154,17 @@ export default function ContactPageForm() {
                 </label>
 
                 <textarea
+                  name="message"
                   rows={4}
                   className="w-full resize-none bg-transparent border-b border-premium-black/20 outline-none"
+                  required
                 />
               </div>
 
-              <button type="submit" className="flex h-12 items-center justify-center m-auto gap-4 bg-premium-black px-9 uppercase tracking-[0.3em] text-xs text-white transition hover:bg-caramel font-sans">
+              <button
+                type="submit"
+                className="flex h-12 items-center justify-center m-auto gap-4 bg-premium-black px-9 uppercase tracking-[0.3em] text-xs text-white transition hover:bg-caramel font-sans"
+              >
                 Send Inquiry
                 <ArrowUpRight size={18} />
               </button>
