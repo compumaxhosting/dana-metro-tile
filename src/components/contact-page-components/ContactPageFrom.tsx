@@ -30,7 +30,7 @@ export default function ContactPageForm() {
 
             <h2 className="mt-5 max-w-[620px] text-white/90 text-[16px] leading-10 font-sans">
               Consultations are personal and unhurried. Share your project below
-              or reach us directly — we respond within two business days.
+              or reach us directly we respond within two business days.
             </h2>
 
             <div className="mt-5 border-t border-white/20">
