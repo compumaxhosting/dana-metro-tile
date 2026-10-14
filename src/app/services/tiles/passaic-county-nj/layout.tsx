@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Tiles and Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/tiles/passaic-county-nj.jpg",
+        url: "https://www.tilesandstonesnj.com/images/hero-tiles.webp",
         alt: "Flooring and tile installation services in Passaic, New Jersey",
       },
     ],
