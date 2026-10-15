@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const masonryContractorWayneNjCustomMasonryIdeasMeta = {
   title: "Masonry Contractor in Wayne, NJ | Tiles & Stones NJ",
   description:
@@ -236,7 +238,7 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
   <!-- Introduction -->
   <div class="mb-12">
     <p class="text-[16px] leading-8 text-[#333333]">
-      A professional masonry contractor in Wayne, NJ can transform your home's exterior with custom brick, stone, pavers, concrete, and other masonry features designed for durability, function, and curb appeal. Popular projects include patios, walkways, retaining walls, outdoor fireplaces, stone veneer, steps, driveways, and custom outdoor living spaces.
+      A professional <a href="/blogs/installation-repair-remodeling-passaic-county-nj" class="text-[#b07932] hover:underline">masonry contractor in Wayne, NJ </a>can transform your home's exterior with custom brick, stone, pavers, concrete, and other masonry features designed for durability, function, and curb appeal. Popular projects include patios, walkways, retaining walls, outdoor fireplaces, stone veneer, steps, driveways, and custom outdoor living spaces.
     </p>
     <p class="mt-4 text-[16px] leading-8 text-[#333333]">
       For homeowners in Passaic County, Bergen County, Morris County, and Essex County, custom masonry provides an opportunity to improve both the appearance and functionality of a property while creating features that complement its existing architecture.
@@ -620,16 +622,16 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
       Why choose tilesandstonesnj.com for Masonry in Wayne, NJ?
     </h2>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      tilesandstonesnj.com helps homeowners plan masonry projects with an emphasis on quality workmanship, thoughtful design, appropriate materials, and clear communication. Whether you are considering a new patio, walkway, retaining wall, outdoor fireplace, masonry steps, stone veneer, driveway, or another custom feature, professional planning can make a significant difference in the finished result.
+      Tiles & Stones NJ helps homeowners plan masonry projects with an emphasis on quality workmanship, thoughtful design, appropriate materials, and clear communication. Whether you are considering a new patio, walkway, retaining wall, outdoor fireplace, masonry steps, stone veneer, driveway, or another custom feature, professional planning can make a significant difference in the finished result.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      For homeowners searching for a masonry contractor in Wayne, NJ, xyz.com can help with project planning, material selection, construction, and finishing. The company serves customers throughout Passaic County, Bergen County, Morris County, and Essex County, with a focus on creating attractive, functional masonry improvements suited to each property.
+      For homeowners searching for a masonry contractor in Wayne, NJ Tiles & Stones NJ can help with project planning, material selection, construction, and finishing. The company serves customers throughout Passaic County, Bergen County, Morris County, and Essex County, with a focus on creating attractive, functional masonry improvements suited to each property.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       Whether your goal is to enhance curb appeal, create an outdoor entertaining area, improve an entryway, or repair existing masonry, the right approach starts with understanding your property's specific needs.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Contact xyz.com today to discuss your masonry project, schedule a consultation, and request a personalized quote.
+      Contact Tiles & Stones NJ today to discuss your masonry project, schedule a consultation, and request a personalized quote.
     </p>
 
     <h3 id="conclusion" class="mt-8 mb-4 font-cormorant text-[26px] text-[#1A1A1A]">
@@ -639,7 +641,7 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
       Custom masonry gives Wayne, NJ homeowners numerous ways to improve their properties, from practical walkways and retaining walls to patios, outdoor fireplaces, driveways, steps, and complete outdoor living areas. The right combination of materials, design, drainage, site preparation, and professional installation can help create a durable and attractive result.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Homeowners can also enhance interior spaces with professional tile installation in Wayne, NJ, including kitchens, bathrooms, showers, floors, walls, backsplashes, and feature areas. For tile installation, repair, replacement, remodeling, and related services, homeowners can explore Tiles & Stones NJ.
+      Homeowners can also enhance interior spaces with professional tile installation in Wayne, NJ, including kitchens, bathrooms, showers, floors, walls, backsplashes, and feature areas. For tile installation, repair, replacement, remodeling, and related services, homeowners can explore <a href="/" class="text-[#b07932] hover:underline">Tiles & Stones NJ</a>.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       If you're planning a masonry or tile improvement in Wayne or the surrounding Passaic, Bergen, Morris, or Essex County communities, take the next step by contacting a qualified professional for an evaluation and project-specific estimate.
