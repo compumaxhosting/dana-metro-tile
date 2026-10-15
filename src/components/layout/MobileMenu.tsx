@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { Phone } from "lucide-react";
+import { ChevronDown, Phone } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -13,15 +13,21 @@ interface Props {
     name: string;
     href: string;
   }[];
+  serviceTypes: {
+    name: string;
+    path: string;
+  }[];
 }
 
 export default function MobileMenu({
   open,
   setOpen,
   navItems,
+  serviceTypes,
 }: Props) {
   const pathname = usePathname();
   const [topOffset, setTopOffset] = useState(0);
+  const [servicesOpen, setServicesOpen] = useState(false);
 
   useEffect(() => {
     if (!open) return;
@@ -57,6 +63,10 @@ export default function MobileMenu({
     };
   }, [open, setOpen]);
 
+  useEffect(() => {
+    if (!open) setServicesOpen(false);
+  }, [open]);
+
   return (
     <AnimatePresence mode="wait">
       {open && (
@@ -90,7 +100,12 @@ export default function MobileMenu({
 
               <nav className="flex-1">
                 {navItems.map((item, index) => {
-                  const isActive = item.href === "/" ? pathname === "/" : pathname === item.href;
+                  const isServices = item.name === "Services";
+                  const isActive = item.href === "/"
+                    ? pathname === "/"
+                    : isServices
+                      ? pathname.startsWith(item.href)
+                      : pathname === item.href;
 
                   return (
                     <motion.div
@@ -101,23 +116,94 @@ export default function MobileMenu({
                         delay: index * 0.08,
                       }}
                     >
-                      <Link
-                        href={item.href}
-                        onClick={() => setOpen(false)}
-                        className="group flex items-center justify-between border-b border-white/10 py-6"
-                      >
-                        <span
-                          className={`font-cormorant text-4xl transition group-hover:text-[#c89a4b] ${
-                            isActive ? "italic text-premium-beige" : "text-white"
-                          }`}
-                        >
-                          {item.name}
-                        </span>
+                      {isServices ? (
+                        <>
+                          <div className="flex items-center justify-between border-b border-white/10">
+                            <Link
+                              href={item.href}
+                              onClick={() => setOpen(false)}
+                              className="group flex flex-1 items-center justify-between py-6"
+                            >
+                              <span
+                                className={`font-cormorant text-4xl transition group-hover:text-[#c89a4b] ${
+                                  isActive ? "italic text-premium-beige" : "text-white"
+                                }`}
+                              >
+                                {item.name}
+                              </span>
 
-                        <span className="text-sm text-white/30">
-                          {String(index + 1).padStart(2, "0")}
-                        </span>
-                      </Link>
+                              <span className="mr-5 text-sm text-white/30">
+                                {String(index + 1).padStart(2, "0")}
+                              </span>
+                            </Link>
+                            <button
+                              type="button"
+                              aria-label={`${servicesOpen ? "Hide" : "Show"} service links`}
+                              aria-expanded={servicesOpen}
+                              aria-controls="mobile-services-dropdown"
+                              onClick={() => setServicesOpen((current) => !current)}
+                              className="p-4 text-white/70 transition-colors hover:text-[#c89a4b]"
+                            >
+                              <ChevronDown
+                                aria-hidden="true"
+                                className={`h-5 w-5 transition-transform duration-200 ${
+                                  servicesOpen ? "rotate-180" : ""
+                                }`}
+                              />
+                            </button>
+                          </div>
+                          <AnimatePresence initial={false}>
+                            {servicesOpen && (
+                              <motion.div
+                                id="mobile-services-dropdown"
+                                initial={{ height: 0, opacity: 0 }}
+                                animate={{ height: "auto", opacity: 1 }}
+                                exit={{ height: 0, opacity: 0 }}
+                                transition={{ duration: 0.2 }}
+                                className="overflow-hidden border-b border-white/10"
+                              >
+                                <div className="flex flex-col py-2 pl-5">
+                                  {serviceTypes.map((service, serviceIndex) => (
+                                    <Link
+                                      key={service.path}
+                                      href={`/services/${service.path}/wayne-county-nj`}
+                                      onClick={() => setOpen(false)}
+                                      className={`flex items-center justify-between py-3 font-cormorant text-2xl transition-colors hover:text-[#c89a4b] ${
+                                        pathname.startsWith(`/services/${service.path}/`)
+                                          ? "text-premium-beige"
+                                          : "text-white/80"
+                                      }`}
+                                    >
+                                      {service.name}
+                                      <span className="text-xs text-white/30">
+                                        0{serviceIndex + 1}
+                                      </span>
+                                    </Link>
+                                  ))}
+                                </div>
+                              </motion.div>
+                            )}
+                          </AnimatePresence>
+                        </>
+                      ) : (
+                        <Link
+                          href={item.href}
+                          onClick={() => setOpen(false)}
+                          className="group flex items-center justify-between border-b border-white/10 py-6"
+                        >
+                          <span
+                            className={`font-cormorant text-4xl transition group-hover:text-[#c89a4b] ${
+                              isActive ? "italic text-premium-beige" : "text-white"
+                            }`}
+                          >
+                            {item.name}
+                          </span>
+
+                          <span className="text-sm text-white/30">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                        </Link>
+                      )}
                     </motion.div>
                   );
                 })}

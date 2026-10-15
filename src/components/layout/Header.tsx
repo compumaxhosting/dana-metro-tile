@@ -213,6 +213,7 @@ export default function Header() {
         open={open}
         setOpen={setOpen}
         navItems={navItems}
+        serviceTypes={serviceTypes}
       />
     </>
   );
