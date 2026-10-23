@@ -85,7 +85,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="relative w-[200px] h-[78px] lg:w-[300px] lg:h-[80px]">
               <Image
-                src="/logo.png"
+                src="/eg.png"
                 alt="Metro Tiles & Stones"
                 fill
                 className="object-contain object-left"
