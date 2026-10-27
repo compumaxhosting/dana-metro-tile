@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     absolute: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
   },
   description:
-    "Meet Metro Tile & Stone, a New Jersey studio delivering precision tile, stone and masonry craftsmanship for discerning homeowners, designers and architects in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County.",
+    "Meet Tiles & Stones NJ, a New Jersey studio delivering precision tile, stone and masonry craftsmanship for discerning homeowners, designers and architects in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County.",
   keywords: [
     "Tile and stone services in Wayne, NJ",
     "Tile and stone services in Passaic County, NJ",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Stone and masonry contractors in Morris County, NJ",
     "Stone and masonry contractors in Essex County, NJ",
   ],
-  authors: [{ name: "Metro Tile & Stone" }],
+  authors: [{ name: "Tiles & Stones NJ" }],
   referrer: "strict-origin-when-cross-origin",
   robots: {
     index: true,
@@ -39,15 +39,15 @@ export const metadata: Metadata = {
     type: "website",
     title: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
     description:
-      "Discover Metro Tile & Stone's precision craftsmanship and two decades of experience delivering exceptional tile, stone and masonry work across New Jersey.",
+      "Discover Tiles & Stones NJ's precision craftsmanship and two decades of experience delivering exceptional tile, stone and masonry work across New Jersey.",
     url: "https://www.tilesandstonesnj.com/about",
-    siteName: "Metro Tile & Stone",
+    siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/a1.webp",
+        url: "https://www.tilesandstonesnj.com/images/a1.webp",
         width: 1200,
         height: 630,
-        alt: "Luxury custom stone craftsmanship by Metro Tile & Stone in New Jersey",
+        alt: "Luxury custom stone craftsmanship by Tiles & Stones NJ in New Jersey",
       },
     ],
   },
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
     description:
-      "Learn about Metro Tile & Stone and our precision approach to luxury tile, stone and masonry craftsmanship across New Jersey.",
-    images: ["/images/a1.webp"],
+      "Learn about Tiles & Stones NJ and our precision approach to luxury tile, stone and masonry craftsmanship across New Jersey.",
+    images: ["https://www.tilesandstonesnj.com/images/a1.webp"],
   },
 };
 
@@ -67,9 +67,9 @@ const jsonLd = {
       "@type": "AboutPage",
       "@id": "https://www.tilesandstonesnj.com/about#aboutpage",
       url: "https://www.tilesandstonesnj.com/about",
-      name: "About Metro Tile & Stone | NJ Tile, Stone & Masonry Experts",
+      name: "About Tiles & Stones NJ | NJ Tile, Stone & Masonry Experts",
       description:
-        "Learn about Metro Tile & Stone, a New Jersey tile, stone and masonry studio serving homeowners, designers and architects in Wayne, Passaic, Bergen, Morris and Essex County.",
+        "Learn about Tiles & Stones NJ, a New Jersey tile, stone and masonry studio serving homeowners, designers and architects in Wayne, Passaic, Bergen, Morris and Essex County.",
       isPartOf: {
         "@id": "https://www.tilesandstonesnj.com/#website",
       },
@@ -83,10 +83,10 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.tilesandstonesnj.com/#business",
-      name: "Metro Tile & Stone",
+      name: "Tiles & Stones NJ",
       url: "https://www.tilesandstonesnj.com/",
       description:
-        "Metro Tile & Stone provides precision tile, stone and masonry craftsmanship for homeowners, designers and architects throughout Northern New Jersey.",
+        "Tiles & Stones NJ provides precision tile, stone and masonry craftsmanship for homeowners, designers and architects throughout Northern New Jersey.",
       areaServed: [
         {
           "@type": "City",
@@ -185,7 +185,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.tilesandstonesnj.com/#website",
       url: "https://www.tilesandstonesnj.com/",
-      name: "Metro Tile & Stone",
+      name: "Tiles & Stones NJ",
       publisher: {
         "@id": "https://www.tilesandstonesnj.com/#business",
       },

@@ -26,21 +26,21 @@ export const metadata: Metadata = {
     title: "Residential & Commercial Tile Contractors in Wayne, NJ",
     description:
       "Explore residential and commercial tile projects by experienced contractors in Wayne, NJ, featuring detailed tile, stone and masonry craftsmanship.",
-    url: "/gallery",
+    url: "https://www.tilesandstonesnj.com/gallery",
     images: [
       {
-        url: "/images/b5.webp",
+        url: "https://www.tilesandstonesnj.com/images/b5.webp",
         width: 1200,
         height: 630,
-        alt: "Residential and commercial tile projects by Metro Tile & Stone in Wayne, NJ",
+        alt: "Residential and commercial tile projects by Tiles & Stones NJ in Wayne, NJ",
       },
     ],
   },
   twitter: {
     title: "Residential & Commercial Tile Contractors in Wayne, NJ",
     description:
-      "View residential and commercial tile projects by Metro Tile & Stone, serving Wayne, NJ with professional tile and stone craftsmanship.",
-    images: ["/images/b5.webp"],
+      "View residential and commercial tile projects by Tiles & Stones NJ, serving Wayne, NJ with professional tile and stone craftsmanship.",
+    images: ["https://www.tilesandstonesnj.com/images/b5.webp"],
   },
 };
 
@@ -53,7 +53,7 @@ const jsonLd = {
       url: "https://www.tilesandstonesnj.com/gallery",
       name: "Residential & Commercial Tile Contractors in Wayne, NJ",
       description:
-        "A gallery showcasing residential and commercial tile, stone and masonry craftsmanship by Metro Tile & Stone in Wayne, New Jersey.",
+        "A gallery showcasing residential and commercial tile, stone and masonry craftsmanship by Tiles & Stones NJ in Wayne, New Jersey.",
       isPartOf: {
         "@id": "https://www.tilesandstonesnj.com/#website",
       },

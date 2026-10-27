@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/f1.webp",
+        url: "https://www.tilesandstonesnj.com/images/f1.webp",
         alt: "Professional tile installation and repair services in Wayne, NJ",
       },
     ],
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Tile Services in Wayne, NJ | Installation & Repair",
     description:
       "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
-    images: ["/images/f1.webp"],
+    images: ["https://www.tilesandstonesnj.com/images/f1.webp"],
   },
 };
 
@@ -98,12 +98,6 @@ export default function TileServicesWayneNjLayout({
           {
             "@type": "City",
             "name": "Wayne",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Wayne",
-              "addressRegion": "NJ",
-              "addressCountry": "US",
-            },
           },
           {
             "@type": "AdministrativeArea",
@@ -129,12 +123,6 @@ export default function TileServicesWayneNjLayout({
           "url": "https://www.tilesandstonesnj.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Wayne",
-            "addressRegion": "NJ",
-            "addressCountry": "US",
-          },
           "areaServed": {
             "@type": "State",
             "name": "New Jersey",

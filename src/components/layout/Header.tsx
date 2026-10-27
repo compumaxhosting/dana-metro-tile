@@ -86,7 +86,7 @@ export default function Header() {
             <Link href="/" className="relative w-[200px] h-[78px] lg:w-[300px] lg:h-[80px]">
               <Image
                 src="/eg.png"
-                alt="Metro Tiles & Stones"
+                alt="Tiles & Stones NJ"
                 fill
                 className="object-contain object-left"
                 priority

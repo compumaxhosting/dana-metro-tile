@@ -11,6 +11,11 @@ import {
   masonryContractorWayneNjCustomMasonryIdeasMeta,
   masonryContractorWayneNjCustomMasonryIdeasSchema,
 } from "./blog-content/MasonryContractorWayneNjCustomMasonryIdeas";
+import {
+  howToChooseTileContractorWayneNj,
+  howToChooseTileContractorWayneNjMeta,
+  howToChooseTileContractorWayneNjSchema,
+} from "./blog-content/howToChooseTileContractorWayneNj";
 
 export interface BlogPost {
   slug: string;
@@ -24,7 +29,7 @@ export interface BlogPost {
     name: string;
   };
   content: string;
-  schema?: Record<string, any>;
+  schema?: Record<string, unknown>;
   seo: {
     title: string;
     description: string;
@@ -39,6 +44,32 @@ export interface BlogPost {
 }
 
 export const blogs: BlogPost[] = [
+  {
+    slug: howToChooseTileContractorWayneNjMeta.slug,
+    category: howToChooseTileContractorWayneNjMeta.category,
+    date: howToChooseTileContractorWayneNjMeta.date,
+    datePublished: howToChooseTileContractorWayneNjMeta.datePublished,
+    title: howToChooseTileContractorWayneNjMeta.titleText,
+    description: howToChooseTileContractorWayneNjMeta.summary,
+    image: howToChooseTileContractorWayneNjMeta.ogImage,
+    author: {
+      name: howToChooseTileContractorWayneNjMeta.authorName,
+    },
+    content: howToChooseTileContractorWayneNj,
+    schema: howToChooseTileContractorWayneNjSchema,
+    seo: {
+      title: howToChooseTileContractorWayneNjMeta.title,
+      description: howToChooseTileContractorWayneNjMeta.description,
+      keywords: howToChooseTileContractorWayneNjMeta.keywords,
+      ogImage: howToChooseTileContractorWayneNjMeta.ogImage,
+      canonical:
+        "https://www.tilesandstonesnj.com/blogs/how-to-choose-tile-contractor-wayne-nj",
+      robots: {
+        index: true,
+        follow: true,
+      },
+    },
+  },
   {
     slug: "masonry-contractor-wayne-nj-custom-masonry-ideas",
     category: masonryContractorWayneNjCustomMasonryIdeasMeta.category,
@@ -58,7 +89,7 @@ export const blogs: BlogPost[] = [
       keywords: masonryContractorWayneNjCustomMasonryIdeasMeta.keywords,
       ogImage: masonryContractorWayneNjCustomMasonryIdeasMeta.ogImage,
       canonical:
-        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
+        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas",
       robots: {
         index: true,
         follow: true,
@@ -88,32 +119,6 @@ export const blogs: BlogPost[] = [
       robots: {
         index: true,
         follow: true,
-      },
-    },
-  },
-  {
-    slug: "page-not-found-guide",
-    category: "CRAFT",
-    date: "",
-    datePublished: "2026-01-01T00:00:00Z",
-    title: "Wet rooms, dry logic: sealing marble that lasts.",
-    description:
-      "The step-by-step sealing regimen we use to keep pale marble showers pristine for decades, not seasons.",
-    image: "/images/a3.webp",
-    author: {
-      name: "Studio Expert",
-    },
-    content: "<p>Full article content goes here...</p>",
-    seo: {
-      title: "Sealing Marble in Wet Rooms | Craft & Logic | Your Studio Name",
-      description:
-        "Our step-by-step sealing regimen for keeping pale marble showers pristine for decades.",
-      keywords:
-        "marble sealing, wet room design, pale marble maintenance, bathroom stone",
-      ogImage: "/images/a3.webp",
-      robots: {
-        index: false,
-        follow: false,
       },
     },
   },

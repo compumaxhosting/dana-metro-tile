@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const canonicalUrl = blog.seo.canonical || `${SITE_URL}/blogs/${blog.slug}`;
+  const ogImageUrl = new URL(blog.seo.ogImage || blog.image, SITE_URL).toString();
 
   return {
     title: blog.seo.title,
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Tiles & Stones NJ",
       images: [
         {
-          url: blog.seo.ogImage || blog.image,
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: blog.title,
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: blog.seo.title,
       description: blog.seo.description,
-      images: [blog.seo.ogImage || blog.image],
+      images: [ogImageUrl],
     },
   };
 }
@@ -101,7 +102,7 @@ export default async function SingleBlogPage({ params }: Props) {
       {/* Dynamic JSON-LD Script Injection */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blog.schema ?? jsonLd) }}
       />
 
       <Topbar />

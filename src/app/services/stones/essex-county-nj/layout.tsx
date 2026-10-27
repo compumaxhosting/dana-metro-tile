@@ -97,12 +97,6 @@ export default function StoneInstallationEssexCountyNjLayout({
         "telephone": "+1-551-206-7097",
         "email": "info@tilesandstonesnj.com",
         "description": "Tiles & Stones NJ provides tile, natural stone and masonry services for residential and commercial projects throughout Essex County, New Jersey.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Wayne",
-          "addressRegion": "NJ",
-          "addressCountry": "US"
-        },
         "areaServed": [
           {
             "@type": "AdministrativeArea",

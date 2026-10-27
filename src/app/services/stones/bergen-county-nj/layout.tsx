@@ -99,17 +99,11 @@ export default function StoneInstallationBergenCountyNjLayout({
         "@type": "LocalBusiness",
         "@id": "https://www.tilesandstonesnj.com/#business",
         "name": "Tiles & Stones NJ",
-        "alternateName": "Metro Tile & Stone",
+        "alternateName": "Tiles & Stones NJ",
         "description": "Tile, stone and masonry contractor serving Bergen County and Northern New Jersey.",
         "url": "https://www.tilesandstonesnj.com/",
         "telephone": "+1-551-206-7097",
         "email": "info@tilesandstonesnj.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Wayne",
-          "addressRegion": "NJ",
-          "addressCountry": "US"
-        },
         "areaServed": [
           {
             "@type": "AdministrativeArea",

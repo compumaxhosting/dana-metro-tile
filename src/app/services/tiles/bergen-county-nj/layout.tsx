@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/f4.webp",
+        url: "https://www.tilesandstonesnj.com/images/f4.webp",
         alt: "Professional tile installation, repair and remodeling services in Bergen County, NJ",
       },
     ],
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     description:
       "Expert tile installation, repair and remodeling contractors in Bergen County, NJ. Professional flooring, bathroom, kitchen and backsplash tile services.",
     images: [
-      "/images/f4.webp",
+      "https://www.tilesandstonesnj.com/images/f4.webp",
     ],
   },
 };
@@ -127,12 +127,6 @@ export default function TileServicesBergenCountyNjLayout({
           "url": "https://www.tilesandstonesnj.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Wayne",
-            "addressRegion": "NJ",
-            "addressCountry": "US",
-          },
         },
         "areaServed": {
           "@type": "AdministrativeArea",

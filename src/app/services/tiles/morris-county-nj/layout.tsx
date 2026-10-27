@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/f2.webp",
+        url: "https://www.tilesandstonesnj.com/images/f2.webp",
         alt: "Professional tile installation and remodeling services in Morris County, NJ",
       },
     ],
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     description:
       "Complete tile installation and remodeling services in Morris County, NJ for bathrooms, kitchens, floors, showers, backsplashes, and custom tile projects.",
     images: [
-      "/images/f2.webp",
+      "https://www.tilesandstonesnj.com/images/f2.webp",
     ],
   },
 };
@@ -126,12 +126,6 @@ export default function TileServicesMorrisCountyNjLayout({
           "url": "https://www.tilesandstonesnj.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Wayne",
-            "addressRegion": "NJ",
-            "addressCountry": "US",
-          },
         },
         "areaServed": {
           "@type": "AdministrativeArea",

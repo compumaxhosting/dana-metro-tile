@@ -102,12 +102,6 @@ export default function StoneInstallationPassaicCountyNjLayout({
           "url": "https://www.tilesandstonesnj.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Wayne",
-            "addressRegion": "NJ",
-            "addressCountry": "US"
-          },
           "areaServed": [
             {
               "@type": "AdministrativeArea",

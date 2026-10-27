@@ -8,7 +8,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Tile, Stone & Masonry Blog | Wayne, Passaic, Bergen, Morris & Essex County NJ",
   description:
-    "Explore tile, stone and masonry tips, trends and project guidance from Metro Tile & Stone serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
+    "Explore tile, stone and masonry tips, trends and project guidance from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
   keywords: [
     "tile and stone blog Wayne NJ",
     "tile and stone blog Passaic County NJ",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     "masonry services NJ",
     "tile remodeling NJ",
     "stone remodeling NJ",
-    "Metro Tile & Stone blog",
+    "Tiles & Stones NJ blog",
   ],
-  authors: [{ name: "Metro Tile & Stone" }],
+  authors: [{ name: "Tiles & Stones NJ" }],
   other: {
     "service-area": "Wayne, NJ, Passaic County, NJ, Bergen County, NJ, Morris County, NJ, Essex County, NJ",
   },
@@ -53,13 +53,13 @@ export const metadata: Metadata = {
     type: "website",
     title: "Tile, Stone & Masonry Blog | Wayne, Passaic, Bergen, Morris & Essex County NJ",
     description:
-      "Discover expert tile, stone and masonry insights, trends and project guidance from Metro Tile & Stone across Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
+      "Discover expert tile, stone and masonry insights, trends and project guidance from Tiles & Stones NJ across Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
     url: "https://www.tilesandstonesnj.com/blogs",
-    siteName: "Metro Tile & Stone",
+    siteName: "Tiles & Stones NJ",
     images: [
       {
         url: "https://www.tilesandstonesnj.com/images/e1.webp",
-        alt: "Tile, stone and masonry insights from Metro Tile & Stone serving Wayne, Passaic, Bergen, Morris and Essex County, NJ",
+        alt: "Tile, stone and masonry insights from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ",
       },
     ],
   },
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tile, Stone & Masonry Blog | Wayne, Passaic, Bergen, Morris & Essex County NJ",
     description:
-      "Explore expert tile, stone and masonry tips, trends and project guidance from Metro Tile & Stone serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
+      "Explore expert tile, stone and masonry tips, trends and project guidance from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
     images: [
       "https://www.tilesandstonesnj.com/images/e1.webp",
     ],
@@ -89,7 +89,7 @@ export default function BlogIndexLayout({
         "@id": "https://www.tilesandstonesnj.com/blogs#collectionpage",
         "url": "https://www.tilesandstonesnj.com/blogs",
         "name": "Tile, Stone & Masonry Blog | Wayne, Passaic, Bergen, Morris & Essex County NJ",
-        "description": "Explore tile, stone and masonry tips, trends and project guidance from Metro Tile & Stone serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
+        "description": "Explore tile, stone and masonry tips, trends and project guidance from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
         "isPartOf": {
           "@id": "https://www.tilesandstonesnj.com/#website"
         },
@@ -107,7 +107,7 @@ export default function BlogIndexLayout({
         "@type": "Blog",
         "@id": "https://www.tilesandstonesnj.com/blogs#blog",
         "url": "https://www.tilesandstonesnj.com/blogs",
-        "name": "Metro Tile & Stone Blog",
+        "name": "Tiles & Stones NJ Blog",
         "description": "Expert insights, ideas and guidance about tile, stone and masonry installation, repair and remodeling throughout Northern New Jersey.",
         "publisher": {
           "@id": "https://www.tilesandstonesnj.com/#business"
@@ -128,9 +128,9 @@ export default function BlogIndexLayout({
       {
         "@type": "LocalBusiness",
         "@id": "https://www.tilesandstonesnj.com/#business",
-        "name": "Metro Tile & Stone",
+        "name": "Tiles & Stones NJ",
         "url": "https://www.tilesandstonesnj.com/",
-        "description": "Metro Tile & Stone provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
+        "description": "Tiles & Stones NJ provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
         "areaServed": [
           {
             "@type": "City",
@@ -188,7 +188,7 @@ export default function BlogIndexLayout({
       {
         "@type": "ItemList",
         "@id": "https://www.tilesandstonesnj.com/blogs#topics",
-        "name": "Metro Tile & Stone Blog Topics",
+        "name": "Tiles & Stones NJ Blog Topics",
         "description": "Tile, stone and masonry topics for homeowners, designers and property owners in Northern New Jersey.",
         "itemListElement": [
           {
@@ -269,7 +269,7 @@ export default function BlogIndexLayout({
         "@type": "WebSite",
         "@id": "https://www.tilesandstonesnj.com/#website",
         "url": "https://www.tilesandstonesnj.com/",
-        "name": "Metro Tile & Stone",
+        "name": "Tiles & Stones NJ",
         "publisher": {
           "@id": "https://www.tilesandstonesnj.com/#business"
         },

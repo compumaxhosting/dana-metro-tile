@@ -7,7 +7,7 @@ export const metadata: Metadata = {
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
   },
   description:
-    "Contact Metro Tile & Stone for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
+    "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
   keywords: [
     "contact tile contractor Wayne NJ",
     "contact tile contractor Passaic County NJ",
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     "tile installation NJ",
     "stone installation NJ",
     "masonry services NJ",
-    "Metro Tile & Stone contact",
+    "Tiles & Stones NJ contact",
     "tile contractor phone Wayne NJ",
     "tile stone masonry contractors Northern NJ",
   ],
-  authors: [{ name: "Metro Tile & Stone" }],
+  authors: [{ name: "Tiles & Stones NJ" }],
   other: {
     "service-area":
       "Wayne, NJ, Passaic County, NJ, Bergen County, NJ, Morris County, NJ, Essex County, NJ",
@@ -53,15 +53,15 @@ export const metadata: Metadata = {
     title:
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
     description:
-      "Contact Metro Tile & Stone for professional tile, stone and masonry services throughout Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
-    url: "/contact",
-    siteName: "Metro Tile & Stone",
+      "Contact Tiles & Stones NJ for professional tile, stone and masonry services throughout Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
+    url: "https://www.tilesandstonesnj.com/contact",
+    siteName: "Tiles & Stones NJ",
     images: [
       {
         url: "https://www.tilesandstonesnj.com/images/b2.webp",
         width: 1200,
         height: 630,
-        alt: "Contact Metro Tile & Stone for tile, stone and masonry services in Wayne and Northern New Jersey",
+        alt: "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne and Northern New Jersey",
       },
     ],
   },
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title:
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
     description:
-      "Contact Metro Tile & Stone for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation.",
+      "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation.",
     images: ["https://www.tilesandstonesnj.com/images/b2.webp"],
   },
   referrer: "strict-origin-when-cross-origin",
@@ -83,9 +83,9 @@ const jsonLd = {
       "@type": "ContactPage",
       "@id": "https://www.tilesandstonesnj.com/contact#contactpage",
       url: "https://www.tilesandstonesnj.com/contact",
-      name: "Contact Metro Tile & Stone | Tile, Stone & Masonry Contractors in Wayne, NJ",
+      name: "Contact Tiles & Stones NJ | Tile, Stone & Masonry Contractors in Wayne, NJ",
       description:
-        "Contact Metro Tile & Stone for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
+        "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
       isPartOf: {
         "@id": "https://www.tilesandstonesnj.com/#website",
       },
@@ -102,11 +102,11 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.tilesandstonesnj.com/#business",
-      name: "Metro Tile & Stone",
+      name: "Tiles & Stones NJ",
       url: "https://www.tilesandstonesnj.com/",
       telephone: "+1-551-206-7097",
       description:
-        "Metro Tile & Stone provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
+        "Tiles & Stones NJ provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
       areaServed: [
         {
           "@type": "City",
@@ -259,7 +259,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.tilesandstonesnj.com/#website",
       url: "https://www.tilesandstonesnj.com/",
-      name: "Metro Tile & Stone",
+      name: "Tiles & Stones NJ",
       publisher: {
         "@id": "https://www.tilesandstonesnj.com/#business",
       },

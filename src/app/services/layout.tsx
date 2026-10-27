@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "stone contractors New Jersey",
     "masonry contractors New Jersey"
   ],
-  authors: [{ name: "Metro Tile & Stone" }],
+  authors: [{ name: "Tiles & Stones NJ" }],
   referrer: "strict-origin-when-cross-origin",
   robots: {
     index: true,
@@ -54,13 +54,13 @@ export const metadata: Metadata = {
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
     description: "Trusted tile, stone and masonry contractors serving Wayne, Passaic, Bergen, Morris and Essex Counties in New Jersey. Expert installation, repair and remodeling for residential and commercial projects.",
     url: "https://www.tilesandstonesnj.com/services",
-    siteName: "Metro Tile & Stone",
+    siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/hero-tiles.webp",
+        url: "https://www.tilesandstonesnj.com/images/hero-tiles.webp",
         width: 1200,
         height: 630,
-        alt: "Tile, stone and masonry installation, repair and remodeling by Metro Tile & Stone in Northern New Jersey",
+        alt: "Tile, stone and masonry installation, repair and remodeling by Tiles & Stones NJ in Northern New Jersey",
       },
     ],
     locale: "en_US",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
     description: "Expert tile, stone and masonry contractors serving Wayne, Passaic, Bergen, Morris and Essex Counties in New Jersey for professional installation, repair and remodeling services.",
-    images: ["/images/hero-tiles.webp"],
+    images: ["https://www.tilesandstonesnj.com/images/hero-tiles.webp"],
   },
 };
 
@@ -98,9 +98,9 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.tilesandstonesnj.com/#business",
-      "name": "Metro Tile & Stone",
+      "name": "Tiles & Stones NJ",
       "url": "https://www.tilesandstonesnj.com/",
-      "description": "Metro Tile & Stone provides professional tile, stone and masonry installation, repair and remodeling services for residential and commercial projects throughout Northern New Jersey.",
+      "description": "Tiles & Stones NJ provides professional tile, stone and masonry installation, repair and remodeling services for residential and commercial projects throughout Northern New Jersey.",
       "areaServed": [
         {
           "@type": "City",
@@ -222,7 +222,7 @@ const jsonLd = {
     {
       "@type": "OfferCatalog",
       "@id": "https://www.tilesandstonesnj.com/services#catalog",
-      "name": "Metro Tile & Stone Services",
+      "name": "Tiles & Stones NJ Services",
       "itemListElement": [
         {
           "@type": "Offer",
@@ -338,7 +338,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.tilesandstonesnj.com/#website",
       "url": "https://www.tilesandstonesnj.com/",
-      "name": "Metro Tile & Stone",
+      "name": "Tiles & Stones NJ",
       "publisher": {
         "@id": "https://www.tilesandstonesnj.com/#business"
       }

@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "/images/f3.webp",
+        url: "https://www.tilesandstonesnj.com/images/f3.webp",
         alt: "Residential and commercial tile services in Essex County, NJ",
       },
     ],
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     description:
       "Expert residential and commercial tile services in Essex County, NJ, including tile installation, repair, remodeling, flooring, bathrooms, kitchens, and backsplashes.",
     images: [
-      "/images/f3.webp",
+      "https://www.tilesandstonesnj.com/images/f3.webp",
     ],
   },
 };
@@ -129,12 +129,6 @@ export default function TileServicesEssexCountyNjLayout({
           "url": "https://www.tilesandstonesnj.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Wayne",
-            "addressRegion": "NJ",
-            "addressCountry": "US",
-          },
         },
         "audience": [
           {

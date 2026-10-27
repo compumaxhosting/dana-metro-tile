@@ -7,11 +7,6 @@ import Topbar from "@/components/layout/Topbar";
 import BackToTopButton from "@/components/layout/BackToTopButton";
 import MobileContactEasy from "@/components/layout/MobileContactEasy";
 
-export const metadata = {
-  title: "All Studio Notes | Your Studio Name",
-  description: "Browse all field notes on material, technique, and design logic.",
-};
-
 export default function AllBlogsPage() {
   return (
     <>
