@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {FaFacebookF, FaInstagram, FaTiktok, } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -72,32 +71,26 @@ const Footer = () => {
             © 2026 Tiles & Stones NJ. All Rights Reserved.
           </p>
 
-          <div className="flex items-center gap-6 text-lg text-gray-400">
+          <div className="flex items-center gap-4">
             <a
               href="https://www.instagram.com/tiles.stones.masonry.nj/"
-              className="hover:text-premium-beige transition-colors"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white transition-transform hover:scale-110"
             >
               <FaInstagram />
             </a>
 
             <a
               href="https://www.facebook.com/profile.php?id=61594003410457"
-              className="hover:text-premium-beige transition-colors"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-[#1877F2] text-white transition-transform hover:scale-110"
             >
               <FaFacebookF />
             </a>
 
             <a
               href="https://www.tiktok.com"
-              className="hover:text-premium-beige transition-colors"
+              className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-[#25F4EE] bg-black text-white shadow-[2px_2px_0_#FE2C55] transition-transform hover:scale-110"
             >
               <FaTiktok />
-            </a>
-            <a
-              href="https://x.com/TilesStonesNJ"
-              className="hover:text-premium-beige transition-colors"
-            >
-              <FaXTwitter />
             </a>
           </div>
         </div>

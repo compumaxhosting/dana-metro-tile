@@ -5,7 +5,6 @@ import {
   FiMail
 } from "react-icons/fi";
 import { FaTiktok } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 const Topbar = () => {
   return (
     <div className="relative z-50 w-full border-b border-white/10 bg-premium-black">
@@ -32,17 +31,14 @@ const Topbar = () => {
           </div>
 
           <div className="flex items-center gap-4 text-theme-cream">
-            <a href="https://www.instagram.com/tiles.stones.masonry.nj/" className="hover:text-theme-cream transition-colors">
+            <a href="https://www.instagram.com/tiles.stones.masonry.nj/" className="flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 p-1.5 text-white transition-transform hover:scale-110">
               <FiInstagram size={14} />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61594003410457" className="hover:text-theme-cream transition-colors">
+            <a href="https://www.facebook.com/profile.php?id=61594003410457" className="flex items-center justify-center rounded-full bg-[#1877F2] p-1.5 text-white transition-transform hover:scale-110">
               <FiFacebook size={14} />
             </a>
-            <a href="https://www.tiktok.com" className="hover:text-theme-cream transition-colors">
+            <a href="https://www.tiktok.com" className="flex items-center justify-center rounded-full border-2 border-[#25F4EE] bg-black p-1.5 text-white shadow-[2px_2px_0_#FE2C55] transition-transform hover:scale-110">
               <FaTiktok size={14} />
-            </a>
-            <a href="https://x.com/TilesStonesNJ" className="hover:text-theme-cream transition-colors">
-              <FaXTwitter size={14} />
             </a>
           </div>
         </div>
@@ -58,34 +54,28 @@ const Topbar = () => {
           </a>
 
           <div className="flex items-center gap-4 text-theme-cream">
-            <a href="https://www.instagram.com/tiles.stones.masonry.nj/" className="hover:text-theme-cream transition-colors">
+            <a href="https://www.instagram.com/tiles.stones.masonry.nj/" className="flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 p-1.5 text-white transition-transform hover:scale-110">
               <FiInstagram size={14} />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61594003410457" className="hover:text-theme-cream transition-colors">
+            <a href="https://www.facebook.com/profile.php?id=61594003410457" className="flex items-center justify-center rounded-full bg-[#1877F2] p-1.5 text-white transition-transform hover:scale-110">
               <FiFacebook size={14} />
             </a>
-            <a href="https://www.tiktok.com" className="hover:text-theme-cream transition-colors">
+            <a href="https://www.tiktok.com" className="flex items-center justify-center rounded-full border-2 border-[#25F4EE] bg-black p-1.5 text-white shadow-[2px_2px_0_#FE2C55] transition-transform hover:scale-110">
               <FaTiktok size={14} />
-            </a>
-            <a href="https://x.com/TilesStonesNJ" className="hover:text-theme-cream transition-colors">
-              <FaXTwitter size={14} />
             </a>
           </div>
         </div>
 
         {/* --- MOBILE VIEW (below 768px): Social Icons Centered --- */}
         <div className="flex md:hidden items-center justify-center gap-6 w-full text-theme-cream py-2">
-          <a href="https://www.instagram.com/tiles.stones.masonry.nj/" className="hover:text-theme-cream transition-colors">
+          <a href="https://www.instagram.com/tiles.stones.masonry.nj/" className="flex items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 p-2 text-white transition-transform hover:scale-110">
             <FiInstagram size={22} />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61594003410457" className="hover:text-theme-cream transition-colors">
+          <a href="https://www.facebook.com/profile.php?id=61594003410457" className="flex items-center justify-center rounded-full bg-[#1877F2] p-2 text-white transition-transform hover:scale-110">
             <FiFacebook size={22} />
           </a>
-          <a href="https://www.tiktok.com" className="hover:text-theme-cream transition-colors">
+          <a href="https://www.tiktok.com" className="flex items-center justify-center rounded-full border-2 border-[#25F4EE] bg-black p-2 text-white shadow-[2px_2px_0_#FE2C55] transition-transform hover:scale-110">
             <FaTiktok size={22} />
-          </a>
-          <a href="https://x.com/TilesStonesNJ" className="hover:text-theme-cream transition-colors">
-            <FaXTwitter size={22} />
           </a>
         </div>
 
