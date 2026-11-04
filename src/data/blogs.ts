@@ -16,6 +16,11 @@ import {
   howToChooseTileContractorWayneNjMeta,
   howToChooseTileContractorWayneNjSchema,
 } from "./blog-content/howToChooseTileContractorWayneNj";
+import {
+  bathroomTileInstallationCostNewJersey,
+  bathroomTileInstallationCostNewJerseyMeta,
+  bathroomTileInstallationCostNewJerseySchema,
+} from "./blog-content/bathroomTileInstallationCostNewJersey";
 
 export interface BlogPost {
   slug: string;
@@ -44,6 +49,32 @@ export interface BlogPost {
 }
 
 export const blogs: BlogPost[] = [
+  {
+    slug: bathroomTileInstallationCostNewJerseyMeta.slug,
+    category: bathroomTileInstallationCostNewJerseyMeta.category,
+    date: bathroomTileInstallationCostNewJerseyMeta.date,
+    datePublished: bathroomTileInstallationCostNewJerseyMeta.datePublished,
+    title: bathroomTileInstallationCostNewJerseyMeta.titleText,
+    description: bathroomTileInstallationCostNewJerseyMeta.summary,
+    image: bathroomTileInstallationCostNewJerseyMeta.ogImage,
+    author: {
+      name: bathroomTileInstallationCostNewJerseyMeta.authorName,
+    },
+    content: bathroomTileInstallationCostNewJersey,
+    schema: bathroomTileInstallationCostNewJerseySchema,
+    seo: {
+      title: bathroomTileInstallationCostNewJerseyMeta.title,
+      description: bathroomTileInstallationCostNewJerseyMeta.description,
+      keywords: bathroomTileInstallationCostNewJerseyMeta.keywords,
+      ogImage: bathroomTileInstallationCostNewJerseyMeta.ogImage,
+      canonical:
+        "https://www.tilesandstonesnj.com/blogs/bathroom-tile-installation-cost-new-jersey",
+      robots: {
+        index: true,
+        follow: true,
+      },
+    },
+  },
   {
     slug: howToChooseTileContractorWayneNjMeta.slug,
     category: howToChooseTileContractorWayneNjMeta.category,
