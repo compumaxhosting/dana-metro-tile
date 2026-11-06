@@ -184,8 +184,8 @@ export default async function SingleBlogPage({ params }: Props) {
                   Contact Us Now
                 </Link>
                 <div className="pt-2 border-t border-neutral-800">
-                  <a href="tel:9735550123" className="font-cormorant text-[20px] font-semibold tracking-wide hover:text-[#C38A38] transition-colors flex items-center justify-center gap-2">
-                    (973) 555-0123
+                  <a href="tel:+15512067097" className="font-cormorant text-[20px] font-semibold tracking-wide hover:text-[#C38A38] transition-colors flex items-center justify-center gap-2">
+                    551 206 7097
                   </a>
                 </div>
               </div>
