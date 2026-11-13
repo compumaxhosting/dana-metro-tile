@@ -21,6 +21,11 @@ import {
   bathroomTileInstallationCostNewJerseyMeta,
   bathroomTileInstallationCostNewJerseySchema,
 } from "./blog-content/bathroomTileInstallationCostNewJersey";
+import {
+  ceramicFloorTileInstallationMorrisCountyNj,
+  ceramicFloorTileInstallationMorrisCountyNjMeta,
+  ceramicFloorTileInstallationMorrisCountyNjSchema,
+} from "./blog-content/ceramicFloorTileInstallationMorrisCountyNj";
 
 export interface BlogPost {
   slug: string;
@@ -49,6 +54,32 @@ export interface BlogPost {
 }
 
 export const blogs: BlogPost[] = [
+  {
+    slug: ceramicFloorTileInstallationMorrisCountyNjMeta.slug,
+    category: ceramicFloorTileInstallationMorrisCountyNjMeta.category,
+    date: ceramicFloorTileInstallationMorrisCountyNjMeta.date,
+    datePublished: ceramicFloorTileInstallationMorrisCountyNjMeta.datePublished,
+    title: ceramicFloorTileInstallationMorrisCountyNjMeta.titleText,
+    description: ceramicFloorTileInstallationMorrisCountyNjMeta.summary,
+    image: ceramicFloorTileInstallationMorrisCountyNjMeta.ogImage,
+    author: {
+      name: ceramicFloorTileInstallationMorrisCountyNjMeta.authorName,
+    },
+    content: ceramicFloorTileInstallationMorrisCountyNj,
+    schema: ceramicFloorTileInstallationMorrisCountyNjSchema,
+    seo: {
+      title: ceramicFloorTileInstallationMorrisCountyNjMeta.title,
+      description: ceramicFloorTileInstallationMorrisCountyNjMeta.description,
+      keywords: ceramicFloorTileInstallationMorrisCountyNjMeta.keywords,
+      ogImage: ceramicFloorTileInstallationMorrisCountyNjMeta.ogImage,
+      canonical:
+        "https://www.tilesandstonesnj.com/blogs/ceramic-floor-tile-installation-morris-county-nj",
+      robots: {
+        index: true,
+        follow: true,
+      },
+    },
+  },
   {
     slug: bathroomTileInstallationCostNewJerseyMeta.slug,
     category: bathroomTileInstallationCostNewJerseyMeta.category,
