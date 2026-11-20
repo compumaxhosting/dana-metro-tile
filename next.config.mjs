@@ -8,6 +8,16 @@ const nextConfig = {
         destination: "/services/tiles/wayne-nj",
         permanent: true,
       },
+      {
+        source: "/services/stones/wayne-county-nj",
+        destination: "/services/stones/wayne-nj",
+        permanent: true,
+      },
+      {
+        source: "/services/masonry/wayne-county-nj",
+        destination: "/services/masonry/wayne-nj",
+        permanent: true,
+      },
     ];
   },
 };
