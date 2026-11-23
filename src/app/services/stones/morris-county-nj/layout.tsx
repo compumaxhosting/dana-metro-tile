@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/stones/morris-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/stones/morris-county-nj",
   },
   robots: {
     index: true,
@@ -57,11 +57,11 @@ export const metadata: Metadata = {
     title: "Expert Stone Installation Services in Morris County, NJ",
     description:
       "Find expert tile and natural stone services in Morris County, NJ, including marble, quartzite, travertine, onyx, kitchens, baths and fireplaces.",
-    url: "https://www.tilesandstonesnj.com/services/stones/morris-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/stones/morris-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/f1.webp",
+        url: "https://www.metrogroupconstruction.com/images/f1.webp",
         alt: "Expert tile and natural stone installation services in Morris County NJ",
       },
     ],
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     description:
       "Find expert tile and natural stone services in Morris County, NJ, including marble, quartzite, travertine, onyx, kitchens, baths and fireplaces.",
     images: [
-      "https://www.tilesandstonesnj.com/images/f1.webp",
+      "https://www.metrogroupconstruction.com/images/f1.webp",
     ],
   },
 };
@@ -89,9 +89,9 @@ export default function StoneInstallationMorrisCountyNjLayout({
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "description": "Tiles & Stones NJ provides custom tile and natural stone services for kitchens, bathrooms, fireplaces, countertops, feature walls and other residential projects throughout Morris County, New Jersey.",
         "areaServed": {
           "@type": "AdministrativeArea",
@@ -120,17 +120,17 @@ export default function StoneInstallationMorrisCountyNjLayout({
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj#service",
         "name": "Tile and Natural Stone Services in Morris County, NJ",
         "serviceType": "Custom Tile and Natural Stone Installation",
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Morris County, New Jersey"
         },
-        "url": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj",
         "description": "Custom tile and natural stone solutions in Morris County, NJ, including marble, quartzite, travertine, onyx, stone countertops, backsplashes, fireplaces and feature walls.",
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -197,57 +197,57 @@ export default function StoneInstallationMorrisCountyNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj",
         "name": "Expert Stone Installation Services in Morris County, NJ",
         "description": "Find expert tile and natural stone services in Morris County, NJ, including marble, quartzite, travertine, onyx, kitchens, baths and fireplaces.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
+          "@id": "https://www.metrogroupconstruction.com/#website",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/"
+          "url": "https://www.metrogroupconstruction.com/"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Stone Services",
-            "item": "https://www.tilesandstonesnj.com/services/stones/"
+            "item": "https://www.metrogroupconstruction.com/services/stones/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Morris County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/morris-county-nj#faq",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/morris-county-nj#faq",
         "mainEntity": [
           {
             "@type": "Question",

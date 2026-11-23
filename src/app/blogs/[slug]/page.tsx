@@ -14,7 +14,7 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.tilesandstonesnj.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.metrogroupconstruction.com";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

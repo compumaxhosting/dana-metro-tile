@@ -8,7 +8,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Flooring & Tile Installation Contractors in Passaic, New Jersey",
   description:
-    "Expert flooring and tile installation contractors in Passaic, NJ. Get professional tile, flooring, repair, and installation services from Tiles and Stones NJ.",
+    "Expert flooring and tile installation contractors in Passaic, NJ. Get professional tile, flooring, repair, and installation services from metro group construction.",
   keywords: [
     "flooring contractors Passaic NJ",
     "tile installation contractors Passaic NJ",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     "who provides flooring installation services in Passaic, NJ",
     "affordable flooring and tile installation services in Passaic, NJ",
   ],
-  authors: [{ name: "Tiles and Stones NJ" }],
+  authors: [{ name: "metro group construction" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj",
   },
   robots: {
     index: true,
@@ -38,12 +38,12 @@ export const metadata: Metadata = {
     type: "website",
     title: "Flooring & Tile Installation Contractors in Passaic, New Jersey",
     description:
-      "Professional flooring and tile installation contractors in Passaic, NJ. Expert installation, repair, and restoration services from Tiles and Stones NJ.",
-    url: "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
-    siteName: "Tiles and Stones NJ",
+      "Professional flooring and tile installation contractors in Passaic, NJ. Expert installation, repair, and restoration services from metro group construction.",
+    url: "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj",
+    siteName: "metro group construction",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/hero-tiles.webp",
+        url: "https://www.metrogroupconstruction.com/images/hero-tiles.webp",
         alt: "Flooring and tile installation services in Passaic, New Jersey",
       },
     ],
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     description:
       "Professional flooring and tile installation contractors in Passaic, NJ. Expert installation, repair, and restoration services.",
     images: [
-      "https://www.tilesandstonesnj.com/images/tiles/hero-tiles.webp",
+      "https://www.metrogroupconstruction.com/images/tiles/hero-tiles.webp",
     ],
   },
 };
@@ -71,31 +71,31 @@ export default function FlooringTileInstallationPassaicNjLayout({
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj",
         "name": "Tile Installation, Repair & Remodeling in Passaic County, NJ",
         "description": "Residential and commercial tile installation, repair, replacement, remodeling, flooring, bathroom, kitchen, backsplash, and grout services throughout Passaic County, NJ.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
-          "url": "https://www.tilesandstonesnj.com/",
+          "@id": "https://www.metrogroupconstruction.com/#website",
+          "url": "https://www.metrogroupconstruction.com/",
           "name": "Tiles & Stones NJ"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj#service"
         },
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.tilesandstonesnj.com/images/hero-tiles.webp"
+          "url": "https://www.metrogroupconstruction.com/images/hero-tiles.webp"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj#service",
         "name": "Tile Services in Passaic County, NJ",
         "serviceType": [
           "Tile Installation",
@@ -112,12 +112,12 @@ export default function FlooringTileInstallationPassaicNjLayout({
           "Grout Repair"
         ],
         "description": "Professional residential and commercial tile installation, repair, replacement, remodeling, flooring, bathroom, kitchen, backsplash, wall tile, large-format tile, and grout services throughout Passaic County, New Jersey.",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj",
         "provider": {
           "@type": "LocalBusiness",
-          "@id": "https://www.tilesandstonesnj.com/#business",
+          "@id": "https://www.metrogroupconstruction.com/#business",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/",
+          "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
         },
@@ -132,25 +132,25 @@ export default function FlooringTileInstallationPassaicNjLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Tile Services in Passaic County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj"
           }
         ]
       }

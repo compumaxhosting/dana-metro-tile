@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.tilesandstonesnj.com"),
+  metadataBase: new URL("https://www.metrogroupconstruction.com"),
   
   title: {
     default: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
@@ -84,11 +84,11 @@ export const metadata: Metadata = {
     type: "website",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
     description: "Expert tile, stone and masonry services in Wayne, NJ with quality craftsmanship and professional installation for residential and commercial projects.",
-    url: "https://www.tilesandstonesnj.com/",
+    url: "https://www.metrogroupconstruction.com/",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/og-image.jpg",
+        url: "https://www.metrogroupconstruction.com/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Tile, stone and masonry services in Wayne, New Jersey",
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
     description: "Expert tile, stone and masonry services in Wayne, NJ with quality craftsmanship and professional installation.",
-    images: ["https://www.tilesandstonesnj.com/images/og-image.jpg"],
+    images: ["https://www.metrogroupconstruction.com/images/og-image.jpg"],
   },
 };
 
@@ -113,14 +113,14 @@ const jsonLd = {
         "LocalBusiness",
         "HomeAndConstructionBusiness"
       ],
-      "@id": "https://www.tilesandstonesnj.com/#business",
+      "@id": "https://www.metrogroupconstruction.com/#business",
       "name": "Tiles & Stones NJ",
-      "url": "https://www.tilesandstonesnj.com/",
+      "url": "https://www.metrogroupconstruction.com/",
       "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
-      "image": "https://www.tilesandstonesnj.com/images/og-image.jpg",
+      "image": "https://www.metrogroupconstruction.com/images/og-image.jpg",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.tilesandstonesnj.com/logo.png"
+        "url": "https://www.metrogroupconstruction.com/logo.png"
       },
       "telephone": "+1-551-206-7097",
       "priceRange": "$$",
@@ -220,26 +220,26 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.tilesandstonesnj.com/#website",
-      "url": "https://www.tilesandstonesnj.com/",
+      "@id": "https://www.metrogroupconstruction.com/#website",
+      "url": "https://www.metrogroupconstruction.com/",
       "name": "Tiles & Stones NJ",
       "description": "Tile, stone and masonry services in Wayne, NJ and surrounding New Jersey counties.",
       "publisher": {
-        "@id": "https://www.tilesandstonesnj.com/#business"
+        "@id": "https://www.metrogroupconstruction.com/#business"
       },
       "inLanguage": "en-US"
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.tilesandstonesnj.com/#webpage",
-      "url": "https://www.tilesandstonesnj.com/",
+      "@id": "https://www.metrogroupconstruction.com/#webpage",
+      "url": "https://www.metrogroupconstruction.com/",
       "name": "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
       "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
       "isPartOf": {
-        "@id": "https://www.tilesandstonesnj.com/#website"
+        "@id": "https://www.metrogroupconstruction.com/#website"
       },
       "about": {
-        "@id": "https://www.tilesandstonesnj.com/#business"
+        "@id": "https://www.metrogroupconstruction.com/#business"
       },
       "inLanguage": "en-US"
     }

@@ -53,11 +53,11 @@ export const metadata: Metadata = {
     type: "website",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
     description: "Trusted tile, stone and masonry contractors serving Wayne, Passaic, Bergen, Morris and Essex Counties in New Jersey. Expert installation, repair and remodeling for residential and commercial projects.",
-    url: "https://www.tilesandstonesnj.com/services",
+    url: "https://www.metrogroupconstruction.com/services",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/hero-tiles.webp",
+        url: "https://www.metrogroupconstruction.com/images/hero-tiles.webp",
         width: 1200,
         height: 630,
         alt: "Tile, stone and masonry installation, repair and remodeling by Tiles & Stones NJ in Northern New Jersey",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
     description: "Expert tile, stone and masonry contractors serving Wayne, Passaic, Bergen, Morris and Essex Counties in New Jersey for professional installation, repair and remodeling services.",
-    images: ["https://www.tilesandstonesnj.com/images/hero-tiles.webp"],
+    images: ["https://www.metrogroupconstruction.com/images/hero-tiles.webp"],
   },
 };
 
@@ -78,28 +78,28 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://www.tilesandstonesnj.com/services#webpage",
-      "url": "https://www.tilesandstonesnj.com/services",
+      "@id": "https://www.metrogroupconstruction.com/services#webpage",
+      "url": "https://www.metrogroupconstruction.com/services",
       "name": "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
       "description": "Trusted tile, stone and masonry contractors serving Wayne, NJ, Passaic, Bergen, Morris and Essex Counties. Expert installation, repair and remodeling for residential and commercial projects.",
       "isPartOf": {
-        "@id": "https://www.tilesandstonesnj.com/#website"
+        "@id": "https://www.metrogroupconstruction.com/#website"
       },
       "about": {
-        "@id": "https://www.tilesandstonesnj.com/#business"
+        "@id": "https://www.metrogroupconstruction.com/#business"
       },
       "mainEntity": {
-        "@id": "https://www.tilesandstonesnj.com/services#services"
+        "@id": "https://www.metrogroupconstruction.com/services#services"
       },
       "breadcrumb": {
-        "@id": "https://www.tilesandstonesnj.com/services#breadcrumb"
+        "@id": "https://www.metrogroupconstruction.com/services#breadcrumb"
       }
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#business",
+      "@id": "https://www.metrogroupconstruction.com/#business",
       "name": "Tiles & Stones NJ",
-      "url": "https://www.tilesandstonesnj.com/",
+      "url": "https://www.metrogroupconstruction.com/",
       "description": "Tiles & Stones NJ provides professional tile, stone and masonry installation, repair and remodeling services for residential and commercial projects throughout Northern New Jersey.",
       "areaServed": [
         {
@@ -159,11 +159,11 @@ const jsonLd = {
     },
     {
       "@type": "Service",
-      "@id": "https://www.tilesandstonesnj.com/services#services",
+      "@id": "https://www.metrogroupconstruction.com/services#services",
       "name": "Tile, Stone & Masonry Services",
       "description": "Professional tile, stone and masonry installation, repair and remodeling services for residential and commercial properties in Northern New Jersey.",
       "provider": {
-        "@id": "https://www.tilesandstonesnj.com/#business"
+        "@id": "https://www.metrogroupconstruction.com/#business"
       },
       "serviceType": [
         "Tile Installation",
@@ -221,7 +221,7 @@ const jsonLd = {
     },
     {
       "@type": "OfferCatalog",
-      "@id": "https://www.tilesandstonesnj.com/services#catalog",
+      "@id": "https://www.metrogroupconstruction.com/services#catalog",
       "name": "Tiles & Stones NJ Services",
       "itemListElement": [
         {
@@ -230,7 +230,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Tile Installation",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -240,7 +240,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Tile Repair",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -250,7 +250,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Tile Remodeling",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -260,7 +260,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Stone Installation",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -270,7 +270,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Stone Repair",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -280,7 +280,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Stone Remodeling",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -290,7 +290,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Masonry Installation",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -300,7 +300,7 @@ const jsonLd = {
             "@type": "Service",
             "name": "Masonry Repair",
             "provider": {
-              "@id": "https://www.tilesandstonesnj.com/#business"
+              "@id": "https://www.metrogroupconstruction.com/#business"
             }
           }
         },
@@ -318,29 +318,29 @@ const jsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.tilesandstonesnj.com/services#breadcrumb",
+      "@id": "https://www.metrogroupconstruction.com/services#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.tilesandstonesnj.com/"
+          "item": "https://www.metrogroupconstruction.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://www.tilesandstonesnj.com/services"
+          "item": "https://www.metrogroupconstruction.com/services"
         }
       ]
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.tilesandstonesnj.com/#website",
-      "url": "https://www.tilesandstonesnj.com/",
+      "@id": "https://www.metrogroupconstruction.com/#website",
+      "url": "https://www.metrogroupconstruction.com/",
       "name": "Tiles & Stones NJ",
       "publisher": {
-        "@id": "https://www.tilesandstonesnj.com/#business"
+        "@id": "https://www.metrogroupconstruction.com/#business"
       }
     }
   ]

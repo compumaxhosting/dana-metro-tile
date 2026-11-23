@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
   },
   robots: {
     index: true,
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
     title: "Tile Installation, Repair & Remodeling Contractors in Bergen County, NJ",
     description:
       "Expert tile installation, repair and remodeling contractors in Bergen County, NJ. Professional flooring, bathroom, kitchen and backsplash tile services.",
-    url: "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/f4.webp",
+        url: "https://www.metrogroupconstruction.com/images/f4.webp",
         alt: "Professional tile installation, repair and remodeling services in Bergen County, NJ",
       },
     ],
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     description:
       "Expert tile installation, repair and remodeling contractors in Bergen County, NJ. Professional flooring, bathroom, kitchen and backsplash tile services.",
     images: [
-      "https://www.tilesandstonesnj.com/images/f4.webp",
+      "https://www.metrogroupconstruction.com/images/f4.webp",
     ],
   },
 };
@@ -78,30 +78,30 @@ export default function TileServicesBergenCountyNjLayout({
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
         "name": "Tile Installation, Repair & Remodeling Contractors in Bergen County, NJ",
         "description":
           "Professional tile installation, repair, replacement, and remodeling services for residential and commercial properties throughout Bergen County, New Jersey.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
-          "url": "https://www.tilesandstonesnj.com/",
+          "@id": "https://www.metrogroupconstruction.com/#website",
+          "url": "https://www.metrogroupconstruction.com/",
           "name": "Tiles & Stones NJ",
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj#service",
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj#service",
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj#breadcrumb",
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj#breadcrumb",
         },
         "inLanguage": "en-US",
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj#service",
         "name": "Tile Installation, Repair & Remodeling Services in Bergen County, NJ",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
         "description":
           "Tile installation, repair, replacement, and remodeling services for floors, walls, bathrooms, showers, kitchens, backsplashes, and other residential and commercial spaces in Bergen County, NJ.",
         "serviceType": [
@@ -122,9 +122,9 @@ export default function TileServicesBergenCountyNjLayout({
         ],
         "provider": {
           "@type": "LocalBusiness",
-          "@id": "https://www.tilesandstonesnj.com/#business",
+          "@id": "https://www.metrogroupconstruction.com/#business",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/",
+          "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
         },
@@ -139,25 +139,25 @@ export default function TileServicesBergenCountyNjLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/",
+            "item": "https://www.metrogroupconstruction.com/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/",
+            "item": "https://www.metrogroupconstruction.com/services/",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Tile Services in Bergen County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/tiles/bergen-county-nj",
+            "item": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
           },
         ],
       },

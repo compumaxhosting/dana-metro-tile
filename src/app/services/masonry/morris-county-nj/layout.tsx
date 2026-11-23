@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj",
   },
   robots: {
     index: true,
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
     title: "Affordable Masonry Services in Morris County, NJ | Expert",
     description:
       "Affordable masonry services in Morris County, NJ for brick repair, stonework, repointing, restoration, chimney and exterior masonry projects.",
-    url: "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj",
     siteName: "Tiles & Stones",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/a1.webp",
+        url: "https://www.metrogroupconstruction.com/images/a1.webp",
         alt: "Masonry services in Morris County, NJ",
       },
     ],
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "Affordable masonry services in Morris County, NJ for brick repair, stonework, repointing, restoration, chimney and exterior masonry projects.",
     images: [
-      "https://www.tilesandstonesnj.com/images/a1.webp",
+      "https://www.metrogroupconstruction.com/images/a1.webp",
     ],
   },
 };
@@ -66,11 +66,11 @@ export default function MasonryServicesMorrisCountyNjLayout({
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj#service",
         "name": "Masonry Services in Morris County, NJ",
         "serviceType": "Masonry Services",
         "description": "Masonry services in Morris County, New Jersey, including brick repair, stonework, mortar repointing, masonry restoration, chimney masonry, facade repairs, and exterior masonry work.",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Morris County",
@@ -80,15 +80,15 @@ export default function MasonryServicesMorrisCountyNjLayout({
           }
         },
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "category": "Masonry Contractor"
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "description": "Masonry and related construction services serving properties in New Jersey.",
         "areaServed": {
           "@type": "AdministrativeArea",
@@ -107,58 +107,58 @@ export default function MasonryServicesMorrisCountyNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj",
         "name": "Affordable Masonry Services in Morris County, NJ | Expert Masonry Contractor",
         "description": "Affordable masonry services in Morris County, NJ for brick repair, stonework, repointing, restoration, chimney and exterior masonry projects.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Masonry",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Morris County Masonry Services",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/morris-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/morris-county-nj"
           }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "inLanguage": "en-US"
       }

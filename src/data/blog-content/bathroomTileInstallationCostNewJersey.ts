@@ -1,5 +1,5 @@
 const slug = "bathroom-tile-installation-cost-new-jersey";
-const canonicalUrl = `https://www.tilesandstonesnj.com/blogs/${slug}`;
+const canonicalUrl = `https://www.metrogroupconstruction.com/blogs/${slug}`;
 const titleText = "How Much Does Bathroom Tile Installation Cost in New Jersey?";
 const summary =
   "Explore bathroom tile installation costs in New Jersey, including tile prices, labor, shower installation, and expert tips across Bergen, Essex, Morris, and Passaic counties.";
@@ -22,7 +22,7 @@ export const bathroomTileInstallationCostNewJerseyMeta = {
 
 export const bathroomTileInstallationCostNewJersey = `
 <div class="[&_p]:mb-4 [&_p]:text-[16px] [&_p]:leading-8 [&_p]:text-[#333333] [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:border-b [&_h2]:border-[#C38A38] [&_h2]:pb-2 [&_h2]:font-cormorant [&_h2]:text-[32px] [&_h2]:text-[#1A1A1A] [&_#table-of-contents_h2]:mt-0 [&_h3]:mb-2 [&_h3]:font-cormorant [&_h3]:text-[24px] [&_h3]:text-[#1A1A1A] [&_ul]:list-inside [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:text-[#333333] [&_ol]:list-inside [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:text-[#333333] [&_a:hover]:underline [&_strong]:text-[#1A1A1A] [&_th]:border [&_th]:border-[#E5E5E5] [&_th]:bg-[#ECEAE4] [&_th]:p-3 [&_th]:text-left [&_th]:font-semibold [&_th]:text-[#1A1A1A] [&_td]:border [&_td]:border-[#E5E5E5] [&_td]:p-3 [&_td]:text-[#333333]">
-<p>The average <a href="https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj" class="text-caramel hover:underline">bathroom tile installation</a> cost in New Jersey depends on the tile material, bathroom size, labor, surface preparation, and installation complexity. As a general budgeting guide, homeowners can expect approximately $10–$25 per square foot for standard bathroom tile installation, although premium materials, custom shower work, demolition, and waterproofing can increase the total.</p>
+<p>The average <a href="https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj" class="text-caramel hover:underline">bathroom tile installation</a> cost in New Jersey depends on the tile material, bathroom size, labor, surface preparation, and installation complexity. As a general budgeting guide, homeowners can expect approximately $10–$25 per square foot for standard bathroom tile installation, although premium materials, custom shower work, demolition, and waterproofing can increase the total.</p>
 <p>Whether you are updating a small bathroom in Passaic County or renovating a larger master bathroom in Bergen, Morris, or Essex County, understanding these costs helps you plan your project and avoid unexpected expenses.</p>
 <p>This guide explains typical tile installation prices, material choices, labor costs, and the factors that influence your final estimate. All figures below are illustrative planning ranges, not guaranteed contractor quotes.</p>
 
@@ -37,7 +37,7 @@ export const bathroomTileInstallationCostNewJersey = `
   <li><a href="#save-money">How to Save Money on Bathroom Tile Installation</a></li>
   <li><a href="#professional-installation">Why Professional Tile Installation Matters</a></li>
   <li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
-  <li><a href="#why-choose-us">Why Choose Tiles and Stones NJ?</a></li>
+  <li><a href="#why-choose-us">Why Choose metro group construction?</a></li>
   <li><a href="#conclusion">Conclusion</a></li>
 </ol>
 </div>
@@ -155,13 +155,13 @@ export const bathroomTileInstallationCostNewJersey = `
 <h3>6. How much extra tile should I purchase?</h3>
 <p>For a straightforward layout, purchasing approximately 10% extra tile is a common recommendation. Intricate patterns, diagonal layouts, and unusual room shapes may require additional material. Keeping spare tiles is also useful for future repairs if a tile becomes damaged.</p>
 
-<h2 id="why-choose-us">Why Choose Tiles and Stones NJ for Bathroom Tile Installation?</h2>
-<p>Choosing the right tile professional can make a significant difference in the appearance and durability of your bathroom renovation. Tiles and Stones NJ provides tile-related services for homeowners looking to improve their residential spaces. Whether you are considering porcelain bathroom flooring, decorative shower walls, natural stone finishes, or a complete tile upgrade, careful material selection and proper installation are essential.</p>
-<p>The company has a dedicated <a href="https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj" class="text-caramel hover:underline">tile services page for Wayne, NJ</a>, and its stated service areas include Passaic, Bergen, Morris, and Essex counties. Explore the available services and contact Tiles and Stones NJ to discuss your bathroom tile requirements and request a project estimate.</p>
+<h2 id="why-choose-us">Why Choose metro group construction for Bathroom Tile Installation?</h2>
+<p>Choosing the right tile professional can make a significant difference in the appearance and durability of your bathroom renovation. metro group construction provides tile-related services for homeowners looking to improve their residential spaces. Whether you are considering porcelain bathroom flooring, decorative shower walls, natural stone finishes, or a complete tile upgrade, careful material selection and proper installation are essential.</p>
+<p>The company has a dedicated <a href="https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj" class="text-caramel hover:underline">tile services page for Wayne, NJ</a>, and its stated service areas include Passaic, Bergen, Morris, and Essex counties. Explore the available services and contact metro group construction to discuss your bathroom tile requirements and request a project estimate.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 <p>Bathroom tile installation costs in New Jersey depend on the tile material, labor, bathroom dimensions, waterproofing, and preparation requirements. Standard installations may fit a modest budget, while custom showers and premium materials require a larger investment.</p>
-<p>Before beginning your renovation, compare material options, understand the installation process, and request a detailed written estimate. If you are planning a bathroom upgrade in Passaic, Bergen, Morris, or Essex County, explore <a href="https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj" class="text-caramel hover:underline">Tiles and Stones NJ's tile installation services</a> to discuss your project.</p>
+<p>Before beginning your renovation, compare material options, understand the installation process, and request a detailed written estimate. If you are planning a bathroom upgrade in Passaic, Bergen, Morris, or Essex County, explore <a href="https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj" class="text-caramel hover:underline">metro group construction's tile installation services</a> to discuss your project.</p>
 </div>
 `;
 
@@ -180,18 +180,18 @@ export const bathroomTileInstallationCostNewJerseySchema = {
       },
       image: {
         "@type": "ImageObject",
-        url: "https://www.tilesandstonesnj.com/images/blogs/bathroom-tile-installation-cost-new-jersey.webp",
+        url: "https://www.metrogroupconstruction.com/images/blogs/bathroom-tile-installation-cost-new-jersey.webp",
         caption: "Tile materials for bathroom tile installation projects",
       },
       author: {
         "@type": "Organization",
         name: "Tiles & Stones NJ",
-        url: "https://www.tilesandstonesnj.com/",
+        url: "https://www.metrogroupconstruction.com/",
       },
       publisher: {
         "@type": "Organization",
         name: "Tiles & Stones NJ",
-        url: "https://www.tilesandstonesnj.com/",
+        url: "https://www.metrogroupconstruction.com/",
       },
       datePublished: "2026-11-04",
       dateModified: "2026-11-04",

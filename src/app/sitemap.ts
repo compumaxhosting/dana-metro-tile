@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogs } from "@/data/blogs";
 
-const siteUrl = "https://www.tilesandstonesnj.com";
+const siteUrl = "https://www.metrogroupconstruction.com";
 const serviceTypes = ["tiles", "stones", "masonry"];
 const serviceAreas = [
   "wayne-county-nj",
@@ -24,16 +24,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages.map(({ path, priority }) => ({
       url: `${siteUrl}${path}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
       priority,
     })),
     ...serviceTypes.flatMap((serviceType) =>
       serviceAreas.map((serviceArea) => ({
-        url: `${siteUrl}/services/${serviceType}/${serviceArea}`,
+        url: `${siteUrl}/services/${serviceType}/${serviceArea === "wayne-county-nj" ? "wayne-nj" : serviceArea}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly" as const,
         priority: serviceArea === "wayne-county-nj" ? 0.64 : 0.512,
       })),
     ),
     ...blogs.map((blog) => ({
       url: `${siteUrl}/blogs/${blog.slug}`,
+      lastModified: new Date(blog.datePublished),
+      changeFrequency: "monthly" as const,
       priority: 0.512,
     })),
   ];

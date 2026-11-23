@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj",
   },
   robots: {
     index: true,
@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     title: "Expert Masonry Contractors Serving Passaic County, NJ",
     description:
       "Expert masonry contractors serving Passaic County, NJ for brick, stone, masonry repair, restoration, and exterior masonry projects.",
-    url: "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj",
     siteName: "Tiles & Stones",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/a1.webp",
+        url: "https://www.metrogroupconstruction.com/images/a1.webp",
         alt: "Masonry contractors serving Passaic County, NJ",
       },
     ],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description:
       "Expert masonry contractors serving Passaic County, NJ for brick, stone, masonry repair, restoration, and exterior masonry projects.",
     images: [
-      "https://www.tilesandstonesnj.com/images/a1.webp",
+      "https://www.metrogroupconstruction.com/images/a1.webp",
     ],
   },
 };
@@ -63,11 +63,11 @@ export default function MasonryServicesPassaicCountyNjLayout({
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj#service",
         "name": "Masonry Services in Passaic County, NJ",
         "serviceType": "Masonry Services",
         "description": "Professional masonry services for residential and commercial properties throughout Passaic County, New Jersey, including masonry repair, brickwork, stonework, restoration, repointing, and related exterior masonry services.",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Passaic County",
@@ -77,14 +77,14 @@ export default function MasonryServicesPassaicCountyNjLayout({
           }
         },
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#organization"
+          "@id": "https://www.metrogroupconstruction.com/#organization"
         }
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#organization",
+        "@id": "https://www.metrogroupconstruction.com/#organization",
         "name": "Tiles & Stones",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "description": "Masonry and stonework services serving customers in New Jersey.",
         "areaServed": {
           "@type": "AdministrativeArea",
@@ -102,58 +102,58 @@ export default function MasonryServicesPassaicCountyNjLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Masonry",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Masonry Services in Passaic County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj"
           }
         ]
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj",
         "name": "Expert Masonry Contractors Serving Passaic County, NJ",
         "description": "Expert masonry contractors serving Passaic County, NJ for brick, stone, masonry repair, restoration, and exterior masonry projects.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/passaic-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/passaic-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#organization"
+          "@id": "https://www.metrogroupconstruction.com/#organization"
         },
         "inLanguage": "en-US"
       }

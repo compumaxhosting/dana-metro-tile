@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj",
   },
   robots: {
     index: true,
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     title: "Residential & Commercial Masonry Services Essex County NJ",
     description:
       "Residential and commercial masonry services in Essex County, NJ for brick repair, stonework, repointing, restoration, chimneys, walls, and facades.",
-    url: "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj",
     siteName: "Tiles & Stones",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/a1.webp",
+        url: "https://www.metrogroupconstruction.com/images/a1.webp",
         alt: "Residential and commercial masonry services in Essex County NJ",
       },
     ],
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description:
       "Residential and commercial masonry services in Essex County, NJ for brick repair, stonework, repointing, restoration, chimneys, walls, and facades.",
     images: [
-      "https://www.tilesandstonesnj.com/images/a1.webp",
+      "https://www.metrogroupconstruction.com/images/a1.webp",
     ],
   },
 };
@@ -65,7 +65,7 @@ export default function MasonryServicesEssexCountyNjLayout({
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj#service",
         "name": "Residential and Commercial Masonry Services in Essex County, NJ",
         "serviceType": [
           "Residential Masonry Services",
@@ -78,7 +78,7 @@ export default function MasonryServicesEssexCountyNjLayout({
           "Facade Masonry Repair"
         ],
         "description": "Residential and commercial masonry services in Essex County, New Jersey, including brick repair, stonework, mortar repointing, masonry restoration, chimney repairs, facade repairs, and exterior masonry work.",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Essex County",
@@ -88,7 +88,7 @@ export default function MasonryServicesEssexCountyNjLayout({
           }
         },
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "audience": [
           {
@@ -107,9 +107,9 @@ export default function MasonryServicesEssexCountyNjLayout({
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Essex County, New Jersey"
@@ -128,58 +128,58 @@ export default function MasonryServicesEssexCountyNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj",
         "name": "Residential and Commercial Masonry Services in Essex County, NJ",
         "description": "Residential and commercial masonry services in Essex County, NJ for brick repair, stonework, repointing, restoration, chimneys, walls, and facades.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Masonry",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Essex County Masonry Services",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/essex-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/essex-county-nj"
           }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "inLanguage": "en-US"
       }

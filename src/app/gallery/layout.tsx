@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     title: "Residential & Commercial Tile Contractors in Wayne, NJ",
     description:
       "Explore residential and commercial tile projects by experienced contractors in Wayne, NJ, featuring detailed tile, stone and masonry craftsmanship.",
-    url: "https://www.tilesandstonesnj.com/gallery",
+    url: "https://www.metrogroupconstruction.com/gallery",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/b5.webp",
+        url: "https://www.metrogroupconstruction.com/images/b5.webp",
         width: 1200,
         height: 630,
         alt: "Residential and commercial tile projects by Tiles & Stones NJ in Wayne, NJ",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Residential & Commercial Tile Contractors in Wayne, NJ",
     description:
       "View residential and commercial tile projects by Tiles & Stones NJ, serving Wayne, NJ with professional tile and stone craftsmanship.",
-    images: ["https://www.tilesandstonesnj.com/images/b5.webp"],
+    images: ["https://www.metrogroupconstruction.com/images/b5.webp"],
   },
 };
 
@@ -49,53 +49,53 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "https://www.tilesandstonesnj.com/gallery#webpage",
-      url: "https://www.tilesandstonesnj.com/gallery",
+      "@id": "https://www.metrogroupconstruction.com/gallery#webpage",
+      url: "https://www.metrogroupconstruction.com/gallery",
       name: "Residential & Commercial Tile Contractors in Wayne, NJ",
       description:
         "A gallery showcasing residential and commercial tile, stone and masonry craftsmanship by Tiles & Stones NJ in Wayne, New Jersey.",
       isPartOf: {
-        "@id": "https://www.tilesandstonesnj.com/#website",
+        "@id": "https://www.metrogroupconstruction.com/#website",
       },
       about: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
       mainEntity: {
-        "@id": "https://www.tilesandstonesnj.com/gallery#portfolio",
+        "@id": "https://www.metrogroupconstruction.com/gallery#portfolio",
       },
       breadcrumb: {
-        "@id": "https://www.tilesandstonesnj.com/gallery#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/gallery#breadcrumb",
       },
     },
     {
       "@type": "ImageGallery",
-      "@id": "https://www.tilesandstonesnj.com/gallery#portfolio",
+      "@id": "https://www.metrogroupconstruction.com/gallery#portfolio",
       name: "Residential & Commercial Tile, Stone & Masonry Projects",
       description:
         "Project gallery featuring tile, stone and masonry work completed for residential and commercial spaces in New Jersey.",
-      url: "https://www.tilesandstonesnj.com/gallery",
+      url: "https://www.metrogroupconstruction.com/gallery",
       creator: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
       provider: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.tilesandstonesnj.com/gallery#breadcrumb",
+      "@id": "https://www.metrogroupconstruction.com/gallery#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.tilesandstonesnj.com/",
+          item: "https://www.metrogroupconstruction.com/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Gallery",
-          item: "https://www.tilesandstonesnj.com/gallery",
+          item: "https://www.metrogroupconstruction.com/gallery",
         },
       ],
     },

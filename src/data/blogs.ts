@@ -73,7 +73,7 @@ export const blogs: BlogPost[] = [
       keywords: ceramicFloorTileInstallationMorrisCountyNjMeta.keywords,
       ogImage: ceramicFloorTileInstallationMorrisCountyNjMeta.ogImage,
       canonical:
-        "https://www.tilesandstonesnj.com/blogs/ceramic-floor-tile-installation-morris-county-nj",
+        "https://www.metrogroupconstruction.com/blogs/ceramic-floor-tile-installation-morris-county-nj",
       robots: {
         index: true,
         follow: true,
@@ -99,7 +99,7 @@ export const blogs: BlogPost[] = [
       keywords: bathroomTileInstallationCostNewJerseyMeta.keywords,
       ogImage: bathroomTileInstallationCostNewJerseyMeta.ogImage,
       canonical:
-        "https://www.tilesandstonesnj.com/blogs/bathroom-tile-installation-cost-new-jersey",
+        "https://www.metrogroupconstruction.com/blogs/bathroom-tile-installation-cost-new-jersey",
       robots: {
         index: true,
         follow: true,
@@ -125,7 +125,7 @@ export const blogs: BlogPost[] = [
       keywords: howToChooseTileContractorWayneNjMeta.keywords,
       ogImage: howToChooseTileContractorWayneNjMeta.ogImage,
       canonical:
-        "https://www.tilesandstonesnj.com/blogs/how-to-choose-tile-contractor-wayne-nj",
+        "https://www.metrogroupconstruction.com/blogs/how-to-choose-tile-contractor-wayne-nj",
       robots: {
         index: true,
         follow: true,
@@ -151,7 +151,7 @@ export const blogs: BlogPost[] = [
       keywords: masonryContractorWayneNjCustomMasonryIdeasMeta.keywords,
       ogImage: masonryContractorWayneNjCustomMasonryIdeasMeta.ogImage,
       canonical:
-        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas",
+        "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas",
       robots: {
         index: true,
         follow: true,
@@ -177,7 +177,7 @@ export const blogs: BlogPost[] = [
       keywords: installationRepairRemodelingPassaicCountyNjMeta.keywords,
       ogImage: installationRepairRemodelingPassaicCountyNjMeta.ogImage,
       canonical:
-        "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
+        "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj",
       robots: {
         index: true,
         follow: true,

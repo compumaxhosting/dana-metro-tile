@@ -17,32 +17,32 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj#article",
+      "@id": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj#article",
       "headline": "Tile Installation, Repair & Remodeling in Passaic County, NJ: The Complete Homeowner’s Guide for 2026",
       "description": "A complete homeowner’s guide to tile installation, repair, replacement, and remodeling in Passaic County, NJ, including bathrooms, kitchens, showers, flooring, backsplashes, grout, and tile maintenance.",
-      "url": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
-      "canonical": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
+      "url": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj",
+      "canonical": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj",
-        "canonical": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj"
+        "@id": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj",
+        "canonical": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj"
       },
       "image": {
         "@type": "ImageObject",
-        "url": "https://www.tilesandstonesnj.com/images/blogs/installationRepairRemodelingPassaicCountyNj.webp",
+        "url": "https://www.metrogroupconstruction.com/images/blogs/installationRepairRemodelingPassaicCountyNj.webp",
         "caption": "Professional tile installation and remodeling in Passaic County, NJ"
       },
       "author": {
         "@type": "Organization",
-        "@id": "https://www.tilesandstonesnj.com/#organization",
+        "@id": "https://www.metrogroupconstruction.com/#organization",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/"
+        "url": "https://www.metrogroupconstruction.com/"
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://www.tilesandstonesnj.com/#organization",
+        "@id": "https://www.metrogroupconstruction.com/#organization",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/"
+        "url": "https://www.metrogroupconstruction.com/"
       },
       "datePublished": "2026-09-04",
       "dateModified": "2026-09-04",
@@ -106,7 +106,7 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj#faq",
+      "@id": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -160,34 +160,34 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj#breadcrumb",
+      "@id": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.tilesandstonesnj.com/"
+          "item": "https://www.metrogroupconstruction.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://www.tilesandstonesnj.com/blogs"
+          "item": "https://www.metrogroupconstruction.com/blogs"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Tile Installation, Repair & Remodeling in Passaic County, NJ",
-          "item": "https://www.tilesandstonesnj.com/blogs/installation-repair-remodeling-passaic-county-nj"
+          "item": "https://www.metrogroupconstruction.com/blogs/installation-repair-remodeling-passaic-county-nj"
         }
       ]
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#localbusiness",
+      "@id": "https://www.metrogroupconstruction.com/#localbusiness",
       "name": "Tiles & Stones NJ",
-      "url": "https://www.tilesandstonesnj.com/",
-      "image": "https://www.tilesandstonesnj.com/images/blogs/installationRepairRemodelingPassaicCountyNj.webp",
+      "url": "https://www.metrogroupconstruction.com/",
+      "image": "https://www.metrogroupconstruction.com/images/blogs/installationRepairRemodelingPassaicCountyNj.webp",
       "description": "Professional tile installation, repair, replacement, and remodeling services serving homeowners and businesses in Passaic County, New Jersey.",
       "areaServed": {
         "@type": "AdministrativeArea",
@@ -216,7 +216,7 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
         "Kitchen Remodeling"
       ],
       "sameAs": [
-        "https://www.tilesandstonesnj.com/"
+        "https://www.metrogroupconstruction.com/"
       ]
     }
   ]
@@ -227,7 +227,7 @@ export const installationRepairRemodelingPassaicCountyNj = `
   <div class="mb-12">
     <p class="text-[16px] leading-8 text-[#333333]">
       If you’re planning a bathroom upgrade, kitchen renovation, new flooring, or tile repair, professional <a 
-    href="https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj" 
+    href="https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj" 
     style="color: #C38A38; text-decoration: underline;"
   >Tile Installation Passaic County NJ </a> services can help from initial planning through final installation. Local tile professionals can handle ceramic, porcelain, natural stone, shower, backsplash, floor, and wall tile projects.
     </p>
@@ -515,7 +515,7 @@ export const installationRepairRemodelingPassaicCountyNj = `
     </h3>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       Planning <a 
-    href="https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj" 
+    href="https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj" 
     style="color: #C38A38; text-decoration: underline;"
   >Tile Repair Passaic County NJ</a>, a new backsplash, porcelain flooring, a shower renovation, or a complete bathroom remodel? Tiles & Stones NJ provides professional tile installation, repair, replacement, and remodeling services for residential and commercial projects throughout Passaic County.
     </p>
@@ -537,7 +537,7 @@ export const installationRepairRemodelingPassaicCountyNj = `
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       Whether you are planning <a 
-    href="https://www.tilesandstonesnj.com/services/tiles/passaic-county-nj" 
+    href="https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj" 
     style="color: #C38A38; text-decoration: underline;"
   >
     Bathroom Tile Installation Passaic County

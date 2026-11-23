@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
   },
   robots: {
     index: true,
@@ -48,11 +48,11 @@ export const metadata: Metadata = {
     title: "Tile Services in Wayne, NJ | Installation & Repair",
     description:
       "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
-    url: "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/f1.webp",
+        url: "https://www.metrogroupconstruction.com/images/f1.webp",
         alt: "Professional tile installation and repair services in Wayne, NJ",
       },
     ],
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Tile Services in Wayne, NJ | Installation & Repair",
     description:
       "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
-    images: ["https://www.tilesandstonesnj.com/images/f1.webp"],
+    images: ["https://www.metrogroupconstruction.com/images/f1.webp"],
   },
 };
 
@@ -78,9 +78,9 @@ export default function TileServicesWayneNjLayout({
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj#service",
         "name": "Tile and Floor Services in Wayne, NJ",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
         "description":
           "Professional tile installation, repair, remodeling, and flooring services for residential and commercial projects in Wayne, NJ and surrounding North Jersey communities.",
         "serviceType": [
@@ -118,9 +118,9 @@ export default function TileServicesWayneNjLayout({
         ],
         "provider": {
           "@type": "LocalBusiness",
-          "@id": "https://www.tilesandstonesnj.com/#business",
+          "@id": "https://www.metrogroupconstruction.com/#business",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/",
+          "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
           "areaServed": {
@@ -131,46 +131,46 @@ export default function TileServicesWayneNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
         "name": "Tile Services in Wayne, NJ | Install, Repair & Remodel",
         "description":
           "Tile installation, repair, remodeling, and floor services in Wayne, NJ for residential and commercial projects.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
+          "@id": "https://www.metrogroupconstruction.com/#website",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/",
+          "url": "https://www.metrogroupconstruction.com/",
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj#service",
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj#service",
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj#breadcrumb",
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj#breadcrumb",
         },
         "inLanguage": "en-US",
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/",
+            "item": "https://www.metrogroupconstruction.com/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/",
+            "item": "https://www.metrogroupconstruction.com/services/",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Tile Services in Wayne, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/tiles/wayne-county-nj",
+            "item": "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
           },
         ],
       },

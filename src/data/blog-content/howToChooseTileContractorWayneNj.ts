@@ -1,8 +1,8 @@
 const slug = "how-to-choose-tile-contractor-wayne-nj";
-const canonicalUrl = `https://www.tilesandstonesnj.com/blogs/${slug}`;
+const canonicalUrl = `https://www.metrogroupconstruction.com/blogs/${slug}`;
 
 export const howToChooseTileContractorWayneNjMeta = {
-  title: "Tile Contractor in Wayne, NJ | Tiles and Stones NJ",
+  title: "Tile Contractor in Wayne, NJ | metro group construction",
   description:
     "Learn how to choose the right tile contractor in Wayne, NJ, and Passaic, Bergen, Morris, and Essex counties. Compare experience, costs, and quality.",
   keywords:
@@ -21,7 +21,7 @@ export const howToChooseTileContractorWayneNjMeta = {
 
 export const howToChooseTileContractorWayneNj = `
 <div class="[&_p]:mb-4 [&_p]:text-[16px] [&_p]:leading-8 [&_p]:text-[#333333] [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:border-b [&_h2]:border-[#C38A38] [&_h2]:pb-2 [&_h2]:font-cormorant [&_h2]:text-[32px] [&_h2]:text-[#1A1A1A] [&_#table-of-contents_h2]:mt-0 [&_h3]:mb-2 [&_h3]:font-cormorant [&_h3]:text-[24px] [&_h3]:text-[#1A1A1A] [&_ul]:list-inside [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:text-[#333333] [&_a:hover]:underline [&_strong]:text-[#1A1A1A] [&_th]:border [&_th]:border-[#E5E5E5] [&_th]:bg-[#ECEAE4] [&_th]:p-3 [&_th]:text-left [&_th]:font-semibold [&_th]:text-[#1A1A1A] [&_td]:border [&_td]:border-[#E5E5E5] [&_td]:p-3 [&_td]:text-[#333333]">
-<p>Choosing the right <a href="https://www.tilesandstonesnj.com/" class="text-caramel hover:underline">tile contractor in Wayne, NJ</a>, can make the difference between a beautiful, durable installation and one that develops cracked tiles, uneven grout lines, or moisture problems. Before hiring, compare relevant experience, installation methods, project estimates, references, and warranty terms. Homeowners across Passaic, Bergen, Morris, and Essex counties should look for a contractor who understands both their design goals and the technical requirements of the space.</p>
+<p>Choosing the right <a href="https://www.metrogroupconstruction.com/" class="text-caramel hover:underline">tile contractor in Wayne, NJ</a>, can make the difference between a beautiful, durable installation and one that develops cracked tiles, uneven grout lines, or moisture problems. Before hiring, compare relevant experience, installation methods, project estimates, references, and warranty terms. Homeowners across Passaic, Bergen, Morris, and Essex counties should look for a contractor who understands both their design goals and the technical requirements of the space.</p>
 
 <div id="table-of-contents" class="mb-12 border border-[#E5E5E5] bg-[#F9F8F6] p-8">
 <h2>Table of Contents</h2>
@@ -33,7 +33,7 @@ export const howToChooseTileContractorWayneNj = `
   <li><a href="#common-mistakes">Common mistakes to avoid</a></li>
   <li><a href="#tile-maintenance">Tile maintenance tips</a></li>
   <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
-  <li><a href="#why-choose-tiles-and-stones">Why choose Tiles and Stones NJ?</a></li>
+  <li><a href="#why-choose-tiles-and-stones">Why choose metro group construction?</a></li>
 </ul>
 </div>
 
@@ -140,17 +140,17 @@ export const howToChooseTileContractorWayneNj = `
 <h3>6. Do I need to verify a tile contractor's registration in New Jersey?</h3>
 <p>For residential home improvement work, New Jersey generally requires covered contractor businesses to register unless an exemption applies. Check the contractor's current status through the New Jersey Division of Consumer Affairs. Also request proof of insurance and a written contract before work begins.</p>
 
-<h3>7. Does Tiles and Stones NJ serve areas outside Wayne?</h3>
-<p>Homeowners in Passaic, Bergen, Morris, and Essex counties should confirm service coverage directly with Tiles and Stones NJ. Discuss your property's location, project type, materials, and schedule to determine whether the company is the right fit for your installation.</p>
+<h3>7. Does metro group construction serve areas outside Wayne?</h3>
+<p>Homeowners in Passaic, Bergen, Morris, and Essex counties should confirm service coverage directly with metro group construction. Discuss your property's location, project type, materials, and schedule to determine whether the company is the right fit for your installation.</p>
 
-<h2 id="why-choose-tiles-and-stones">Why Consider Tiles and Stones NJ for Your Tile Project?</h2>
+<h2 id="why-choose-tiles-and-stones">Why Consider metro group construction for Your Tile Project?</h2>
 <p>Planning a tile renovation involves more than selecting a color or pattern. The installer must understand the materials, prepare the surface correctly, and pay attention to details that influence the finished result.</p>
-<p>Tiles and Stones NJ provides a starting point for homeowners researching tile-related services in North Jersey. Before choosing a contractor, discuss your goals, preferred tile, budget, and timeline, and ask how the proposed installation will address preparation, durability, and finishing.</p>
+<p>metro group construction provides a starting point for homeowners researching tile-related services in North Jersey. Before choosing a contractor, discuss your goals, preferred tile, budget, and timeline, and ask how the proposed installation will address preparation, durability, and finishing.</p>
 <p>Whether you're considering a kitchen backsplash, a bathroom update, or new flooring, compare the company's relevant project experience and written scope of work with your expectations. Clear communication helps ensure that everyone understands the planned results and responsibilities.</p>
-<p>Visit Tiles and Stones NJ to explore available services and contact the company to discuss your project or request an estimate.</p>
+<p>Visit metro group construction to explore available services and contact the company to discuss your project or request an estimate.</p>
 
 <h2>Conclusion</h2>
-<p>Choosing the right <a href="https://www.tilesandstonesnj.com/" class="text-caramel hover:underline">tile contractor in Wayne, NJ</a>, starts with checking relevant experience, reviewing completed projects, verifying credentials, and comparing detailed estimates. Homeowners across Passaic, Bergen, Morris, and Essex counties should also prioritize proper surface preparation, appropriate waterproofing, and clear communication.</p>
+<p>Choosing the right <a href="https://www.metrogroupconstruction.com/" class="text-caramel hover:underline">tile contractor in Wayne, NJ</a>, starts with checking relevant experience, reviewing completed projects, verifying credentials, and comparing detailed estimates. Homeowners across Passaic, Bergen, Morris, and Essex counties should also prioritize proper surface preparation, appropriate waterproofing, and clear communication.</p>
 <p>A well-planned installation can improve your home's appearance while providing lasting performance. Before committing, ask the right questions, understand the proposed work, and choose a contractor whose experience and approach match your project.</p>
 </div>`;
 
@@ -171,13 +171,13 @@ export const howToChooseTileContractorWayneNjSchema = {
       url: canonicalUrl,
       author: {
         "@type": "Organization",
-        name: "Tiles and Stones NJ",
-        url: "https://www.tilesandstonesnj.com/",
+        name: "metro group construction",
+        url: "https://www.metrogroupconstruction.com/",
       },
       publisher: {
         "@type": "Organization",
-        name: "Tiles and Stones NJ",
-        url: "https://www.tilesandstonesnj.com/",
+        name: "metro group construction",
+        url: "https://www.metrogroupconstruction.com/",
       },
       inLanguage: "en-US",
       articleSection: [
@@ -212,8 +212,8 @@ export const howToChooseTileContractorWayneNjSchema = {
       },
       isPartOf: {
         "@type": "Blog",
-        name: "Tiles and Stones NJ Blog",
-        url: "https://www.tilesandstonesnj.com/blogs",
+        name: "metro group construction Blog",
+        url: "https://www.metrogroupconstruction.com/blogs",
       },
     },
     {
@@ -224,13 +224,13 @@ export const howToChooseTileContractorWayneNjSchema = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.tilesandstonesnj.com/",
+          item: "https://www.metrogroupconstruction.com/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blogs",
-          item: "https://www.tilesandstonesnj.com/blogs",
+          item: "https://www.metrogroupconstruction.com/blogs",
         },
         {
           "@type": "ListItem",
@@ -242,9 +242,9 @@ export const howToChooseTileContractorWayneNjSchema = {
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#business",
-      name: "Tiles and Stones NJ",
-      url: "https://www.tilesandstonesnj.com/",
+      "@id": "https://www.metrogroupconstruction.com/#business",
+      name: "metro group construction",
+      url: "https://www.metrogroupconstruction.com/",
       description:
         "Tile and stone services for residential and renovation projects. Contact the company to confirm available installation services and service areas.",
       areaServed: [

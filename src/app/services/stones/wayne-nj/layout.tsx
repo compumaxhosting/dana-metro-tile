@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj",
   },
   robots: {
     index: true,
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     title: "Natural Stone in Wayne, NJ | Tiles & Stones NJ",
     description:
       "Explore premium natural stone in Wayne, NJ, including marble, quartzite, travertine and onyx for custom countertops, fireplaces and feature walls.",
-    url: "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/f1.webp",
+        url: "https://www.metrogroupconstruction.com/images/f1.webp",
         alt: "Premium natural stone surfaces in Wayne, NJ",
       },
     ],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "Explore premium natural stone in Wayne, NJ, including marble, quartzite, travertine and onyx for custom countertops, fireplaces and feature walls.",
     images: [
-      "https://www.tilesandstonesnj.com/images/f1.webp",
+      "https://www.metrogroupconstruction.com/images/f1.webp",
     ],
   },
 };
@@ -64,23 +64,23 @@ export default function NaturalStoneWayneCountyNjLayout({
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj",
         "name": "Natural Stone & Slabs in Wayne County, NJ | Tiles & Stones NJ",
         "description": "Explore premium natural stone and stone slabs in Wayne County, NJ for countertops, fireplaces, walls and custom architectural applications.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj#breadcrumb"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj#service"
         }
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj#service",
         "name": "Natural Stone & Slabs in Wayne County, NJ",
         "serviceType": "Natural Stone Supply",
         "description": "Premium natural stone and stone slabs serving homeowners, designers, contractors and businesses throughout Wayne County, New Jersey.",
@@ -90,16 +90,16 @@ export default function NaturalStoneWayneCountyNjLayout({
           "sameAs": "https://en.wikipedia.org/wiki/Wayne_County,_New_Jersey"
         },
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
-        "url": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj"
+        "url": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj"
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/",
-        "image": "https://www.tilesandstonesnj.com/images/f1.webp",
+        "url": "https://www.metrogroupconstruction.com/",
+        "image": "https://www.metrogroupconstruction.com/images/f1.webp",
         "priceRange": "$$$",
         "areaServed": {
           "@type": "AdministrativeArea",
@@ -108,41 +108,41 @@ export default function NaturalStoneWayneCountyNjLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Stones",
-            "item": "https://www.tilesandstonesnj.com/services/stones/"
+            "item": "https://www.metrogroupconstruction.com/services/stones/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Wayne County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/stones/wayne-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj"
           }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones NJ",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         }
       }
     ]

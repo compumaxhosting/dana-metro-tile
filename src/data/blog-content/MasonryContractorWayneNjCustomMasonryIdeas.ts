@@ -24,35 +24,35 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
     {
       "@type": "BlogPosting",
       "@id":
-        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/#blogposting",
+        "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/#blogposting",
       "headline":
         "Masonry Contractor in Wayne, NJ: 10 Custom Masonry Ideas for Your Home",
       "description":
         "Discover 10 custom masonry ideas for your Wayne, NJ home, including patios, walkways, retaining walls, fireplaces, steps, and outdoor living spaces.",
       "url":
-        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
+        "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id":
-          "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
+          "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
       },
       "image": {
         "@type": "ImageObject",
         "url":
-          "https://www.tilesandstonesnj.com/images/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas.webp",
+          "https://www.metrogroupconstruction.com/images/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas.webp",
         "caption": "Custom masonry ideas for homes in Wayne, NJ",
       },
       "author": {
         "@type": "Organization",
-        "@id": "https://www.tilesandstonesnj.com/#organization",
+        "@id": "https://www.metrogroupconstruction.com/#organization",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://www.tilesandstonesnj.com/#organization",
+        "@id": "https://www.metrogroupconstruction.com/#organization",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
       },
       "datePublished": "2026-09-04",
       "dateModified": "2026-09-04",
@@ -92,7 +92,7 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
     {
       "@type": "FAQPage",
       "@id":
-        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/#faq",
+        "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -162,19 +162,19 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/#breadcrumb",
+        "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.tilesandstonesnj.com/",
+          "item": "https://www.metrogroupconstruction.com/",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://www.tilesandstonesnj.com/blogs/",
+          "item": "https://www.metrogroupconstruction.com/blogs/",
         },
         {
           "@type": "ListItem",
@@ -182,17 +182,17 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
           "name":
             "Masonry Contractor in Wayne, NJ: 10 Custom Masonry Ideas for Your Home",
           "item":
-            "https://www.tilesandstonesnj.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
+            "https://www.metrogroupconstruction.com/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas/",
         },
       ],
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#localbusiness",
+      "@id": "https://www.metrogroupconstruction.com/#localbusiness",
       "name": "Tiles & Stones NJ",
-      "url": "https://www.tilesandstonesnj.com/",
+      "url": "https://www.metrogroupconstruction.com/",
       "image":
-        "https://www.tilesandstonesnj.com/images/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas.webp",
+        "https://www.metrogroupconstruction.com/images/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas.webp",
       "description":
         "Professional masonry and tile installation services serving homeowners and businesses in Wayne, NJ and surrounding Passaic, Bergen, Morris, and Essex Counties.",
       "areaServed": [
@@ -229,7 +229,7 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
           },
         },
       ],
-      "sameAs": ["https://www.tilesandstonesnj.com/"],
+      "sameAs": ["https://www.metrogroupconstruction.com/"],
     },
   ],
 };
@@ -264,7 +264,7 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
       <li><a href="#why-professional-masonry-services-matter" class="hover:underline">Why Professional Masonry Services Matter</a></li>
       <li><a href="#masonry-maintenance-tips" class="hover:underline">Masonry Maintenance Tips</a></li>
       <li><a href="#frequently-asked-questions" class="hover:underline">Frequently Asked Questions</a></li>
-      <li><a href="#why-choose-tilesandstonesnj" class="hover:underline">Why Choose tilesandstonesnj.com?</a></li>
+      <li><a href="#why-choose-metrogroupconstruction" class="hover:underline">Why Choose metrogroupconstruction.com?</a></li>
       <li><a href="#conclusion" class="hover:underline">Conclusion</a></li>
     </ul>
   </div>
@@ -617,9 +617,9 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
   </div>
 
   <!-- Why Choose Section & Conclusion -->
-  <div id="why-choose-tilesandstonesnj" class="mb-12">
+  <div id="why-choose-metrogroupconstruction" class="mb-12">
     <h2 class="mb-6 font-cormorant text-[32px] text-[#1A1A1A] border-b border-[#C38A38] pb-2">
-      Why choose tilesandstonesnj.com for Masonry in Wayne, NJ?
+      Why choose metrogroupconstruction.com for Masonry in Wayne, NJ?
     </h2>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       Tiles & Stones NJ helps homeowners plan masonry projects with an emphasis on quality workmanship, thoughtful design, appropriate materials, and clear communication. Whether you are considering a new patio, walkway, retaining wall, outdoor fireplace, masonry steps, stone veneer, driveway, or another custom feature, professional planning can make a significant difference in the finished result.

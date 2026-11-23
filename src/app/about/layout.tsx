@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     title: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
     description:
       "Discover Tiles & Stones NJ's precision craftsmanship and two decades of experience delivering exceptional tile, stone and masonry work across New Jersey.",
-    url: "https://www.tilesandstonesnj.com/about",
+    url: "https://www.metrogroupconstruction.com/about",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/a1.webp",
+        url: "https://www.metrogroupconstruction.com/images/a1.webp",
         width: 1200,
         height: 630,
         alt: "Luxury custom stone craftsmanship by Tiles & Stones NJ in New Jersey",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
     description:
       "Learn about Tiles & Stones NJ and our precision approach to luxury tile, stone and masonry craftsmanship across New Jersey.",
-    images: ["https://www.tilesandstonesnj.com/images/a1.webp"],
+    images: ["https://www.metrogroupconstruction.com/images/a1.webp"],
   },
 };
 
@@ -65,26 +65,26 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://www.tilesandstonesnj.com/about#aboutpage",
-      url: "https://www.tilesandstonesnj.com/about",
+      "@id": "https://www.metrogroupconstruction.com/about#aboutpage",
+      url: "https://www.metrogroupconstruction.com/about",
       name: "About Tiles & Stones NJ | NJ Tile, Stone & Masonry Experts",
       description:
         "Learn about Tiles & Stones NJ, a New Jersey tile, stone and masonry studio serving homeowners, designers and architects in Wayne, Passaic, Bergen, Morris and Essex County.",
       isPartOf: {
-        "@id": "https://www.tilesandstonesnj.com/#website",
+        "@id": "https://www.metrogroupconstruction.com/#website",
       },
       about: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
       breadcrumb: {
-        "@id": "https://www.tilesandstonesnj.com/about#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/about#breadcrumb",
       },
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#business",
+      "@id": "https://www.metrogroupconstruction.com/#business",
       name: "Tiles & Stones NJ",
-      url: "https://www.tilesandstonesnj.com/",
+      url: "https://www.metrogroupconstruction.com/",
       description:
         "Tiles & Stones NJ provides precision tile, stone and masonry craftsmanship for homeowners, designers and architects throughout Northern New Jersey.",
       areaServed: [
@@ -142,7 +142,7 @@ const jsonLd = {
     },
     {
       "@type": "Service",
-      "@id": "https://www.tilesandstonesnj.com/about#tile-stone-masonry",
+      "@id": "https://www.metrogroupconstruction.com/about#tile-stone-masonry",
       name: "Tile, Stone & Masonry Services",
       serviceType: [
         "Tile Installation",
@@ -153,7 +153,7 @@ const jsonLd = {
         "Masonry Services",
       ],
       provider: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
       areaServed: [
         "Wayne, NJ",
@@ -165,29 +165,29 @@ const jsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.tilesandstonesnj.com/about#breadcrumb",
+      "@id": "https://www.metrogroupconstruction.com/about#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.tilesandstonesnj.com/",
+          item: "https://www.metrogroupconstruction.com/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "About",
-          item: "https://www.tilesandstonesnj.com/about",
+          item: "https://www.metrogroupconstruction.com/about",
         },
       ],
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.tilesandstonesnj.com/#website",
-      url: "https://www.tilesandstonesnj.com/",
+      "@id": "https://www.metrogroupconstruction.com/#website",
+      url: "https://www.metrogroupconstruction.com/",
       name: "Tiles & Stones NJ",
       publisher: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
     },
   ],

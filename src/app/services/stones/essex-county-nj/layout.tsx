@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/stones/essex-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/stones/essex-county-nj",
   },
   robots: {
     index: true,
@@ -59,11 +59,11 @@ export const metadata: Metadata = {
     title: "Natural & Architectural Stone Services in Essex County, NJ",
     description:
       "Explore natural and architectural stone services in Essex County, NJ, including custom marble, quartzite, travertine, onyx, tile, fireplaces and feature walls.",
-    url: "https://www.tilesandstonesnj.com/services/stones/essex-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/stones/essex-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/f1.webp",
+        url: "https://www.metrogroupconstruction.com/images/f1.webp",
         alt: "Natural and architectural stone services in Essex County NJ",
       },
     ],
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     description:
       "Explore natural and architectural stone services in Essex County, NJ, including custom marble, quartzite, travertine, onyx, tile, fireplaces and feature walls.",
     images: [
-      "https://www.tilesandstonesnj.com/images/f1.webp",
+      "https://www.metrogroupconstruction.com/images/f1.webp",
     ],
   },
 };
@@ -91,9 +91,9 @@ export default function StoneInstallationEssexCountyNjLayout({
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "telephone": "+1-551-206-7097",
         "email": "info@tilesandstonesnj.com",
         "description": "Tiles & Stones NJ provides tile, natural stone and masonry services for residential and commercial projects throughout Essex County, New Jersey.",
@@ -211,7 +211,7 @@ export default function StoneInstallationEssexCountyNjLayout({
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj#service",
         "name": "Natural & Architectural Stone Services in Essex County, NJ",
         "serviceType": [
           "Natural Stone Services",
@@ -220,9 +220,9 @@ export default function StoneInstallationEssexCountyNjLayout({
           "Stone Installation"
         ],
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
-        "url": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Essex County, New Jersey"
@@ -286,51 +286,51 @@ export default function StoneInstallationEssexCountyNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj",
         "name": "Natural & Architectural Stone Services in Essex County, NJ",
         "description": "Explore natural and architectural stone services in Essex County, NJ, including custom marble, quartzite, travertine, onyx, tile, fireplaces and feature walls.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
+          "@id": "https://www.metrogroupconstruction.com/#website",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/"
+          "url": "https://www.metrogroupconstruction.com/"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Stone Services",
-            "item": "https://www.tilesandstonesnj.com/services/stones/"
+            "item": "https://www.metrogroupconstruction.com/services/stones/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Essex County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/stones/essex-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/stones/essex-county-nj"
           }
         ]
       }

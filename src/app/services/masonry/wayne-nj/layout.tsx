@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
   },
   robots: {
     index: true,
@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     title: "Custom Masonry Wayne NJ | Tiles & Stones NJ",
     description:
       "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
-    url: "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/a1.webp",
+        url: "https://www.metrogroupconstruction.com/images/a1.webp",
         alt: "Custom Masonry Detailing and Craft in Wayne NJ",
       },
     ],
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description:
       "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
     images: [
-      "https://www.tilesandstonesnj.com/images/a1.webp",
+      "https://www.metrogroupconstruction.com/images/a1.webp",
     ],
   },
 };
@@ -63,16 +63,16 @@ export default function MasonryServicesWayneCountyNjLayout({
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj#service",
         "name": "Custom Masonry Services in Wayne County, NJ",
         "serviceType": "Masonry Services",
         "description": "Custom masonry services for residential and commercial properties in Wayne County, New Jersey, including stonework, fireplaces, feature walls, exterior masonry and architectural detailing.",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
         "provider": {
           "@type": "LocalBusiness",
-          "@id": "https://www.tilesandstonesnj.com/#organization",
+          "@id": "https://www.metrogroupconstruction.com/#organization",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/"
+          "url": "https://www.metrogroupconstruction.com/"
         },
         "areaServed": {
           "@type": "AdministrativeArea",
@@ -127,58 +127,58 @@ export default function MasonryServicesWayneCountyNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
         "name": "Custom Masonry Wayne NJ | Tiles & Stones NJ",
         "description": "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Masonry",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Wayne County Masonry Services",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/wayne-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj"
           }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones NJ",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#organization"
+          "@id": "https://www.metrogroupconstruction.com/#organization"
         },
         "inLanguage": "en-US"
       }

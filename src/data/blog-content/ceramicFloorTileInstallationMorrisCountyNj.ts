@@ -1,5 +1,5 @@
 const slug = "ceramic-floor-tile-installation-morris-county-nj";
-const canonicalUrl = `https://www.tilesandstonesnj.com/blogs/${slug}`;
+const canonicalUrl = `https://www.metrogroupconstruction.com/blogs/${slug}`;
 const titleText =
   "Ceramic Floor Tile Installation in Morris County, NJ: A Complete Homeowner's Guide";
 const summary =
@@ -7,7 +7,7 @@ const summary =
 const keywords =
   "ceramic floor tile installation Morris County NJ, ceramic tile installers Morris County, professional tile installation NJ, ceramic flooring, kitchen floor tile installation, bathroom tile installation, residential tile flooring, tile flooring contractors Morris County";
 const imageUrl =
-  "https://www.tilesandstonesnj.com/images/blogs/ceramic-floor-tile-installation-morris-county-nj.webp";
+  "https://www.metrogroupconstruction.com/images/blogs/ceramic-floor-tile-installation-morris-county-nj.webp";
 
 export const ceramicFloorTileInstallationMorrisCountyNjMeta = {
   title: "Ceramic Floor Tile Installation in Morris County, NJ | Tiles & Stones NJ",
@@ -25,7 +25,7 @@ export const ceramicFloorTileInstallationMorrisCountyNjMeta = {
 
 export const ceramicFloorTileInstallationMorrisCountyNj = `
 <div class="[&_p]:mb-4 [&_p]:text-[16px] [&_p]:leading-8 [&_p]:text-[#333333] [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:border-b [&_h2]:border-[#C38A38] [&_h2]:pb-2 [&_h2]:font-cormorant [&_h2]:text-[32px] [&_h2]:text-[#1A1A1A] [&_#table-of-contents_h2]:mt-0 [&_h3]:mb-2 [&_h3]:font-cormorant [&_h3]:text-[24px] [&_h3]:text-[#1A1A1A] [&_ul]:list-inside [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:text-[#333333] [&_ol]:list-inside [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:text-[#333333] [&_a:hover]:underline [&_strong]:text-[#1A1A1A] [&_th]:border [&_th]:border-[#E5E5E5] [&_th]:bg-[#ECEAE4] [&_th]:p-3 [&_th]:text-left [&_th]:font-semibold [&_th]:text-[#1A1A1A] [&_td]:border [&_td]:border-[#E5E5E5] [&_td]:p-3 [&_td]:text-[#333333]">
-<p>Ceramic floor tile is a practical, attractive, and long-lasting flooring option for homeowners in Morris County, NJ. Whether you're renovating a kitchen, upgrading a bathroom, or replacing outdated flooring in your living space, <a href="https://www.tilesandstonesnj.com/services/tiles/morris-county-nj" class="text-caramel hover:underline">professional ceramic floor tile installation</a> can improve your home's appearance, durability, and everyday comfort.</p>
+<p>Ceramic floor tile is a practical, attractive, and long-lasting flooring option for homeowners in Morris County, NJ. Whether you're renovating a kitchen, upgrading a bathroom, or replacing outdated flooring in your living space, <a href="https://www.metrogroupconstruction.com/services/tiles/morris-county-nj" class="text-caramel hover:underline">professional ceramic floor tile installation</a> can improve your home's appearance, durability, and everyday comfort.</p>
 <p>The key to a beautiful tile floor isn't just choosing the right design. Proper subfloor preparation, quality installation materials, accurate tile placement, and professional finishing all contribute to long-term performance. This guide explains what homeowners should know before starting a ceramic tile flooring project.</p>
 
 <div id="table-of-contents" class="mb-12 border border-[#E5E5E5] bg-[#F9F8F6] p-8">
@@ -57,7 +57,7 @@ export const ceramicFloorTileInstallationMorrisCountyNj = `
 <p>When selecting tile, consider the room's moisture exposure, expected foot traffic, surface texture, and slip resistance. Not every ceramic tile is designed for every flooring application.</p>
 
 <h2 id="installation-process">How Does Ceramic Tile Installation Work?</h2>
-<p><a href="https://www.tilesandstonesnj.com/services/tiles/morris-county-nj" class="text-caramel hover:underline">Professional ceramic floor tile installation</a> involves several important steps. Skipping preparation or rushing the process can lead to uneven surfaces, cracked tiles, and grout problems.</p>
+<p><a href="https://www.metrogroupconstruction.com/services/tiles/morris-county-nj" class="text-caramel hover:underline">Professional ceramic floor tile installation</a> involves several important steps. Skipping preparation or rushing the process can lead to uneven surfaces, cracked tiles, and grout problems.</p>
 <p>The typical installation process includes:</p>
 <ol>
   <li><strong>Initial inspection:</strong> The installer evaluates the existing flooring, subfloor condition, room dimensions, and project requirements.</li>
@@ -167,7 +167,7 @@ export const ceramicFloorTileInstallationMorrisCountyNj = `
 <p>Choosing the right tile installer is just as important as choosing the right flooring. Tiles &amp; Stones NJ provides residential and commercial tile installation, repair, and remodeling services throughout Morris County, NJ.</p>
 <p>From ceramic and porcelain floor tiles to large-format installations, kitchen renovations, bathroom tile work, and grout finishing, the team focuses on careful preparation, accurate layouts, precise cuts, and clean finishing.</p>
 <p>Whether you're upgrading a home in Morristown, Parsippany, Denville, Randolph, or another Morris County community, Tiles &amp; Stones NJ can help you plan a flooring project that suits your space and preferences.</p>
-<p>Visit the <a href="https://www.tilesandstonesnj.com/services/tiles/morris-county-nj" class="text-caramel hover:underline">Morris County tile installation services page</a> to learn more. Contact Tiles &amp; Stones NJ at <a href="tel:+15512067097" class="text-caramel hover:underline">551-206-7097</a> or email <a href="mailto:info@tilesandstonesnj.com" class="text-caramel hover:underline">info@tilesandstonesnj.com</a> to discuss your project and request a consultation or quote.</p>
+<p>Visit the <a href="https://www.metrogroupconstruction.com/services/tiles/morris-county-nj" class="text-caramel hover:underline">Morris County tile installation services page</a> to learn more. Contact Tiles &amp; Stones NJ at <a href="tel:+15512067097" class="text-caramel hover:underline">551-206-7097</a> or email <a href="mailto:info@tilesandstonesnj.com" class="text-caramel hover:underline">info@tilesandstonesnj.com</a> to discuss your project and request a consultation or quote.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 <p>Ceramic floor tile installation is a worthwhile investment for Morris County homeowners looking for attractive, durable, and easy-to-maintain flooring. However, the quality of the finished floor depends on more than the tile itself. Proper surface preparation, suitable installation materials, accurate placement, and professional finishing all contribute to lasting results.</p>
@@ -196,12 +196,12 @@ export const ceramicFloorTileInstallationMorrisCountyNjSchema = {
       author: {
         "@type": "Organization",
         name: "Tiles & Stones NJ",
-        url: "https://www.tilesandstonesnj.com/",
+        url: "https://www.metrogroupconstruction.com/",
       },
       publisher: {
         "@type": "Organization",
         name: "Tiles & Stones NJ",
-        url: "https://www.tilesandstonesnj.com/",
+        url: "https://www.metrogroupconstruction.com/",
       },
       datePublished: "2026-11-13",
       dateModified: "2026-11-13",
@@ -240,13 +240,13 @@ export const ceramicFloorTileInstallationMorrisCountyNjSchema = {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.tilesandstonesnj.com/",
+          item: "https://www.metrogroupconstruction.com/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blog",
-          item: "https://www.tilesandstonesnj.com/blogs",
+          item: "https://www.metrogroupconstruction.com/blogs",
         },
         {
           "@type": "ListItem",
@@ -258,9 +258,9 @@ export const ceramicFloorTileInstallationMorrisCountyNjSchema = {
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#business",
+      "@id": "https://www.metrogroupconstruction.com/#business",
       name: "Tiles & Stones NJ",
-      url: "https://www.tilesandstonesnj.com/",
+      url: "https://www.metrogroupconstruction.com/",
       telephone: "+1-551-206-7097",
       email: "info@tilesandstonesnj.com",
       areaServed: {

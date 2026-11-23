@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "service-area": "Wayne, NJ, Passaic County, NJ, Bergen County, NJ, Morris County, NJ, Essex County, NJ",
   },
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/blogs",
+    canonical: "https://www.metrogroupconstruction.com/blogs",
   },
   robots: {
     index: true,
@@ -54,11 +54,11 @@ export const metadata: Metadata = {
     title: "Tile, Stone & Masonry Blog | Wayne, Passaic, Bergen, Morris & Essex County NJ",
     description:
       "Discover expert tile, stone and masonry insights, trends and project guidance from Tiles & Stones NJ across Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
-    url: "https://www.tilesandstonesnj.com/blogs",
+    url: "https://www.metrogroupconstruction.com/blogs",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/e1.webp",
+        url: "https://www.metrogroupconstruction.com/images/e1.webp",
         alt: "Tile, stone and masonry insights from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ",
       },
     ],
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     description:
       "Explore expert tile, stone and masonry tips, trends and project guidance from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
     images: [
-      "https://www.tilesandstonesnj.com/images/e1.webp",
+      "https://www.metrogroupconstruction.com/images/e1.webp",
     ],
   },
 };
@@ -86,31 +86,31 @@ export default function BlogIndexLayout({
     "@graph": [
       {
         "@type": "CollectionPage",
-        "@id": "https://www.tilesandstonesnj.com/blogs#collectionpage",
-        "url": "https://www.tilesandstonesnj.com/blogs",
+        "@id": "https://www.metrogroupconstruction.com/blogs#collectionpage",
+        "url": "https://www.metrogroupconstruction.com/blogs",
         "name": "Tile, Stone & Masonry Blog | Wayne, Passaic, Bergen, Morris & Essex County NJ",
         "description": "Explore tile, stone and masonry tips, trends and project guidance from Tiles & Stones NJ serving Wayne, Passaic, Bergen, Morris and Essex County, NJ.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/blogs#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/blogs#breadcrumb"
         }
       },
       {
         "@type": "Blog",
-        "@id": "https://www.tilesandstonesnj.com/blogs#blog",
-        "url": "https://www.tilesandstonesnj.com/blogs",
+        "@id": "https://www.metrogroupconstruction.com/blogs#blog",
+        "url": "https://www.metrogroupconstruction.com/blogs",
         "name": "Tiles & Stones NJ Blog",
         "description": "Expert insights, ideas and guidance about tile, stone and masonry installation, repair and remodeling throughout Northern New Jersey.",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "inLanguage": "en-US",
         "about": [
@@ -127,9 +127,9 @@ export default function BlogIndexLayout({
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones NJ",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "description": "Tiles & Stones NJ provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
         "areaServed": [
           {
@@ -187,7 +187,7 @@ export default function BlogIndexLayout({
       },
       {
         "@type": "ItemList",
-        "@id": "https://www.tilesandstonesnj.com/blogs#topics",
+        "@id": "https://www.metrogroupconstruction.com/blogs#topics",
         "name": "Tiles & Stones NJ Blog Topics",
         "description": "Tile, stone and masonry topics for homeowners, designers and property owners in Northern New Jersey.",
         "itemListElement": [
@@ -225,10 +225,10 @@ export default function BlogIndexLayout({
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/blogs#service-area",
+        "@id": "https://www.metrogroupconstruction.com/blogs#service-area",
         "name": "Tile, Stone & Masonry Services",
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "areaServed": [
           "Wayne, NJ",
@@ -249,29 +249,29 @@ export default function BlogIndexLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/blogs#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/blogs#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blogs",
-            "item": "https://www.tilesandstonesnj.com/blogs"
+            "item": "https://www.metrogroupconstruction.com/blogs"
           }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones NJ",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "inLanguage": "en-US"
       }

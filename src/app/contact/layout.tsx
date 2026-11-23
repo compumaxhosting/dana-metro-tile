@@ -54,11 +54,11 @@ export const metadata: Metadata = {
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
     description:
       "Contact Tiles & Stones NJ for professional tile, stone and masonry services throughout Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
-    url: "https://www.tilesandstonesnj.com/contact",
+    url: "https://www.metrogroupconstruction.com/contact",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/b2.webp",
+        url: "https://www.metrogroupconstruction.com/images/b2.webp",
         width: 1200,
         height: 630,
         alt: "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne and Northern New Jersey",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
     description:
       "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation.",
-    images: ["https://www.tilesandstonesnj.com/images/b2.webp"],
+    images: ["https://www.metrogroupconstruction.com/images/b2.webp"],
   },
   referrer: "strict-origin-when-cross-origin",
 };
@@ -81,29 +81,29 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "ContactPage",
-      "@id": "https://www.tilesandstonesnj.com/contact#contactpage",
-      url: "https://www.tilesandstonesnj.com/contact",
+      "@id": "https://www.metrogroupconstruction.com/contact#contactpage",
+      url: "https://www.metrogroupconstruction.com/contact",
       name: "Contact Tiles & Stones NJ | Tile, Stone & Masonry Contractors in Wayne, NJ",
       description:
         "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
       isPartOf: {
-        "@id": "https://www.tilesandstonesnj.com/#website",
+        "@id": "https://www.metrogroupconstruction.com/#website",
       },
       about: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
       mainEntity: {
-        "@id": "https://www.tilesandstonesnj.com/contact#contact",
+        "@id": "https://www.metrogroupconstruction.com/contact#contact",
       },
       breadcrumb: {
-        "@id": "https://www.tilesandstonesnj.com/contact#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/contact#breadcrumb",
       },
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.tilesandstonesnj.com/#business",
+      "@id": "https://www.metrogroupconstruction.com/#business",
       name: "Tiles & Stones NJ",
-      url: "https://www.tilesandstonesnj.com/",
+      url: "https://www.metrogroupconstruction.com/",
       telephone: "+1-551-206-7097",
       description:
         "Tiles & Stones NJ provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
@@ -163,10 +163,10 @@ const jsonLd = {
     },
     {
       "@type": "ContactPoint",
-      "@id": "https://www.tilesandstonesnj.com/contact#contact",
+      "@id": "https://www.metrogroupconstruction.com/contact#contact",
       contactType: "customer service",
       telephone: "+1-551-206-7097",
-      url: "https://www.tilesandstonesnj.com/contact",
+      url: "https://www.metrogroupconstruction.com/contact",
       areaServed: [
         "Wayne, NJ",
         "Passaic County, NJ",
@@ -178,7 +178,7 @@ const jsonLd = {
     },
     {
       "@type": "Service",
-      "@id": "https://www.tilesandstonesnj.com/contact#service",
+      "@id": "https://www.metrogroupconstruction.com/contact#service",
       name: "Tile, Stone & Masonry Services",
       serviceType: [
         "Tile Installation",
@@ -192,7 +192,7 @@ const jsonLd = {
         "Masonry Remodeling",
       ],
       provider: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
       areaServed: [
         {
@@ -239,29 +239,29 @@ const jsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.tilesandstonesnj.com/contact#breadcrumb",
+      "@id": "https://www.metrogroupconstruction.com/contact#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.tilesandstonesnj.com/",
+          item: "https://www.metrogroupconstruction.com/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Contact",
-          item: "https://www.tilesandstonesnj.com/contact",
+          item: "https://www.metrogroupconstruction.com/contact",
         },
       ],
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.tilesandstonesnj.com/#website",
-      url: "https://www.tilesandstonesnj.com/",
+      "@id": "https://www.metrogroupconstruction.com/#website",
+      url: "https://www.metrogroupconstruction.com/",
       name: "Tiles & Stones NJ",
       publisher: {
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
       },
     },
   ],

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones NJ" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
   },
   robots: {
     index: true,
@@ -45,11 +45,11 @@ export const metadata: Metadata = {
     title: "Residential & Commercial Tile Services in Essex County, NJ",
     description:
       "Expert residential and commercial tile services in Essex County, NJ, including tile installation, repair, remodeling, flooring, bathrooms, kitchens, and backsplashes.",
-    url: "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
     siteName: "Tiles & Stones NJ",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/f3.webp",
+        url: "https://www.metrogroupconstruction.com/images/f3.webp",
         alt: "Residential and commercial tile services in Essex County, NJ",
       },
     ],
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     description:
       "Expert residential and commercial tile services in Essex County, NJ, including tile installation, repair, remodeling, flooring, bathrooms, kitchens, and backsplashes.",
     images: [
-      "https://www.tilesandstonesnj.com/images/f3.webp",
+      "https://www.metrogroupconstruction.com/images/f3.webp",
     ],
   },
 };
@@ -77,30 +77,30 @@ export default function TileServicesEssexCountyNjLayout({
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
         "name": "Residential & Commercial Tile Services in Essex County, NJ",
         "description":
           "Professional residential and commercial tile services in Essex County, NJ, including tile installation, repair, replacement, remodeling, flooring, bathrooms, kitchens, showers, and backsplashes.",
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://www.tilesandstonesnj.com/#website",
-          "url": "https://www.tilesandstonesnj.com/",
+          "@id": "https://www.metrogroupconstruction.com/#website",
+          "url": "https://www.metrogroupconstruction.com/",
           "name": "Tiles & Stones NJ",
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj#service",
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj#service",
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj#breadcrumb",
+          "@id": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj#breadcrumb",
         },
         "inLanguage": "en-US",
       },
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj#service",
         "name": "Residential & Commercial Tile Services in Essex County, NJ",
-        "url": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
         "description":
           "Tile installation, repair, replacement, and remodeling services for residential and commercial properties throughout Essex County, New Jersey.",
         "serviceType": [
@@ -124,9 +124,9 @@ export default function TileServicesEssexCountyNjLayout({
         ],
         "provider": {
           "@type": "LocalBusiness",
-          "@id": "https://www.tilesandstonesnj.com/#business",
+          "@id": "https://www.metrogroupconstruction.com/#business",
           "name": "Tiles & Stones NJ",
-          "url": "https://www.tilesandstonesnj.com/",
+          "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
         },
@@ -151,25 +151,25 @@ export default function TileServicesEssexCountyNjLayout({
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/",
+            "item": "https://www.metrogroupconstruction.com/",
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/",
+            "item": "https://www.metrogroupconstruction.com/services/",
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Residential & Commercial Tile Services in Essex County, NJ",
-            "item": "https://www.tilesandstonesnj.com/services/tiles/essex-county-nj",
+            "item": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
           },
         ],
       },

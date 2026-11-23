@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tiles & Stones" }],
   alternates: {
-    canonical: "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj",
+    canonical: "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj",
   },
   robots: {
     index: true,
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
     title: "Best Masonry Contractor in Bergen County NJ | Reliable Services",
     description:
       "Reliable masonry contractor in Bergen County, NJ offering brick repair, stonework, repointing, restoration, chimneys, and exterior masonry services.",
-    url: "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj",
+    url: "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj",
     siteName: "Tiles & Stones",
     images: [
       {
-        url: "https://www.tilesandstonesnj.com/images/a1.webp",
+        url: "https://www.metrogroupconstruction.com/images/a1.webp",
         alt: "Masonry contractor providing brick and stone services in Bergen County NJ",
       },
     ],
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "Reliable masonry contractor in Bergen County, NJ offering brick repair, stonework, repointing, restoration, chimneys, and exterior masonry services.",
     images: [
-      "https://www.tilesandstonesnj.com/images/a1.webp",
+      "https://www.metrogroupconstruction.com/images/a1.webp",
     ],
   },
 };
@@ -66,7 +66,7 @@ export default function MasonryServicesBergenCountyNjLayout({
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj#service",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj#service",
         "name": "Masonry Services in Bergen County, NJ",
         "serviceType": [
           "Masonry Repair",
@@ -77,7 +77,7 @@ export default function MasonryServicesBergenCountyNjLayout({
           "Chimney Masonry Repair"
         ],
         "description": "Masonry services for properties in Bergen County, New Jersey, including brick and stone repair, repointing, restoration, chimney masonry, facade repairs, and related exterior masonry work.",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Bergen County",
@@ -88,14 +88,14 @@ export default function MasonryServicesBergenCountyNjLayout({
           }
         },
         "provider": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         }
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://www.tilesandstonesnj.com/#business",
+        "@id": "https://www.metrogroupconstruction.com/#business",
         "name": "Tiles & Stones",
-        "url": "https://www.tilesandstonesnj.com/",
+        "url": "https://www.metrogroupconstruction.com/",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Bergen County, New Jersey"
@@ -112,58 +112,58 @@ export default function MasonryServicesBergenCountyNjLayout({
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj#webpage",
-        "url": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj#webpage",
+        "url": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj",
         "name": "Best Masonry Contractor in Bergen County NJ | Reliable Masonry Services",
         "description": "Reliable masonry services in Bergen County, NJ, including brick repair, stonework, repointing, restoration, chimney masonry, and exterior masonry repairs.",
         "isPartOf": {
-          "@id": "https://www.tilesandstonesnj.com/#website"
+          "@id": "https://www.metrogroupconstruction.com/#website"
         },
         "about": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj#service"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj#service"
         },
         "breadcrumb": {
-          "@id": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj#breadcrumb"
+          "@id": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj#breadcrumb"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj#breadcrumb",
+        "@id": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.tilesandstonesnj.com/"
+            "item": "https://www.metrogroupconstruction.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://www.tilesandstonesnj.com/services/"
+            "item": "https://www.metrogroupconstruction.com/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Masonry",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Bergen County, NJ Masonry Services",
-            "item": "https://www.tilesandstonesnj.com/services/masonry/bergen-county-nj"
+            "item": "https://www.metrogroupconstruction.com/services/masonry/bergen-county-nj"
           }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.tilesandstonesnj.com/#website",
-        "url": "https://www.tilesandstonesnj.com/",
+        "@id": "https://www.metrogroupconstruction.com/#website",
+        "url": "https://www.metrogroupconstruction.com/",
         "name": "Tiles & Stones",
         "publisher": {
-          "@id": "https://www.tilesandstonesnj.com/#business"
+          "@id": "https://www.metrogroupconstruction.com/#business"
         },
         "inLanguage": "en-US"
       }
