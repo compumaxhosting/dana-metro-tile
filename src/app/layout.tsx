@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.metrogroupconstruction.com"),
   
   title: {
-    default: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
+    default: "Tile, Stone & Masonry Contractors in Wayne, NJ | Metro Group Construction",
     template: "%s | Tiles & Stones NJ", 
   },
   
-  description: "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
+  description: "Metro Group Construction provides professional tile, stone, marble, porcelain and masonry installation services in Wayne, NJ. Contact us for quality craftsmanship and custom solutions.",
   
   keywords: [
     "tile contractor Wayne NJ",

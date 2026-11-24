@@ -8,7 +8,7 @@ const AboutHero = () => {
             subtitle="ABOUT US"
             title={
                 <>
-                    Studio for <span className="italic text-premium-beige">extraordinary stone.</span>
+                    About Metro Group Construction –<span className="italic text-premium-beige">Tile, Stone & Masonry Experts in NJ</span>
                 </>
             }
             description="For years we've been delivering premium craftsmanship across New Jersey."

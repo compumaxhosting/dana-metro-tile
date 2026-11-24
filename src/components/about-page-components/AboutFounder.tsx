@@ -17,11 +17,7 @@ export default function AboutFounder() {
           {/* Right */}
           <div className="max-w-[640px]">
             <p className="text-[16px] leading-[1.5] text-premium-black/80 font-sans mb-5">
-              Dan began cutting stone as an apprentice, learning that the
-              difference between good work and enduring work is measured in
-              fractions of a millimeter. After two decades practicing his craft
-              across residences, restaurants, and private galleries, he founded
-              Metro Tile &amp; Stone to bring that discipline to New Jersey.
+              Metro Group Construction is a professional tile, stone, and masonry contractor based in Wayne, NJ, specializing in high-quality residential and commercial projects. Our services include tile installation, marble installation, porcelain tile installation, natural stone installation, custom stonework, and masonry solutions. We proudly serve homeowners, businesses, and property professionals throughout Passaic County, Bergen County, Morris County, and Essex County, NJ. With a focus on quality craftsmanship, precision, and attention to detail, we deliver customized, durable, and beautiful results tailored to every project.
             </p>
 
             <p className="text-[16px] leading-[1.5] text-premium-black/80 font-sans mb-5">

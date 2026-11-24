@@ -35,8 +35,7 @@ const About = () => {
             </p>
 
             <h2 className="font-cormorant text-[40px] leading-[1.1] text-premium-black md:text-[58px]">
-              A studio built on stone,
-              patience, and precision.
+             Professional Tile and Stone Installation Services in New Jersey
             </h2>
 
             <div className="mt-10 space-y-2 text-md leading-10 text-premium-black/80 font-sans">

@@ -29,7 +29,7 @@ const PageHero = ({
             {subtitle}
           </p>
 
-          <h1 className="mb-4 font-cormorant text-[50px] md:text-[70px] lg:text-[90px] leading-[1.05] text-white">
+          <h1 className="mb-4 font-cormorant text-[clamp(2.25rem,6vw,4.5rem)] leading-[1.05] text-white">
             {title}
           </h1>
 

@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Tile & Stone Contractors in NJ | Installation, Repair & Remodeling",
+    absolute: "About Us | Tile, Stone & Masonry Contractors NJ | Metro Group Construction",
   },
   description:
-    "Meet Tiles & Stones NJ, a New Jersey studio delivering precision tile, stone and masonry craftsmanship for discerning homeowners, designers and architects in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County.",
+    "Discover Metro Group Construction, providing tile, marble, porcelain, natural stone, custom stonework, and masonry services in Passaic, Bergen, Morris, and Essex Counties, NJ.",
   keywords: [
     "Tile and stone services in Wayne, NJ",
     "Tile and stone services in Passaic County, NJ",
