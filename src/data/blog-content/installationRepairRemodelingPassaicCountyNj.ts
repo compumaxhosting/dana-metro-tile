@@ -4,7 +4,7 @@ export const installationRepairRemodelingPassaicCountyNjMeta = {
   keywords: "Tile Installation Passaic County NJ, Tile Repair Passaic County NJ, Tile Remodeling Passaic County NJ, Bathroom Tile Installation Passaic County, Shower Tile Installation Passaic County, Tile Flooring Contractor Passaic County",
   ogImage: "/images/blogs/installationRepairRemodelingPassaicCountyNj.webp",
   datePublished: "2026-09-04T00:00:00Z",
-  authorName: "Tiles & Stones NJ",
+  authorName: "Metro Group Construction Tiles & Stones NJ",
   slug: "installation-repair-remodeling-passaic-county-nj",
   category: "MATERIAL",
   date: "SEPTEMBER 8, 2026",
@@ -35,13 +35,13 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
       "author": {
         "@type": "Organization",
         "@id": "https://www.metrogroupconstruction.com/#organization",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/"
       },
       "publisher": {
         "@type": "Organization",
         "@id": "https://www.metrogroupconstruction.com/#organization",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/"
       },
       "datePublished": "2026-09-04",
@@ -185,7 +185,7 @@ export const installationRepairRemodelingPassaicCountyNjSchema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.metrogroupconstruction.com/#localbusiness",
-      "name": "Tiles & Stones NJ",
+      "name": "Metro Group Construction Tiles & Stones NJ",
       "url": "https://www.metrogroupconstruction.com/",
       "image": "https://www.metrogroupconstruction.com/images/blogs/installationRepairRemodelingPassaicCountyNj.webp",
       "description": "Professional tile installation, repair, replacement, and remodeling services serving homeowners and businesses in Passaic County, New Jersey.",
@@ -504,7 +504,7 @@ export const installationRepairRemodelingPassaicCountyNj = `
       Choosing the right Tile Flooring Contractor Passaic County can make a significant difference in the final result. Look for a contractor who takes time to understand your project, explains the installation process, recommends appropriate materials, and pays attention to preparation and finishing details.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Tiles & Stones NJ provides tile services for homeowners throughout Passaic County and surrounding communities. Services include bathroom and kitchen tile installation, floor and wall tile, shower tile, backsplash installation, tile repair and replacement, grout work, large-format tile, and remodeling.
+      Metro Group Construction Tiles & Stones NJ provides tile services for homeowners throughout Passaic County and surrounding communities. Services include bathroom and kitchen tile installation, floor and wall tile, shower tile, backsplash installation, tile repair and replacement, grout work, large-format tile, and remodeling.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       For homeowners searching for Affordable Tile Installation Passaic County, remember that the lowest initial price is not always the best value. Poor preparation or improper waterproofing can create expensive problems later. A professional estimate should explain the scope of work and what is included.
@@ -517,7 +517,7 @@ export const installationRepairRemodelingPassaicCountyNj = `
       Planning <a 
     href="https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj" 
     style="color: #C38A38; text-decoration: underline;"
-  >Tile Repair Passaic County NJ</a>, a new backsplash, porcelain flooring, a shower renovation, or a complete bathroom remodel? Tiles & Stones NJ provides professional tile installation, repair, replacement, and remodeling services for residential and commercial projects throughout Passaic County.
+  >Tile Repair Passaic County NJ</a>, a new backsplash, porcelain flooring, a shower renovation, or a complete bathroom remodel? Metro Group Construction Tiles & Stones NJ provides professional tile installation, repair, replacement, and remodeling services for residential and commercial projects throughout Passaic County.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       From surface preparation and layout planning to precise cuts, grout work, shower installations, and finished details, the goal is to create tile work that looks good and performs properly. Services can include ceramic, porcelain, natural stone, floor tile, wall tile, backsplash tile, shower tile, and custom tile designs.
@@ -526,7 +526,7 @@ export const installationRepairRemodelingPassaicCountyNj = `
       Whether you need a small repair or a complete Tile Remodeling Passaic County NJ project, professional planning can help prevent costly problems and produce a better finished result.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Contact Tiles & Stones NJ today to discuss your project and request a consultation or quote.
+      Contact Metro Group Construction Tiles & Stones NJ today to discuss your project and request a consultation or quote.
     </p>
 
     <h3 id="conclusion" class="mt-8 mb-4 font-cormorant text-[26px] text-[#1A1A1A]">

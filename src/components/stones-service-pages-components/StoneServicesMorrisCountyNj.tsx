@@ -233,7 +233,7 @@ const StoneServicesMorrisCountyNj = () => {
               Good stonework is not only about putting material into place. It requires an understanding of how the material should be handled and how its natural characteristics can be preserved through fabrication and installation.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Tiles & Stones NJ was founded by Dan Kush, whose stonecraft experience spans more than two decades. His work has included residences, restaurants, and private galleries, providing a broad foundation in working with stone across different environments.
+              Metro Group Construction Tiles & Stones NJ was founded by Dan Kush, whose stonecraft experience spans more than two decades. His work has included residences, restaurants, and private galleries, providing a broad foundation in working with stone across different environments.
             </p>
           </div>
 
@@ -282,7 +282,7 @@ const StoneServicesMorrisCountyNj = () => {
             Planning a kitchen, bathroom, fireplace, feature wall, or custom interior in Morris County, NJ? Start by exploring the materials that could define your space.
           </p>
           <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
-            Tiles & Stones NJ brings together distinctive tile and natural stone with an experienced, detail-focused approach to selection and installation.
+            Metro Group Construction Tiles & Stones NJ brings together distinctive tile and natural stone with an experienced, detail-focused approach to selection and installation.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a

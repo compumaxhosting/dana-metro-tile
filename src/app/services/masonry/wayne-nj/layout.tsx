@@ -6,7 +6,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Custom Masonry Wayne NJ | Tiles & Stones NJ",
+  title: "Custom Masonry Wayne NJ | Metro Group Construction Tiles & Stones NJ",
   description:
     "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "fireplace masonry Wayne NJ",
     "masonry services Northern NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
   },
@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   referrer: "strict-origin-when-cross-origin",
   openGraph: {
     type: "website",
-    title: "Custom Masonry Wayne NJ | Tiles & Stones NJ",
+    title: "Custom Masonry Wayne NJ | Metro Group Construction Tiles & Stones NJ",
     description:
       "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
     url: "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/a1.webp",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Masonry Wayne NJ | Tiles & Stones NJ",
+    title: "Custom Masonry Wayne NJ | Metro Group Construction Tiles & Stones NJ",
     description:
       "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
     images: [
@@ -71,7 +71,7 @@ export default function MasonryServicesWayneCountyNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#organization",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/"
         },
         "areaServed": {
@@ -129,7 +129,7 @@ export default function MasonryServicesWayneCountyNjLayout({
         "@type": "WebPage",
         "@id": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj#webpage",
         "url": "https://www.metrogroupconstruction.com/services/masonry/wayne-county-nj",
-        "name": "Custom Masonry Wayne NJ | Tiles & Stones NJ",
+        "name": "Custom Masonry Wayne NJ | Metro Group Construction Tiles & Stones NJ",
         "description": "Custom masonry in Wayne, NJ for fireplaces, feature walls, exterior stonework and architectural features. Serving Northern New Jersey.",
         "isPartOf": {
           "@id": "https://www.metrogroupconstruction.com/#website"
@@ -176,7 +176,7 @@ export default function MasonryServicesWayneCountyNjLayout({
         "@type": "WebSite",
         "@id": "https://www.metrogroupconstruction.com/#website",
         "url": "https://www.metrogroupconstruction.com/",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "publisher": {
           "@id": "https://www.metrogroupconstruction.com/#organization"
         },

@@ -14,7 +14,7 @@ const StoneServicesWayneCountyNj = () => {
             Distinctive Natural Stone | Selection, Fabrication & Installation
           </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            At Tiles & Stones NJ, stone is more than a surface—it is a defining element of the space. Based in Wayne, NJ, we carefully source and select distinctive natural stone for residential and commercial projects throughout Passaic County, Bergen County, Morris County, and Essex County.
+            At Metro Group Construction Tiles & Stones NJ, stone is more than a surface—it is a defining element of the space. Based in Wayne, NJ, we carefully source and select distinctive natural stone for residential and commercial projects throughout Passaic County, Bergen County, Morris County, and Essex County.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             From expressive marble and richly veined quartzite to warm travertine and dramatic onyx, every slab is considered for its natural character, movement, durability, and potential within the finished design. Our approach is material-first: we let the stone's natural beauty guide the layout, cuts, and overall application.
@@ -210,7 +210,7 @@ const StoneServicesWayneCountyNj = () => {
             Begin Your Stone Selection
           </h2>
           <p className="font-sans mb-4 text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Discover a stone that does more than finish the space—it becomes part of its identity. Contact Tiles & Stones NJ to discuss your next project.
+            Discover a stone that does more than finish the space—it becomes part of its identity. Contact Metro Group Construction Tiles & Stones NJ to discuss your next project.
           </p>
           <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
             *Service availability may vary depending on project location and scope.
@@ -219,7 +219,7 @@ const StoneServicesWayneCountyNj = () => {
             href="/contact"
             className="inline-flex w-full items-center justify-center border border-caramel bg-caramel px-8 py-4 text-sm font-semibold tracking-widest text-white uppercase transition-colors duration-300 hover:bg-transparent hover:text-white sm:w-auto sm:px-10"
           >
-            Contact Tiles & Stones NJ
+            Contact Metro Group Construction Tiles & Stones NJ
           </a>
         </div>
       </section>

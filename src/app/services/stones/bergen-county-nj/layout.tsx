@@ -6,9 +6,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Stone Installation Contractor Bergen County NJ | Tiles & Stones NJ",
+  title: "Stone Installation Contractor Bergen County NJ | Metro Group Construction Tiles & Stones NJ",
   description:
-    "Looking for a stone installation contractor in Bergen County, NJ? Tiles & Stones NJ provides expert tile and natural stone installation.",
+    "Looking for a stone installation contractor in Bergen County, NJ? Metro Group Construction Tiles & Stones NJ provides expert tile and natural stone installation.",
   keywords: [
     "stone installation contractor Bergen County NJ",
     "stone installers Bergen County NJ",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "residential stone installation Bergen County NJ",
     "commercial stone installation Bergen County NJ",
     "Bergen County NJ stone contractor",
-    "Tiles & Stones NJ",
+    "Metro Group Construction Tiles & Stones NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/stones/bergen-county-nj",
   },
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   referrer: "strict-origin-when-cross-origin",
   openGraph: {
     type: "website",
-    title: "Stone Installation Contractor Bergen County NJ | Tiles & Stones NJ",
+    title: "Stone Installation Contractor Bergen County NJ | Metro Group Construction Tiles & Stones NJ",
     description:
-      "Expert tile and natural stone installation in Bergen County, NJ from Tiles & Stones NJ. Professional solutions for residential and commercial projects.",
+      "Expert tile and natural stone installation in Bergen County, NJ from Metro Group Construction Tiles & Stones NJ. Professional solutions for residential and commercial projects.",
     url: "https://www.metrogroupconstruction.com/services/stones/bergen-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f1.webp",
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stone Installation Contractor Bergen County NJ | Tiles & Stones NJ",
+    title: "Stone Installation Contractor Bergen County NJ | Metro Group Construction Tiles & Stones NJ",
     description:
-      "Expert tile and natural stone installation in Bergen County, NJ from Tiles & Stones NJ.",
+      "Expert tile and natural stone installation in Bergen County, NJ from Metro Group Construction Tiles & Stones NJ.",
     images: [
       "https://www.metrogroupconstruction.com/images/f1.webp",
     ],
@@ -72,8 +72,8 @@ export default function StoneInstallationBergenCountyNjLayout({
         "@type": "WebPage",
         "@id": "https://www.metrogroupconstruction.com/services/stones/bergen-county-nj#webpage",
         "url": "https://www.metrogroupconstruction.com/services/stones/bergen-county-nj",
-        "name": "Tile & Stone in Bergen County, NJ | Tiles & Stones NJ",
-        "description": "Tiles & Stones NJ provides custom tile and natural stone solutions for kitchens, bathrooms, fireplaces, feature walls, and architectural interiors throughout Bergen County, NJ.",
+        "name": "Tile & Stone in Bergen County, NJ | Metro Group Construction Tiles & Stones NJ",
+        "description": "Metro Group Construction Tiles & Stones NJ provides custom tile and natural stone solutions for kitchens, bathrooms, fireplaces, feature walls, and architectural interiors throughout Bergen County, NJ.",
         "isPartOf": {
           "@id": "https://www.metrogroupconstruction.com/#website"
         },
@@ -89,7 +89,7 @@ export default function StoneInstallationBergenCountyNjLayout({
         "@type": "WebSite",
         "@id": "https://www.metrogroupconstruction.com/#website",
         "url": "https://www.metrogroupconstruction.com/",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "publisher": {
           "@id": "https://www.metrogroupconstruction.com/#business"
         },
@@ -98,8 +98,8 @@ export default function StoneInstallationBergenCountyNjLayout({
       {
         "@type": "LocalBusiness",
         "@id": "https://www.metrogroupconstruction.com/#business",
-        "name": "Tiles & Stones NJ",
-        "alternateName": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
+        "alternateName": "Metro Group Construction Tiles & Stones NJ",
         "description": "Tile, stone and masonry contractor serving Bergen County and Northern New Jersey.",
         "url": "https://www.metrogroupconstruction.com/",
         "telephone": "+1-551-206-7097",

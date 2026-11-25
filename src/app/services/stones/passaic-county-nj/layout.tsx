@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "stone repair NJ",
     "expert tile installation",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/stones/passaic-county-nj",
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       "Get expert tile and stone installation and repair services in Passaic County, NJ. Quality craftsmanship for kitchens, bathrooms, fireplaces, floors, and more.",
     url: "https://www.metrogroupconstruction.com/services/stones/passaic-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f1.webp",
@@ -71,7 +71,7 @@ export default function StoneInstallationPassaicCountyNjLayout({
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
           "url": "https://www.metrogroupconstruction.com/",
-          "name": "Tiles & Stones NJ"
+          "name": "Metro Group Construction Tiles & Stones NJ"
         },
         "about": {
           "@id": "https://www.metrogroupconstruction.com/services/stones/passaic-county-nj#service"
@@ -98,7 +98,7 @@ export default function StoneInstallationPassaicCountyNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#business",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",

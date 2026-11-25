@@ -7,7 +7,7 @@ export const metadata: Metadata = {
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
   },
   description:
-    "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
+    "Contact Metro Group Construction Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
   keywords: [
     "contact tile contractor Wayne NJ",
     "contact tile contractor Passaic County NJ",
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     "tile installation NJ",
     "stone installation NJ",
     "masonry services NJ",
-    "Tiles & Stones NJ contact",
+    "Metro Group Construction Tiles & Stones NJ contact",
     "tile contractor phone Wayne NJ",
     "tile stone masonry contractors Northern NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   other: {
     "service-area":
       "Wayne, NJ, Passaic County, NJ, Bergen County, NJ, Morris County, NJ, Essex County, NJ",
@@ -53,15 +53,15 @@ export const metadata: Metadata = {
     title:
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
     description:
-      "Contact Tiles & Stones NJ for professional tile, stone and masonry services throughout Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
+      "Contact Metro Group Construction Tiles & Stones NJ for professional tile, stone and masonry services throughout Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
     url: "https://www.metrogroupconstruction.com/contact",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/b2.webp",
         width: 1200,
         height: 630,
-        alt: "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne and Northern New Jersey",
+        alt: "Contact Metro Group Construction Tiles & Stones NJ for tile, stone and masonry services in Wayne and Northern New Jersey",
       },
     ],
   },
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title:
       "Contact Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | (551) 206-7097",
     description:
-      "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation.",
+      "Contact Metro Group Construction Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation.",
     images: ["https://www.metrogroupconstruction.com/images/b2.webp"],
   },
   referrer: "strict-origin-when-cross-origin",
@@ -83,9 +83,9 @@ const jsonLd = {
       "@type": "ContactPage",
       "@id": "https://www.metrogroupconstruction.com/contact#contactpage",
       url: "https://www.metrogroupconstruction.com/contact",
-      name: "Contact Tiles & Stones NJ | Tile, Stone & Masonry Contractors in Wayne, NJ",
+      name: "Contact Metro Group Construction Tiles & Stones NJ | Tile, Stone & Masonry Contractors in Wayne, NJ",
       description:
-        "Contact Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
+        "Contact Metro Group Construction Tiles & Stones NJ for tile, stone and masonry services in Wayne, Passaic, Bergen, Morris and Essex Counties, NJ. Call (551) 206-7097 or request a consultation online.",
       isPartOf: {
         "@id": "https://www.metrogroupconstruction.com/#website",
       },
@@ -102,11 +102,11 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.metrogroupconstruction.com/#business",
-      name: "Tiles & Stones NJ",
+      name: "Metro Group Construction Tiles & Stones NJ",
       url: "https://www.metrogroupconstruction.com/",
       telephone: "+1-551-206-7097",
       description:
-        "Tiles & Stones NJ provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
+        "Metro Group Construction Tiles & Stones NJ provides professional tile, stone and masonry services for residential and commercial projects throughout Northern New Jersey.",
       areaServed: [
         {
           "@type": "City",
@@ -259,7 +259,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.metrogroupconstruction.com/#website",
       url: "https://www.metrogroupconstruction.com/",
-      name: "Tiles & Stones NJ",
+      name: "Metro Group Construction Tiles & Stones NJ",
       publisher: {
         "@id": "https://www.metrogroupconstruction.com/#business",
       },

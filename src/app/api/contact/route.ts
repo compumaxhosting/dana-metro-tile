@@ -98,7 +98,7 @@ export async function POST(request: Request) {
   `;
 
   const text = [
-    "TILES & STONES NJ",
+    "Metro Group Construction Tiles & Stones NJ",
     "NEW CONSULTATION REQUEST",
     "",
     `Name              ${name}`,
@@ -119,7 +119,7 @@ export async function POST(request: Request) {
       Authorization: `Bearer ${RESEND_API_KEY}`,
     },
     body: JSON.stringify({
-      from: `Tiles & Stones NJ <${RESEND_FROM_EMAIL}>`,
+      from: `Metro Group Construction Tiles & Stones NJ <${RESEND_FROM_EMAIL}>`,
       to: recipients,
       subject: `New consultation request from ${name}`,
       reply_to: email,

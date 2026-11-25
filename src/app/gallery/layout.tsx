@@ -32,14 +32,14 @@ export const metadata: Metadata = {
         url: "https://www.metrogroupconstruction.com/images/b5.webp",
         width: 1200,
         height: 630,
-        alt: "Residential and commercial tile projects by Tiles & Stones NJ in Wayne, NJ",
+        alt: "Residential and commercial tile projects by Metro Group Construction Tiles & Stones NJ in Wayne, NJ",
       },
     ],
   },
   twitter: {
     title: "Residential & Commercial Tile Contractors in Wayne, NJ",
     description:
-      "View residential and commercial tile projects by Tiles & Stones NJ, serving Wayne, NJ with professional tile and stone craftsmanship.",
+      "View residential and commercial tile projects by Metro Group Construction Tiles & Stones NJ, serving Wayne, NJ with professional tile and stone craftsmanship.",
     images: ["https://www.metrogroupconstruction.com/images/b5.webp"],
   },
 };
@@ -53,7 +53,7 @@ const jsonLd = {
       url: "https://www.metrogroupconstruction.com/gallery",
       name: "Residential & Commercial Tile Contractors in Wayne, NJ",
       description:
-        "A gallery showcasing residential and commercial tile, stone and masonry craftsmanship by Tiles & Stones NJ in Wayne, New Jersey.",
+        "A gallery showcasing residential and commercial tile, stone and masonry craftsmanship by Metro Group Construction Tiles & Stones NJ in Wayne, New Jersey.",
       isPartOf: {
         "@id": "https://www.metrogroupconstruction.com/#website",
       },

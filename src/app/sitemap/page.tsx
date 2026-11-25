@@ -20,7 +20,7 @@ import { blogs } from "@/data/blogs";
 export const metadata: Metadata = {
   title: "Sitemap",
   description:
-    "Browse every page for Tiles & Stones NJ tile, stone, masonry, blog, and New Jersey service location.",
+    "Browse every page for Metro Group Construction Tiles & Stones NJ tile, stone, masonry, blog, and New Jersey service location.",
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/sitemap",
   },

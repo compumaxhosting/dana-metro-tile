@@ -9,7 +9,7 @@ export const howToChooseTileContractorWayneNjMeta = {
     "tile contractor in Wayne NJ, tile installation Wayne NJ, tile contractors Passaic County, tile contractors Bergen County, tile contractors Morris County, tile contractors Essex County, bathroom tile installation NJ, kitchen backsplash installation NJ, porcelain tile flooring, natural stone installation, tile installation cost NJ",
   ogImage: "/images/blogs/how-to-choose-tile-contractor-wayne-nj.webp",
   datePublished: "2026-10-27T00:00:00Z",
-  authorName: "Tiles & Stones NJ",
+  authorName: "Metro Group Construction Tiles & Stones NJ",
   slug,
   category: "GUIDE",
   date: "OCTOBER 27, 2026",

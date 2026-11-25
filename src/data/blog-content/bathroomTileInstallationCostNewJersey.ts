@@ -12,7 +12,7 @@ export const bathroomTileInstallationCostNewJerseyMeta = {
   keywords,
   ogImage: "/images/blogs/bathroom-tile-installation-cost-new-jersey.webp",
   datePublished: "2026-11-04T00:00:00Z",
-  authorName: "Tiles & Stones NJ",
+  authorName: "Metro Group Construction Tiles & Stones NJ",
   slug,
   category: "GUIDE",
   date: "NOVEMBER 4, 2026",
@@ -185,12 +185,12 @@ export const bathroomTileInstallationCostNewJerseySchema = {
       },
       author: {
         "@type": "Organization",
-        name: "Tiles & Stones NJ",
+        name: "Metro Group Construction Tiles & Stones NJ",
         url: "https://www.metrogroupconstruction.com/",
       },
       publisher: {
         "@type": "Organization",
-        name: "Tiles & Stones NJ",
+        name: "Metro Group Construction Tiles & Stones NJ",
         url: "https://www.metrogroupconstruction.com/",
       },
       datePublished: "2026-11-04",

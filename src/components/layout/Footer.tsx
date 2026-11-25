@@ -10,10 +10,13 @@ const Footer = () => {
           {/* Left */}
           <div className="flex flex-col items-start mb-8">
             <Link href="/">
-              <Image src="/footer-logoo.png" alt="Tiles & Stones NJ" width={280} height={70} priority/>
+              <Image src="/footer-logoo.png" alt="Metro Group Construction Tiles & Stones NJ" width={280} height={70} priority/>
             </Link>
             <p className="mt-4 max-w-sm text-sm text-gray-300 leading-7">
-              Tiles & Stones NJ — tiles, stones, and masonry crafted with precision and installed with enduring care across New Jersey.
+              <Link href="/" className="hover:text-premium-beige transition-colors duration-300">
+                Metro Group Construction Tiles & Stones NJ
+              </Link>
+              {" — tiles, stones, and masonry crafted with precision and installed with enduring care across New Jersey."}
             </p>
           </div>
 
@@ -69,7 +72,11 @@ const Footer = () => {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[12px] uppercase tracking-[0.35em] text-gray-500 text-center md:text-left">
-            © 2026 Tiles & Stones NJ. All Rights Reserved.
+            © 2026{" "}
+            <Link href="/" className="hover:text-premium-beige transition-colors duration-300">
+              Metro Group Construction Tiles & Stones NJ
+            </Link>
+            . All Rights Reserved.
           </p>
 
           <div className="flex items-center gap-4">

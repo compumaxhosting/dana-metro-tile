@@ -14,7 +14,7 @@ const StoneServicesBergenCountyNj = () => {
             Surfaces With Character, Crafted for Distinctive Spaces
           </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Bergen County homes range from traditional estates and classic residences to highly contemporary interiors. Tiles & Stones NJ provides carefully considered tile and stone solutions for clients who want their surfaces to contribute something meaningful to the architecture—not simply fill a specification.
+            Bergen County homes range from traditional estates and classic residences to highly contemporary interiors. Metro Group Construction Tiles & Stones NJ provides carefully considered tile and stone solutions for clients who want their surfaces to contribute something meaningful to the architecture—not simply fill a specification.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             From our Wayne, NJ studio, we work with homeowners, designers, architects, and builders across Bergen County on custom interiors where material, proportion, and execution matter.
@@ -279,7 +279,7 @@ const StoneServicesBergenCountyNj = () => {
             If you're planning a tile or stone project in Bergen County, NJ, begin by exploring the material possibilities. The right slab, tile, pattern, and layout can influence the entire character of a space.
           </p>
           <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
-            Tiles & Stones NJ can help you move from initial material ideas to a finished installation with greater clarity and intention.
+            Metro Group Construction Tiles & Stones NJ can help you move from initial material ideas to a finished installation with greater clarity and intention.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a

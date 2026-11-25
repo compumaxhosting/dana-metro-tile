@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "commercial tile contractors Morris County NJ",
     "custom tile installation Morris County NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/tiles/morris-county-nj",
   },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description:
       "Complete tile installation and remodeling services in Morris County, NJ for bathrooms, kitchens, floors, showers, backsplashes, and custom tile projects.",
     url: "https://www.metrogroupconstruction.com/services/tiles/morris-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f2.webp",
@@ -85,7 +85,7 @@ export default function TileServicesMorrisCountyNjLayout({
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
           "url": "https://www.metrogroupconstruction.com/",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
         },
         "about": {
           "@id": "https://www.metrogroupconstruction.com/services/tiles/morris-county-nj#service",
@@ -122,7 +122,7 @@ export default function TileServicesMorrisCountyNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#business",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",

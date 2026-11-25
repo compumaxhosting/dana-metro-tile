@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "commercial tile contractors Essex County NJ",
     "residential tile contractors Essex County NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
   },
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description:
       "Expert residential and commercial tile services in Essex County, NJ, including tile installation, repair, remodeling, flooring, bathrooms, kitchens, and backsplashes.",
     url: "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f3.webp",
@@ -86,7 +86,7 @@ export default function TileServicesEssexCountyNjLayout({
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
           "url": "https://www.metrogroupconstruction.com/",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
         },
         "about": {
           "@id": "https://www.metrogroupconstruction.com/services/tiles/essex-county-nj#service",
@@ -125,7 +125,7 @@ export default function TileServicesEssexCountyNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#business",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",

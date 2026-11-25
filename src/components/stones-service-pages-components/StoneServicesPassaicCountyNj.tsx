@@ -14,7 +14,7 @@ const StoneServicesPassaicCountyNj = () => {
             Distinctive Tile & Stone Work for Passaic County, NJ
           </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            The character of a space often begins with what you choose to put on its surfaces. Tiles & Stones NJ works with homeowners, designers, architects, and builders throughout Passaic County, NJ, providing carefully selected tile and natural stone for interiors that demand more than an ordinary finish.
+            The character of a space often begins with what you choose to put on its surfaces. Metro Group Construction Tiles & Stones NJ works with homeowners, designers, architects, and builders throughout Passaic County, NJ, providing carefully selected tile and natural stone for interiors that demand more than an ordinary finish.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             Based in Wayne, our work combines thoughtful material selection with precise craftsmanship. We approach every project as an opportunity to understand the material, its natural variation, and the architecture around it—then use those qualities to create a cohesive finished space.

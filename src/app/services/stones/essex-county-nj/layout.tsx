@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     "who provides natural stone services in Essex County NJ",
     "where can I find an architectural stone contractor in Essex County NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/stones/essex-county-nj",
   },
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     description:
       "Explore natural and architectural stone services in Essex County, NJ, including custom marble, quartzite, travertine, onyx, tile, fireplaces and feature walls.",
     url: "https://www.metrogroupconstruction.com/services/stones/essex-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f1.webp",
@@ -92,11 +92,11 @@ export default function StoneInstallationEssexCountyNjLayout({
       {
         "@type": "LocalBusiness",
         "@id": "https://www.metrogroupconstruction.com/#business",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/",
         "telephone": "+1-551-206-7097",
         "email": "info@tilesandstonesnj.com",
-        "description": "Tiles & Stones NJ provides tile, natural stone and masonry services for residential and commercial projects throughout Essex County, New Jersey.",
+        "description": "Metro Group Construction Tiles & Stones NJ provides tile, natural stone and masonry services for residential and commercial projects throughout Essex County, New Jersey.",
         "areaServed": [
           {
             "@type": "AdministrativeArea",
@@ -293,7 +293,7 @@ export default function StoneInstallationEssexCountyNjLayout({
         "isPartOf": {
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/"
         },
         "about": {

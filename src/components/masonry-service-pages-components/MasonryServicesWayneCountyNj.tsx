@@ -227,7 +227,7 @@ const MasonryServicesWayneCountyNj = () => {
               Good stonework is not only about putting material into place. It requires an understanding of how the material should be handled and how its natural characteristics can be preserved through fabrication and installation.
             </p>
             <p className="font-sans mt-4 text-base leading-relaxed text-neutral-700 sm:text-lg">
-              Tiles & Stones NJ was founded by Dan Kush, whose stonecraft experience spans more than two decades. His background includes residential projects, restaurants, and private galleries, contributing to a hands-on approach centered on careful material selection and precise execution.
+              Metro Group Construction Tiles & Stones NJ was founded by Dan Kush, whose stonecraft experience spans more than two decades. His background includes residential projects, restaurants, and private galleries, contributing to a hands-on approach centered on careful material selection and precise execution.
             </p>
           </div>
 
@@ -294,7 +294,7 @@ const MasonryServicesWayneCountyNj = () => {
             <div className="bg-white p-6 shadow-sm border-l-4 border-[#403c38]">
               <h3 className="text-font-cormorant text-xl text-neutral-900 mb-2">Do you provide masonry services outside Wayne?</h3>
               <p className="font-sans text-sm text-neutral-700 leading-relaxed">
-                Yes. Tiles & Stones NJ serves clients in Wayne as well as Passaic, Bergen, Morris, and Essex Counties.
+                Yes. Metro Group Construction Tiles & Stones NJ serves clients in Wayne as well as Passaic, Bergen, Morris, and Essex Counties.
               </p>
             </div>
           </div>
@@ -311,7 +311,7 @@ const MasonryServicesWayneCountyNj = () => {
             Good masonry should feel connected to its surroundings. The material, proportions, craftsmanship, and architectural details should work together rather than compete for attention.
           </p>
           <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
-            For a fireplace, feature wall, architectural stone element, or exterior masonry project, Tiles & Stones NJ brings a careful, material-conscious approach to projects throughout Wayne and surrounding Northern New Jersey communities.
+            For a fireplace, feature wall, architectural stone element, or exterior masonry project, Metro Group Construction Tiles & Stones NJ brings a careful, material-conscious approach to projects throughout Wayne and surrounding Northern New Jersey communities.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

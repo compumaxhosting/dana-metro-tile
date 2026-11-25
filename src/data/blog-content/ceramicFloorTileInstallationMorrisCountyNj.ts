@@ -10,12 +10,12 @@ const imageUrl =
   "https://www.metrogroupconstruction.com/images/blogs/ceramic-floor-tile-installation-morris-county-nj.webp";
 
 export const ceramicFloorTileInstallationMorrisCountyNjMeta = {
-  title: "Ceramic Floor Tile Installation in Morris County, NJ | Tiles & Stones NJ",
+  title: "Ceramic Floor Tile Installation in Morris County, NJ | Metro Group Construction Tiles & Stones NJ",
   description: summary,
   keywords,
   ogImage: "/images/blogs/ceramic-floor-tile-installation-morris-county-nj.webp",
   datePublished: "2026-11-13T00:00:00Z",
-  authorName: "Tiles & Stones NJ",
+  authorName: "Metro Group Construction Tiles & Stones NJ",
   slug,
   category: "GUIDE",
   date: "NOVEMBER 13, 2026",
@@ -195,12 +195,12 @@ export const ceramicFloorTileInstallationMorrisCountyNjSchema = {
       },
       author: {
         "@type": "Organization",
-        name: "Tiles & Stones NJ",
+        name: "Metro Group Construction Tiles & Stones NJ",
         url: "https://www.metrogroupconstruction.com/",
       },
       publisher: {
         "@type": "Organization",
-        name: "Tiles & Stones NJ",
+        name: "Metro Group Construction Tiles & Stones NJ",
         url: "https://www.metrogroupconstruction.com/",
       },
       datePublished: "2026-11-13",
@@ -259,7 +259,7 @@ export const ceramicFloorTileInstallationMorrisCountyNjSchema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.metrogroupconstruction.com/#business",
-      name: "Tiles & Stones NJ",
+      name: "Metro Group Construction Tiles & Stones NJ",
       url: "https://www.metrogroupconstruction.com/",
       telephone: "+1-551-206-7097",
       email: "info@tilesandstonesnj.com",

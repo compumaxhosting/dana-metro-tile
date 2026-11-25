@@ -79,7 +79,7 @@ export default function FlooringTileInstallationPassaicNjLayout({
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
           "url": "https://www.metrogroupconstruction.com/",
-          "name": "Tiles & Stones NJ"
+          "name": "Metro Group Construction Tiles & Stones NJ"
         },
         "about": {
           "@id": "https://www.metrogroupconstruction.com/services/tiles/passaic-county-nj#service"
@@ -116,7 +116,7 @@ export default function FlooringTileInstallationPassaicNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#business",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",

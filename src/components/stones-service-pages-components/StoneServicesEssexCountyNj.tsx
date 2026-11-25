@@ -17,7 +17,7 @@ const StoneServicesEssexCountyNj = () => {
             The surfaces within a home or commercial space can establish its entire visual character. In Essex County, NJ, where historic architecture, established neighborhoods, renovated properties, and contemporary interiors exist side by side, tile and stone can provide both a practical finish and a defining design element.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Tiles & Stones NJ works with homeowners, architects, interior designers, and builders throughout Essex County to source and install distinctive tile and natural stone for carefully considered interiors.
+            Metro Group Construction Tiles & Stones NJ works with homeowners, architects, interior designers, and builders throughout Essex County to source and install distinctive tile and natural stone for carefully considered interiors.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             Located in Wayne, NJ, our approach begins with the material. We look at the natural qualities of each stone, the architecture of the space, and the way the finished surface will be viewed and used. This allows the selection, layout, and installation to work together as one design rather than as separate steps.

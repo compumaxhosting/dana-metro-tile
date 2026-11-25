@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "commercial tile contractors Bergen County NJ",
     "tile contractor near me Bergen County NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "Expert tile installation, repair and remodeling contractors in Bergen County, NJ. Professional flooring, bathroom, kitchen and backsplash tile services.",
     url: "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f4.webp",
@@ -87,7 +87,7 @@ export default function TileServicesBergenCountyNjLayout({
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
           "url": "https://www.metrogroupconstruction.com/",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
         },
         "about": {
           "@id": "https://www.metrogroupconstruction.com/services/tiles/bergen-county-nj#service",
@@ -123,7 +123,7 @@ export default function TileServicesBergenCountyNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#business",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",

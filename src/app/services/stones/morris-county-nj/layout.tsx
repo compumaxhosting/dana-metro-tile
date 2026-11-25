@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     "natural stone fireplaces Morris County NJ",
     "custom feature wall stone NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/stones/morris-county-nj",
   },
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     description:
       "Find expert tile and natural stone services in Morris County, NJ, including marble, quartzite, travertine, onyx, kitchens, baths and fireplaces.",
     url: "https://www.metrogroupconstruction.com/services/stones/morris-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f1.webp",
@@ -90,9 +90,9 @@ export default function StoneInstallationMorrisCountyNjLayout({
       {
         "@type": "LocalBusiness",
         "@id": "https://www.metrogroupconstruction.com/#business",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/",
-        "description": "Tiles & Stones NJ provides custom tile and natural stone services for kitchens, bathrooms, fireplaces, countertops, feature walls and other residential projects throughout Morris County, New Jersey.",
+        "description": "Metro Group Construction Tiles & Stones NJ provides custom tile and natural stone services for kitchens, bathrooms, fireplaces, countertops, feature walls and other residential projects throughout Morris County, New Jersey.",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Morris County",
@@ -204,7 +204,7 @@ export default function StoneInstallationMorrisCountyNjLayout({
         "isPartOf": {
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/"
         },
         "about": {
@@ -254,7 +254,7 @@ export default function StoneInstallationMorrisCountyNjLayout({
             "name": "Who provides custom tile and stone services in Morris County, NJ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Tiles & Stones NJ provides custom tile and natural stone services throughout Morris County, NJ, including marble, quartzite, travertine, onyx, countertops, backsplashes, fireplaces and feature walls."
+              "text": "Metro Group Construction Tiles & Stones NJ provides custom tile and natural stone services throughout Morris County, NJ, including marble, quartzite, travertine, onyx, countertops, backsplashes, fireplaces and feature walls."
             }
           },
           {
@@ -262,7 +262,7 @@ export default function StoneInstallationMorrisCountyNjLayout({
             "name": "Where can I find natural stone for a kitchen in Morris County, NJ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Tiles & Stones NJ offers natural stone solutions for Morris County kitchens, including marble, quartzite, travertine and other premium stone applications for countertops, backsplashes and architectural features."
+              "text": "Metro Group Construction Tiles & Stones NJ offers natural stone solutions for Morris County kitchens, including marble, quartzite, travertine and other premium stone applications for countertops, backsplashes and architectural features."
             }
           },
           {
@@ -270,7 +270,7 @@ export default function StoneInstallationMorrisCountyNjLayout({
             "name": "Who installs luxury tile and natural stone in Morris County, NJ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Tiles & Stones NJ specializes in custom tile and natural stone installation for residential projects throughout Morris County, NJ."
+              "text": "Metro Group Construction Tiles & Stones NJ specializes in custom tile and natural stone installation for residential projects throughout Morris County, NJ."
             }
           },
           {
@@ -283,10 +283,10 @@ export default function StoneInstallationMorrisCountyNjLayout({
           },
           {
             "@type": "Question",
-            "name": "Does Tiles & Stones NJ serve Morristown and surrounding Morris County communities?",
+            "name": "Does Metro Group Construction Tiles & Stones NJ serve Morristown and surrounding Morris County communities?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Tiles & Stones NJ serves Morristown and surrounding Morris County communities, providing custom tile and natural stone solutions for residential projects."
+              "text": "Yes. Metro Group Construction Tiles & Stones NJ serves Morristown and surrounding Morris County communities, providing custom tile and natural stone solutions for residential projects."
             }
           }
         ]

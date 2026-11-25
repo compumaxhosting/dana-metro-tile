@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   
   title: {
     default: "Tile, Stone & Masonry Contractors in Wayne, NJ | Metro Group Construction",
-    template: "%s | Tiles & Stones NJ", 
+    template: "%s | Metro Group Construction Tiles & Stones NJ", 
   },
   
   description: "Metro Group Construction provides professional tile, stone, marble, porcelain and masonry installation services in Wayne, NJ. Contact us for quality craftsmanship and custom solutions.",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     "professional tile and stone installation NJ"
   ],
   
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   
   referrer: "strict-origin-when-cross-origin",
   
@@ -82,10 +82,10 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
+    title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
     description: "Expert tile, stone and masonry services in Wayne, NJ with quality craftsmanship and professional installation for residential and commercial projects.",
     url: "https://www.metrogroupconstruction.com/",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/og-image.jpg",
@@ -99,7 +99,7 @@ export const metadata: Metadata = {
   
   twitter: {
     card: "summary_large_image",
-    title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
+    title: "Tile, Stone & Masonry Contractors in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
     description: "Expert tile, stone and masonry services in Wayne, NJ with quality craftsmanship and professional installation.",
     images: ["https://www.metrogroupconstruction.com/images/og-image.jpg"],
   },
@@ -114,7 +114,7 @@ const jsonLd = {
         "HomeAndConstructionBusiness"
       ],
       "@id": "https://www.metrogroupconstruction.com/#business",
-      "name": "Tiles & Stones NJ",
+      "name": "Metro Group Construction Tiles & Stones NJ",
       "url": "https://www.metrogroupconstruction.com/",
       "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
       "image": "https://www.metrogroupconstruction.com/images/og-image.jpg",
@@ -222,7 +222,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.metrogroupconstruction.com/#website",
       "url": "https://www.metrogroupconstruction.com/",
-      "name": "Tiles & Stones NJ",
+      "name": "Metro Group Construction Tiles & Stones NJ",
       "description": "Tile, stone and masonry services in Wayne, NJ and surrounding New Jersey counties.",
       "publisher": {
         "@id": "https://www.metrogroupconstruction.com/#business"
@@ -233,7 +233,7 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://www.metrogroupconstruction.com/#webpage",
       "url": "https://www.metrogroupconstruction.com/",
-      "name": "Tile, Stone & Masonry Contractors in Wayne, NJ | Tiles & Stones NJ",
+      "name": "Tile, Stone & Masonry Contractors in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
       "description": "Expert tile, stone and masonry services in Wayne, NJ, Passaic County, Bergen County, Morris County and Essex County. Quality craftsmanship and professional installation for residential and commercial projects.",
       "isPartOf": {
         "@id": "https://www.metrogroupconstruction.com/#website"

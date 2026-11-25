@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "Where can I get bathroom tile installed in Wayne NJ",
     "Affordable tile repair services in Wayne NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "Professional tile services in Wayne, NJ for installation, repair, remodeling, flooring, backsplashes, bathrooms, showers, and large-format tile.",
     url: "https://www.metrogroupconstruction.com/services/tiles/wayne-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f1.webp",
@@ -119,7 +119,7 @@ export default function TileServicesWayneNjLayout({
         "provider": {
           "@type": "LocalBusiness",
           "@id": "https://www.metrogroupconstruction.com/#business",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
           "telephone": "+1-551-206-7097",
           "email": "info@tilesandstonesnj.com",
@@ -139,7 +139,7 @@ export default function TileServicesWayneNjLayout({
         "isPartOf": {
           "@type": "WebSite",
           "@id": "https://www.metrogroupconstruction.com/#website",
-          "name": "Tiles & Stones NJ",
+          "name": "Metro Group Construction Tiles & Stones NJ",
           "url": "https://www.metrogroupconstruction.com/",
         },
         "about": {

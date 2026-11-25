@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 export const masonryContractorWayneNjCustomMasonryIdeasMeta = {
-  title: "Masonry Contractor in Wayne, NJ | Tiles & Stones NJ",
+  title: "Masonry Contractor in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
   description:
     "Discover 10 custom masonry ideas for your Wayne, NJ home, including patios, walkways, retaining walls, fireplaces, steps, and outdoor spaces.",
   keywords:
-    "masonry contractor Wayne NJ, masonry contractor Wayne New Jersey, custom masonry Wayne NJ, masonry services Wayne NJ, stone masonry Wayne NJ, brick masonry Wayne NJ, masonry ideas Wayne NJ, tile installation Wayne NJ, Tiles & Stones NJ",
+    "masonry contractor Wayne NJ, masonry contractor Wayne New Jersey, custom masonry Wayne NJ, masonry services Wayne NJ, stone masonry Wayne NJ, brick masonry Wayne NJ, masonry ideas Wayne NJ, tile installation Wayne NJ, Metro Group Construction Tiles & Stones NJ",
   ogImage: "/images/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas.webp",
   datePublished: "2026-09-04T00:00:00Z",
-  authorName: "Tiles & Stones NJ",
+  authorName: "Metro Group Construction Tiles & Stones NJ",
   slug: "masonry-contractor-wayne-nj-custom-masonry-ideas",
   category: "MATERIAL",
   date: "OCTOBER 14, 2026",
@@ -45,13 +45,13 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
       "author": {
         "@type": "Organization",
         "@id": "https://www.metrogroupconstruction.com/#organization",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/",
       },
       "publisher": {
         "@type": "Organization",
         "@id": "https://www.metrogroupconstruction.com/#organization",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/",
       },
       "datePublished": "2026-09-04",
@@ -189,7 +189,7 @@ export const masonryContractorWayneNjCustomMasonryIdeasSchema = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.metrogroupconstruction.com/#localbusiness",
-      "name": "Tiles & Stones NJ",
+      "name": "Metro Group Construction Tiles & Stones NJ",
       "url": "https://www.metrogroupconstruction.com/",
       "image":
         "https://www.metrogroupconstruction.com/images/blogs/masonry-contractor-wayne-nj-custom-masonry-ideas.webp",
@@ -446,7 +446,7 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
       Tile Installation Services in Wayne, NJ
     </h2>
     <p class="text-[16px] leading-8 text-[#333333]">
-      Along with custom masonry, homeowners can also consider professional tile installation in Wayne, NJ for kitchens, bathrooms, showers, floors, walls, backsplashes, and feature areas. Tiles & Stones NJ provides ceramic and porcelain tile installation, large-format tile, tile repair and replacement, remodeling, and grout finishing throughout Wayne and surrounding Passaic, Bergen, Morris, and Essex Counties. This makes professional tile work another option for homeowners looking to upgrade interior or exterior spaces with durable, attractive finishes.
+      Along with custom masonry, homeowners can also consider professional tile installation in Wayne, NJ for kitchens, bathrooms, showers, floors, walls, backsplashes, and feature areas. Metro Group Construction Tiles & Stones NJ provides ceramic and porcelain tile installation, large-format tile, tile repair and replacement, remodeling, and grout finishing throughout Wayne and surrounding Passaic, Bergen, Morris, and Essex Counties. This makes professional tile work another option for homeowners looking to upgrade interior or exterior spaces with durable, attractive finishes.
     </p>
   </div>
 
@@ -622,16 +622,16 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
       Why choose metrogroupconstruction.com for Masonry in Wayne, NJ?
     </h2>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Tiles & Stones NJ helps homeowners plan masonry projects with an emphasis on quality workmanship, thoughtful design, appropriate materials, and clear communication. Whether you are considering a new patio, walkway, retaining wall, outdoor fireplace, masonry steps, stone veneer, driveway, or another custom feature, professional planning can make a significant difference in the finished result.
+      Metro Group Construction Tiles & Stones NJ helps homeowners plan masonry projects with an emphasis on quality workmanship, thoughtful design, appropriate materials, and clear communication. Whether you are considering a new patio, walkway, retaining wall, outdoor fireplace, masonry steps, stone veneer, driveway, or another custom feature, professional planning can make a significant difference in the finished result.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      For homeowners searching for a masonry contractor in Wayne, NJ Tiles & Stones NJ can help with project planning, material selection, construction, and finishing. The company serves customers throughout Passaic County, Bergen County, Morris County, and Essex County, with a focus on creating attractive, functional masonry improvements suited to each property.
+      For homeowners searching for a masonry contractor in Wayne, NJ Metro Group Construction Tiles & Stones NJ can help with project planning, material selection, construction, and finishing. The company serves customers throughout Passaic County, Bergen County, Morris County, and Essex County, with a focus on creating attractive, functional masonry improvements suited to each property.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       Whether your goal is to enhance curb appeal, create an outdoor entertaining area, improve an entryway, or repair existing masonry, the right approach starts with understanding your property's specific needs.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Contact Tiles & Stones NJ today to discuss your masonry project, schedule a consultation, and request a personalized quote.
+      Contact Metro Group Construction Tiles & Stones NJ today to discuss your masonry project, schedule a consultation, and request a personalized quote.
     </p>
 
     <h3 id="conclusion" class="mt-8 mb-4 font-cormorant text-[26px] text-[#1A1A1A]">
@@ -641,7 +641,7 @@ export const masonryContractorWayneNjCustomMasonryIdeas = `
       Custom masonry gives Wayne, NJ homeowners numerous ways to improve their properties, from practical walkways and retaining walls to patios, outdoor fireplaces, driveways, steps, and complete outdoor living areas. The right combination of materials, design, drainage, site preparation, and professional installation can help create a durable and attractive result.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
-      Homeowners can also enhance interior spaces with professional tile installation in Wayne, NJ, including kitchens, bathrooms, showers, floors, walls, backsplashes, and feature areas. For tile installation, repair, replacement, remodeling, and related services, homeowners can explore <a href="/" class="text-[#b07932] hover:underline">Tiles & Stones NJ</a>.
+      Homeowners can also enhance interior spaces with professional tile installation in Wayne, NJ, including kitchens, bathrooms, showers, floors, walls, backsplashes, and feature areas. For tile installation, repair, replacement, remodeling, and related services, homeowners can explore <a href="/" class="text-[#b07932] hover:underline">Metro Group Construction Tiles & Stones NJ</a>.
     </p>
     <p class="mb-4 text-[16px] leading-8 text-[#333333]">
       If you're planning a masonry or tile improvement in Wayne or the surrounding Passaic, Bergen, Morris, or Essex County communities, take the next step by contacting a qualified professional for an evaluation and project-specific estimate.

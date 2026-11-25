@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: blog.seo.title,
       description: blog.seo.description,
       url: canonicalUrl,
-      siteName: "Tiles & Stones NJ",
+      siteName: "Metro Group Construction Tiles & Stones NJ",
       images: [
         {
           url: ogImageUrl,
@@ -85,7 +85,7 @@ export default async function SingleBlogPage({ params }: Props) {
     },
     publisher: {
       "@type": "Organization",
-      name: "Tiles & Stones NJ",
+      name: "Metro Group Construction Tiles & Stones NJ",
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/images/logo.png`,

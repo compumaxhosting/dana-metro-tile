@@ -15,7 +15,7 @@ const TileServicesMorrisCountyNj = () => {
             Residential & Commercial Tile Services Across Morris County
           </h2>
           <p className="font-sans mx-auto max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Tiles & Stones NJ provides residential and commercial tile services throughout Morris County, NJ, including tile installation, repair, replacement, remodeling, floor installation, and floor tile repair.
+            Metro Group Construction Tiles & Stones NJ provides residential and commercial tile services throughout Morris County, NJ, including tile installation, repair, replacement, remodeling, floor installation, and floor tile repair.
           </p>
           <p className="font-sans mx-auto mt-4 max-w-3xl text-base leading-relaxed text-neutral-300 sm:text-lg">
             Whether you're updating a bathroom, remodeling a kitchen, installing a new floor, replacing damaged tile, or planning a commercial project, our work focuses on proper preparation, accurate layouts, precise cuts, consistent grout lines, and clean finishing.
@@ -136,7 +136,7 @@ const TileServicesMorrisCountyNj = () => {
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 lg:p-10 border-l-4 border-[#403c38]">
               <h3 className="text-font-cormorant mb-4 text-2xl text-[#403c38] sm:text-3xl">Bergen County</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Tiles & Stones NJ provides tile installation, repair, remodeling, and flooring services for suitable residential and commercial projects throughout Bergen County.
+                Metro Group Construction Tiles & Stones NJ provides tile installation, repair, remodeling, and flooring services for suitable residential and commercial projects throughout Bergen County.
               </p>
             </div>
 
@@ -159,7 +159,7 @@ const TileServicesMorrisCountyNj = () => {
             <div className="bg-theme-cream p-6 shadow-sm transition-shadow hover:shadow-md sm:p-8 lg:p-10 border-l-4 border-[#403c38]">
               <h3 className="text-font-cormorant mb-4 text-2xl text-[#403c38] sm:text-3xl">Essex County</h3>
               <p className="font-sans text-base leading-relaxed text-neutral-700">
-                Tiles & Stones NJ also provides tile installation, repair, remodeling, and flooring services for suitable residential and commercial projects throughout Essex County. Projects may include bathroom renovations, kitchen tile and backsplashes, floor installation and repair, wall tile, feature walls, large-format tile, and tile replacement.
+                Metro Group Construction Tiles & Stones NJ also provides tile installation, repair, remodeling, and flooring services for suitable residential and commercial projects throughout Essex County. Projects may include bathroom renovations, kitchen tile and backsplashes, floor installation and repair, wall tile, feature walls, large-format tile, and tile replacement.
               </p>
             </div>
           </div>
@@ -173,7 +173,7 @@ const TileServicesMorrisCountyNj = () => {
             Planning a Tile Project in Morris County?
           </h2>
           <p className="font-sans mb-4 text-base leading-relaxed text-neutral-300 sm:text-lg">
-            Whether you're planning a new tile installation, remodeling a kitchen or bathroom, repairing damaged tile, replacing an existing floor, or installing large-format tile, Tiles & Stones NJ provides services for suitable residential and commercial projects.
+            Whether you're planning a new tile installation, remodeling a kitchen or bathroom, repairing damaged tile, replacing an existing floor, or installing large-format tile, Metro Group Construction Tiles & Stones NJ provides services for suitable residential and commercial projects.
           </p>
           <p className="font-sans mb-10 text-sm text-neutral-400 sm:text-base">
             *Service availability depends on project location and scope.
@@ -182,7 +182,7 @@ const TileServicesMorrisCountyNj = () => {
             href="/contact"
             className="inline-flex w-full items-center justify-center border border-caramel bg-caramel px-8 py-4 text-sm font-semibold tracking-widest text-white uppercase transition-colors duration-300 hover:bg-transparent hover:text-white sm:w-auto sm:px-10"
           >
-            Contact Tiles & Stones NJ
+            Contact Metro Group Construction Tiles & Stones NJ
           </a>
         </div>
       </section>

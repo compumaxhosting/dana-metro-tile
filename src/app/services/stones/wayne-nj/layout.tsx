@@ -6,7 +6,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Natural Stone in Wayne, NJ | Tiles & Stones NJ",
+  title: "Natural Stone in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
   description:
     "Explore premium natural stone in Wayne, NJ, including marble, quartzite, travertine and onyx for custom countertops, fireplaces and feature walls.",
   keywords: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "stone countertops Wayne NJ",
     "stone installation Wayne NJ",
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   alternates: {
     canonical: "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj",
   },
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   referrer: "strict-origin-when-cross-origin",
   openGraph: {
     type: "website",
-    title: "Natural Stone in Wayne, NJ | Tiles & Stones NJ",
+    title: "Natural Stone in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
     description:
       "Explore premium natural stone in Wayne, NJ, including marble, quartzite, travertine and onyx for custom countertops, fireplaces and feature walls.",
     url: "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/f1.webp",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Natural Stone in Wayne, NJ | Tiles & Stones NJ",
+    title: "Natural Stone in Wayne, NJ | Metro Group Construction Tiles & Stones NJ",
     description:
       "Explore premium natural stone in Wayne, NJ, including marble, quartzite, travertine and onyx for custom countertops, fireplaces and feature walls.",
     images: [
@@ -66,7 +66,7 @@ export default function NaturalStoneWayneCountyNjLayout({
         "@type": "WebPage",
         "@id": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj#webpage",
         "url": "https://www.metrogroupconstruction.com/services/stones/wayne-county-nj",
-        "name": "Natural Stone & Slabs in Wayne County, NJ | Tiles & Stones NJ",
+        "name": "Natural Stone & Slabs in Wayne County, NJ | Metro Group Construction Tiles & Stones NJ",
         "description": "Explore premium natural stone and stone slabs in Wayne County, NJ for countertops, fireplaces, walls and custom architectural applications.",
         "isPartOf": {
           "@id": "https://www.metrogroupconstruction.com/#website"
@@ -97,7 +97,7 @@ export default function NaturalStoneWayneCountyNjLayout({
       {
         "@type": "LocalBusiness",
         "@id": "https://www.metrogroupconstruction.com/#business",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "url": "https://www.metrogroupconstruction.com/",
         "image": "https://www.metrogroupconstruction.com/images/f1.webp",
         "priceRange": "$$$",
@@ -140,7 +140,7 @@ export default function NaturalStoneWayneCountyNjLayout({
         "@type": "WebSite",
         "@id": "https://www.metrogroupconstruction.com/#website",
         "url": "https://www.metrogroupconstruction.com/",
-        "name": "Tiles & Stones NJ",
+        "name": "Metro Group Construction Tiles & Stones NJ",
         "publisher": {
           "@id": "https://www.metrogroupconstruction.com/#business"
         }

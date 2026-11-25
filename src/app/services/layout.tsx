@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "stone contractors New Jersey",
     "masonry contractors New Jersey"
   ],
-  authors: [{ name: "Tiles & Stones NJ" }],
+  authors: [{ name: "Metro Group Construction Tiles & Stones NJ" }],
   referrer: "strict-origin-when-cross-origin",
   robots: {
     index: true,
@@ -54,13 +54,13 @@ export const metadata: Metadata = {
     title: "Tile, Stone & Masonry Contractors in Wayne, NJ & Northern NJ | Installation, Repair & Remodeling",
     description: "Trusted tile, stone and masonry contractors serving Wayne, Passaic, Bergen, Morris and Essex Counties in New Jersey. Expert installation, repair and remodeling for residential and commercial projects.",
     url: "https://www.metrogroupconstruction.com/services",
-    siteName: "Tiles & Stones NJ",
+    siteName: "Metro Group Construction Tiles & Stones NJ",
     images: [
       {
         url: "https://www.metrogroupconstruction.com/images/hero-tiles.webp",
         width: 1200,
         height: 630,
-        alt: "Tile, stone and masonry installation, repair and remodeling by Tiles & Stones NJ in Northern New Jersey",
+        alt: "Tile, stone and masonry installation, repair and remodeling by Metro Group Construction Tiles & Stones NJ in Northern New Jersey",
       },
     ],
     locale: "en_US",
@@ -98,9 +98,9 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.metrogroupconstruction.com/#business",
-      "name": "Tiles & Stones NJ",
+      "name": "Metro Group Construction Tiles & Stones NJ",
       "url": "https://www.metrogroupconstruction.com/",
-      "description": "Tiles & Stones NJ provides professional tile, stone and masonry installation, repair and remodeling services for residential and commercial projects throughout Northern New Jersey.",
+      "description": "Metro Group Construction Tiles & Stones NJ provides professional tile, stone and masonry installation, repair and remodeling services for residential and commercial projects throughout Northern New Jersey.",
       "areaServed": [
         {
           "@type": "City",
@@ -222,7 +222,7 @@ const jsonLd = {
     {
       "@type": "OfferCatalog",
       "@id": "https://www.metrogroupconstruction.com/services#catalog",
-      "name": "Tiles & Stones NJ Services",
+      "name": "Metro Group Construction Tiles & Stones NJ Services",
       "itemListElement": [
         {
           "@type": "Offer",
@@ -338,7 +338,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": "https://www.metrogroupconstruction.com/#website",
       "url": "https://www.metrogroupconstruction.com/",
-      "name": "Tiles & Stones NJ",
+      "name": "Metro Group Construction Tiles & Stones NJ",
       "publisher": {
         "@id": "https://www.metrogroupconstruction.com/#business"
       }
